@@ -1,0 +1,24 @@
+comparison_group,level,authorizer_scope,model_scope,include_beacon,include_apf_non_beacon,official_or_estimated,notes
+statewide_official,state,all,all,yes,yes,official,Official statewide public rate from NDE annual ACGR files
+district_official_all,district,all,all,yes,yes,official,Official district-level public rate table from NDE annual ACGR files covering every Nevada district or sponsor shown in the annual release
+spcsa_official_public,district,SPCSA,all,yes,yes,official,Official SPCSA sponsor rate from the NDE annual ACGR file
+asd_official_public,district,Achievement School District,all,yes,yes,official,Official Achievement School District public rate where NDE reported it separately during the 2015-2019 authorizer period
+clark_official_public,district,Clark,all,yes,yes,official,Official Clark County School District public rate from the NDE annual ACGR file
+washoe_official_public,district,Washoe,all,yes,yes,official,Official Washoe County School District public rate from the NDE annual ACGR file
+carson_official_public,district,Carson,all,yes,yes,official,Official Carson City School District public rate from the NDE annual ACGR file included for statewide district comparison even though Carson does not contribute a charter high school slice
+spcsa_adjusted_charter_only,charter_slice,SPCSA,all,yes,yes,estimated,Adjusted SPCSA charter-only estimate excluding non-charter entities such as Davidson and Independence from the screened school universe
+spcsa_brick_mortar,charter_slice,SPCSA,brick_and_mortar,no,no,estimated,Traditional SPCSA brick-and-mortar schools excluding Beacon and online schools
+spcsa_general_ed_virtual,charter_slice,SPCSA,statewide_online,no,no,estimated,General education virtual schools such as Nevada Connections and Nevada Virtual
+spcsa_nevada_connections,school_slice,SPCSA,statewide_online,no,no,estimated,Report Nevada Connections separately rather than only inside the aggregate SPCSA virtual slice
+spcsa_nevada_virtual,school_slice,SPCSA,statewide_online,no,no,estimated,Report Nevada Virtual separately rather than only inside the aggregate SPCSA virtual slice
+spcsa_leadership_academy,school_slice,SPCSA,alternative,no,no,estimated,Report Leadership Academy separately; it remains coded as alternative in the working panel even when discussed alongside the online schools
+spcsa_alternative,charter_slice,SPCSA,alternative,yes,yes,estimated,Alternative / APF-aligned SPCSA schools
+beacon_separate,school_slice,SPCSA,alternative,yes,yes,estimated,Report Beacon separately because of its distinct mission and APF treatment
+clark_charter_total,charter_slice,Clark,all,yes,yes,estimated,Historically CCSD-sponsored charter high schools before the July 1 2025 transfer
+clark_brick_mortar,charter_slice,Clark,brick_and_mortar,no,no,estimated,Clark-sponsored brick-and-mortar charter high schools
+clark_general_ed_virtual,charter_slice,Clark,statewide_online,no,no,estimated,Clark-sponsored general education virtual charter high schools if any operate in the year
+clark_alternative,charter_slice,Clark,alternative,yes,yes,estimated,Clark-sponsored alternative / APF charter high schools including Delta where applicable
+washoe_charter_total,charter_slice,Washoe,all,yes,yes,estimated,Washoe-sponsored charter high schools
+washoe_brick_mortar,charter_slice,Washoe,brick_and_mortar,no,no,estimated,Washoe-sponsored brick-and-mortar charter high schools
+washoe_general_ed_virtual,charter_slice,Washoe,statewide_online,no,no,estimated,Washoe-sponsored virtual charter high schools if any operate in the year
+washoe_alternative_watchlist,charter_slice,Washoe,alternative,yes,yes,estimated,Only use as a formal APF slice when public APF approval is verified; enCompass remains a watchlist case

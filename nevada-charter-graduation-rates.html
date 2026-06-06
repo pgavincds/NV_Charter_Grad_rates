@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nevada Charter Graduation Rates</title>
+  <meta name="description" content="Estimated Nevada charter-sector 4-year graduation rates with official statewide and district comparison rates.">
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --paper: #fffdf8;
+      --ink: #1f2a2e;
+      --muted: #5e6a6f;
+      --line: #d7cfc1;
+      --accent: #935f2d;
+      --accent-soft: #efe4d3;
+      --shadow: 0 18px 45px rgba(56, 43, 26, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, rgba(147, 95, 45, 0.12), transparent 28%),
+        linear-gradient(180deg, #f8f4ec 0%, var(--bg) 100%);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
+    .page {
+      width: min(1120px, calc(100% - 32px));
+      margin: 28px auto 64px;
+    }
+
+    .hero,
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      border-radius: 18px;
+    }
+
+    .hero {
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.1;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      max-width: 14ch;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    .lede {
+      max-width: 72ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .span-7 { grid-column: span 7; }
+    .span-5 { grid-column: span 5; }
+    .span-12 { grid-column: span 12; }
+
+    .card {
+      padding: 22px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .file-list a {
+      font-weight: 600;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .stat {
+      padding: 14px;
+      border-radius: 14px;
+      background: #faf6ee;
+      border: 1px solid var(--line);
+    }
+
+    .stat .label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+    }
+
+    .stat .value {
+      font-size: 1.45rem;
+      font-weight: 700;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.96rem;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .column-trigger {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      padding: 0;
+      margin: 0;
+      color: inherit;
+      font: inherit;
+      text-transform: inherit;
+      letter-spacing: inherit;
+      cursor: pointer;
+      border-bottom: 1px dotted var(--accent);
+    }
+
+    .value-trigger {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      padding: 0;
+      margin: 0;
+      color: var(--accent);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .detail-panel {
+      margin-top: 18px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fbf7ef;
+    }
+
+    .detail-panel[hidden] {
+      display: none;
+    }
+
+    .detail-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+      margin-bottom: 10px;
+    }
+
+    .detail-title {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .detail-note {
+      color: var(--muted);
+      font-size: 0.93rem;
+      margin-bottom: 14px;
+    }
+
+    .detail-summary {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: #f2e8d8;
+      color: var(--ink);
+      font-size: 0.94rem;
+    }
+
+    .detail-row-active {
+      background: #f3eadc;
+    }
+
+    .detail-row-highlight td {
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    @media (max-width: 860px) {
+      .span-7, .span-5, .span-12 {
+        grid-column: span 12;
+      }
+
+      .stat-grid {
+        grid-template-columns: 1fr;
+      }
+
+      table {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">Public Working Artifact</div>
+      <h1>Nevada Charter Graduation Rates</h1>
+      <p class="lede">
+        This page summarizes a public, reproducible estimate of Nevada charter-sector 4-year graduation rates,
+        paired with official statewide and district comparison rates from Nevada's annual ACGR releases.
+      </p>
+      <p class="lede">
+        For a shorter narrative version, start with
+        <a href="nevada-charter-graduation-rates-overview.html">the overview page</a>.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card span-7">
+        <h2>What This Is</h2>
+        <p>
+          The official public rows come directly from Nevada Department of Education graduation-rate releases.
+          The charter slices are estimated from school-level public records, cleaned through a school-year decision
+          ledger and grade-12 enrollment cross-checks.
+        </p>
+        <p class="note">
+          Historical authorizer is tied to the reporting year. Later sponsor transfers do not rewrite earlier data.
+        </p>
+      </article>
+
+      <article class="card span-5">
+        <h2>Files</h2>
+        <ul class="file-list">
+          <li><a href="nevada_charter_publishable_trend_table.csv">Wide publishable trend table</a></li>
+          <li><a href="nevada_charter_publishable_series_long.csv">Long chart-ready series table</a></li>
+          <li><a href="README_nevada_charter_grad_rates.md">Short methodology explainer</a></li>
+          <li><a href="nevada_charter_grad_rate_method.md">Full methodology memo</a></li>
+          <li><a href="nevada_charter_panel_decisions.csv">School-year decision ledger</a></li>
+        </ul>
+      </article>
+
+      <article class="card span-12">
+        <h2>Key Rules</h2>
+        <ul>
+          <li>Some historical NDE sponsor reporting appears to have lumped non-charter entities such as `Davidson` / `University Schools` and `Independence` / the correctional LEA into SPCSA public totals. This project therefore keeps the official SPCSA line as published but also shows an adjusted charter-only SPCSA line that excludes those entities.</li>
+          <li>`SPCSA Alternative Schools` exists to separate schools operating in a different accountability, mission, and political environment from traditional brick-and-mortar charters. `Beacon` is still highlighted within that slice because its APF treatment makes it an especially important school to watch.</li>
+          <li>`SPCSA Virtual` exists for the same reason: statewide online schools and online-adjacent operators face a different policy and operating environment than traditional campuses. Breaking them out makes structural differences visible instead of hiding them inside one blended SPCSA average.</li>
+          <li>The school-by-school drilldowns are there both to let readers check the math and to show that operator behavior changed over time inside those structural categories.</li>
+          <li>District-operated option schools such as NV Learning Academy and North Star Online are excluded because they were not charter schools under Nevada charter law.</li>
+          <li>Suppressed top-coded rows use interval treatment: <code>+</code> becomes 95.0 to 100.0 with midpoint 97.5.</li>
+          <li>Suppressed bottom-coded rows use interval treatment: <code>*</code> becomes 0.0 to 5.0 with midpoint 2.5.</li>
+          <li>If enrollment files show no 12th grade and there is no contrary published ACGR row, the school-year is excluded from the 4-year graduation universe.</li>
+          <li>Democracy Prep is treated as an Achievement School District school for 2017-18 and 2018-19, then as an SPCSA school afterward.</li>
+        </ul>
+      </article>
+
+      <article class="card span-5">
+        <h2>Current Snapshot</h2>
+        <div class="stat-grid">
+          <div class="stat">
+            <span class="label">2024-25 Statewide Official</span>
+            <span class="value">85.40%</span>
+          </div>
+          <div class="stat">
+            <span class="label">2024-25 SPCSA Official</span>
+            <span class="value">82.60%</span>
+          </div>
+          <div class="stat">
+            <span class="label">2024-25 SPCSA Brick & Mortar</span>
+            <span class="value">92.43%</span>
+          </div>
+          <div class="stat">
+            <span class="label">2024-25 SPCSA Alternative Schools</span>
+            <span class="value">67.38%</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card span-7">
+        <h2>Coverage Status</h2>
+        <p>
+          The modern years are now mostly resolved. The main remaining modern hold is a tiny suppressed
+          2018-19 Nevada State High School Meadowwood cohort.
+        </p>
+        <p class="note">
+          Here, `excluded` does not mean hidden or discarded adverse data. It usually means the school-year was outside the four-year graduation universe because the school had no reported 12th grade, no usable public ACGR row, or was changing or winding down its high-school program.
+        </p>
+        <ul>
+          <li>2017-18: 25 counted, 0 held, 10 excluded</li>
+          <li>2018-19: 25 counted, 1 held, 9 excluded</li>
+          <li>2019-20: 30 counted, 0 held, 5 excluded</li>
+          <li>2020-21: 31 counted, 0 held, 4 excluded</li>
+          <li>2021-22: 31 counted, 0 held, 4 excluded</li>
+          <li>2022-23: 33 counted, 0 held, 5 excluded</li>
+          <li>2023-24: 35 counted, 0 held, 6 excluded</li>
+          <li>2024-25: 37 counted, 0 held, 5 excluded</li>
+        </ul>
+      </article>
+
+      <article class="card span-12">
+        <h2>Selected Trend Lines</h2>
+        <p class="note">
+          The table now includes `2013-14` through `2016-17`. SPCSA slice drilldowns for those legacy years are partially backfilled from direct Nevada Report Card portal queries, and early Clark and Washoe charter totals are now partially backfilled through `2016-17` from Nevada Report Card exports. Clark and Washoe drilldowns still begin in the later modern files. Non-charter statewide entities such as `Davidson` / `University Schools` and `Independence` / the correctional LEA are excluded from the charter-slice estimates even where historical official sponsor totals may still deserve caution notes. The adjusted SPCSA charter-only line is most informative in the older years; by about `2018-19` forward, the public files appear substantially cleaner.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Class Year</th>
+              <th>Statewide Official</th>
+              <th>SPCSA Official</th>
+              <th>SPCSA Adjusted Charter-Only</th>
+              <th><button class="column-trigger slice-trigger" id="spcsa-brick-header" type="button" data-slice="brick" aria-expanded="false" aria-controls="spcsa-slice-detail">SPCSA Brick & Mortar</button></th>
+              <th><button class="column-trigger slice-trigger" id="spcsa-virtual-header" type="button" data-slice="virtual" aria-expanded="false" aria-controls="spcsa-slice-detail">SPCSA Virtual</button></th>
+              <th><button class="column-trigger slice-trigger" id="spcsa-alternative-header" type="button" data-slice="alternative" aria-expanded="false" aria-controls="spcsa-slice-detail">SPCSA Alternative Schools</button></th>
+              <th>Clark Charter Total</th>
+              <th>Washoe Charter Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>2013-14</td><td>70.65</td><td>46.28</td><td>57.61</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2013-14">67.02</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2013-14">43.10</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2013-14">58.02</button></td><td>54.05</td><td>54.67</td></tr>
+            <tr><td>2014-15</td><td>70.77</td><td>46.38</td><td>62.36</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2014-15">62.80</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2014-15">46.85</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2014-15">77.00</button></td><td>42.73</td><td>55.85</td></tr>
+            <tr><td>2015-16</td><td>73.55</td><td>58.55</td><td>74.06</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2015-16">89.73</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2015-16">49.55</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2015-16">75.05</button></td><td>56.52</td><td>59.48</td></tr>
+            <tr><td>2016-17</td><td>80.85</td><td>65.28</td><td>70.53</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2016-17">79.83</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2016-17">53.70</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2016-17">68.75</button></td><td>66.60</td><td>74.10</td></tr>
+            <tr><td>2017-18</td><td>83.17</td><td>70.03</td><td>78.66</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2017-18">81.35</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2017-18">73.73</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2017-18">74.41</button></td><td>85.64</td><td>68.97</td></tr>
+            <tr><td>2018-19</td><td>84.11</td><td>77.79</td><td>89.63</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2018-19">97.29</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2018-19">77.80</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2018-19">76.40</button></td><td>87.80</td><td>68.70</td></tr>
+            <tr><td>2019-20</td><td>82.57</td><td>84.11</td><td>92.10</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2019-20">96.83</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2019-20">84.40</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2019-20">77.05</button></td><td>89.95</td><td>70.47</td></tr>
+            <tr><td>2020-21</td><td>81.31</td><td>86.89</td><td>91.44</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2020-21">96.05</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2020-21">86.15</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2020-21">73.35</button></td><td>86.46</td><td>92.16</td></tr>
+            <tr><td>2021-22</td><td>81.72</td><td>86.07</td><td>92.71</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2021-22">97.21</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2021-22">83.30</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2021-22">77.17</button></td><td>85.06</td><td>87.22</td></tr>
+            <tr><td>2022-23</td><td>81.39</td><td>83.82</td><td>92.44</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2022-23">97.18</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2022-23">84.35</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2022-23">72.78</button></td><td>91.80</td><td>86.21</td></tr>
+            <tr><td>2023-24</td><td>81.60</td><td>83.30</td><td>92.11</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2023-24">95.83</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2023-24">84.85</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2023-24">75.25</button></td><td>88.70</td><td>86.87</td></tr>
+            <tr><td>2024-25</td><td>85.40</td><td>82.60</td><td>87.77</td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="brick" data-year="2024-25">92.43</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="virtual" data-year="2024-25">85.10</button></td><td><button class="value-trigger slice-year-trigger" type="button" data-slice="alternative" data-year="2024-25">67.38</button></td><td>91.70</td><td>94.17</td></tr>
+          </tbody>
+        </table>
+        <section class="detail-panel" id="spcsa-slice-detail" hidden>
+          <div class="detail-header">
+            <h3 class="detail-title" id="slice-detail-title">SPCSA Slice Detail</h3>
+            <span class="note" id="slice-detail-year-label">All available years</span>
+          </div>
+          <p class="detail-note" id="slice-detail-note"></p>
+          <table>
+            <thead>
+              <tr>
+                <th>Class Year</th>
+                <th>School</th>
+                <th>Estimated Rate</th>
+              </tr>
+            </thead>
+            <tbody id="slice-detail-body"></tbody>
+          </table>
+          <div class="detail-summary" id="slice-detail-summary"></div>
+        </section>
+        <p class="footer">
+          These charter subgroup slices are estimated from school-level public rows and should not be confused with official sponsor-published subgroup rates unless explicitly labeled as such. The adjusted SPCSA line is shown separately from the official public SPCSA line so readers can isolate the charter portfolio without overwriting Nevada's published sponsor total, and the virtual / alternative slices are shown separately so structural policy differences are visible rather than blended away.
+        </p>
+      </article>
+    </section>
+  </main>
+  <script>
+    const sliceData = {"brick":{"2013-14":[["Argent Preparatory Academy",22.16,false],["NSHS Legacy Single-Campus",98.9,false],["Quest Academy",80.0,false]],"2014-15":[["Argent Preparatory Academy",22.2,false],["CASLV Sandy Ridge",61.2,false],["NSHS Legacy Single-Campus",97.5,false],["Quest Academy",70.3,false]],"2015-16":[["CASLV Sandy Ridge",94.8,false],["NSHS Legacy Single-Campus",97.5,false],["Quest Academy",76.9,false]],"2016-17":[["Argent Preparatory Academy",45.0,false],["CASLV Sandy Ridge",97.5,false],["NSHS Legacy Single-Campus",97.5,false],["Quest Academy",79.3,false]],"2023-24":[["Amplus Durango",97.5,false],["CASLV Sandy Ridge",97.5,false],["Democracy Prep",83.3,false],["Doral Red Rock",97.5,false],["Explore Academy",75.0,false],["Founders Acad",97.5,false],["Mater Academy East",97.5,false],["NSHS Downtown",97.5,false],["NSHS Dtwn Henderson",97.5,false],["NSHS Henderson",97.5,false],["NSHS Meadowwood",97.5,false],["NSHS North Las Vegas",97.5,false],["NSHS Northwest",97.5,false],["NSHS Southwest",97.5,false],["NSHS Summerlin",97.5,false],["NSHS Sunrise",97.5,false],["Oasis Acad",97.5,false],["Pinecrest Cadence",97.5,false],["Pinecrest Sloan Canyon",97.5,false],["SLAM NV",97.5,false],["Somerset Losee",97.5,false],["Somerset Sky Pointe",97.5,false]],"2024-25":[["Amplus Durango",99.2,false],["CASLV Sandy Ridge",99.4,false],["Democracy Prep",85.5,false],["Doral Red Rock",98.6,false],["Explore Academy",88.8,false],["Founders Acad",97.5,false],["Mater Academy East",97.5,false],["NSHS Downtown",97.5,false],["NSHS Dtwn Henderson",97.5,false],["NSHS Henderson",98.9,false],["NSHS Meadowwood",85.7,false],["NSHS North Las Vegas",97.5,false],["NSHS Northwest",97.5,false],["NSHS Southwest",98.8,false],["NSHS Summerlin",94.8,false],["NSHS Sunrise",97.5,false],["Oasis Acad",97.5,false],["Pinecrest Cadence",99.3,false],["Pinecrest Sloan Canyon",99.3,false],["SLAM NV",99.2,false],["Somerset Losee",98.4,false],["Somerset Sky Pointe",97.5,false],["Southern Nevada Trades High School",2.5,false]],"2017-18":[["Amplus Durango",64.29,false],["Argent Preparatory Academy",36.36,false],["CASLV Sandy Ridge",97.5,false],["Founders Acad",81.82,false],["NSHS Downtown",97.5,false],["NSHS Henderson",97.5,false],["NSHS Summerlin",97.5,false],["Oasis Acad",97.5,false],["Somerset Losee",70.42,false],["Somerset Sky Pointe",73.13,false]],"2018-19":[["Amplus Durango",95.9,false],["CASLV Sandy Ridge",97.8,false],["Founders Acad",97.5,false],["NSHS Downtown",94.7,false],["NSHS Henderson",97.9,false],["NSHS Summerlin",97.5,false],["NSHS Sunrise",97.5,false],["Oasis Acad",97.5,false],["Somerset Losee",98.5,false],["Somerset Sky Pointe",98.1,false]],"2019-20":[["Amplus Durango",98.3,false],["CASLV Sandy Ridge",97.5,false],["Democracy Prep",93.9,false],["Doral Red Rock",97.5,false],["Founders Acad",97.5,false],["NSHS Downtown",97.5,false],["NSHS Henderson",98.3,false],["NSHS Meadowwood",97.5,false],["NSHS Southwest",97.5,false],["NSHS Summerlin",97.5,false],["NSHS Sunrise",97.5,false],["Oasis Acad",97.5,false],["Pinecrest Cadence",93.6,false],["SLAM NV",94.3,false],["Somerset Losee",95.8,false],["Somerset Sky Pointe",97.5,false]],"2020-21":[["Amplus Durango",95.1,false],["CASLV Sandy Ridge",99.0,false],["Democracy Prep",86.4,false],["Doral Red Rock",97.5,false],["Founders Acad",93.7,false],["NSHS Downtown",97.5,false],["NSHS Dtwn Henderson",97.5,false],["NSHS Henderson",98.4,false],["NSHS Meadowwood",97.5,false],["NSHS Northwest",97.5,false],["NSHS Southwest",96.9,false],["NSHS Summerlin",95.6,false],["NSHS Sunrise",94.5,false],["Oasis Acad",97.5,false],["Pinecrest Cadence",91.9,false],["SLAM NV",96.7,false],["Somerset Losee",96.5,false],["Somerset Sky Pointe",99.2,false]],"2021-22":[["Amplus Durango",97.6,false],["CASLV Sandy Ridge",97.5,false],["Democracy Prep",86.3,false],["Doral Red Rock",99.1,false],["Founders Acad",97.5,false],["NSHS Downtown",97.5,false],["NSHS Dtwn Henderson",97.7,false],["NSHS Henderson",98.3,false],["NSHS Meadowwood",97.5,false],["NSHS Northwest",98.3,false],["NSHS Southwest",98.7,false],["NSHS Summerlin",97.9,false],["NSHS Sunrise",97.4,false],["Oasis Acad",97.5,false],["Pinecrest Cadence",97.5,false],["SLAM NV",98.1,false],["Somerset Losee",97.4,false],["Somerset Sky Pointe",98.0,false]],"2022-23":[["Amplus Durango",97.5,false],["CASLV Sandy Ridge",97.5,false],["Democracy Prep",91.1,false],["Doral Red Rock",97.5,false],["Founders Acad",97.5,false],["NSHS Downtown",97.5,false],["NSHS Dtwn Henderson",98.4,false],["NSHS Henderson",98.3,false],["NSHS Meadowwood",93.3,false],["NSHS North Las Vegas",97.5,false],["NSHS Northwest",98.5,false],["NSHS Southwest",97.5,false],["NSHS Summerlin",97.4,false],["NSHS Sunrise",97.5,false],["Oasis Acad",97.5,false],["Pinecrest Cadence",98.9,false],["Pinecrest Sloan Canyon",97.8,false],["SLAM NV",96.0,false],["Somerset Losee",97.6,false],["Somerset Sky Pointe",98.8,false]]},"virtual":{"2013-14":[["Nevada Connections Acad",33.91,false],["Nevada Virtual Charter",52.29,false]],"2014-15":[["Nevada Connections Acad",37.1,false],["Nevada Virtual Charter",56.6,false]],"2015-16":[["Nevada Connections Acad",35.6,false],["Nevada Virtual Charter",63.5,false]],"2016-17":[["Nevada Connections Acad",40.0,false],["Nevada Virtual Charter",67.4,false]],"2017-18":[["Nevada Connections Acad",63.77,false],["Nevada Virtual Charter",83.7,false]],"2018-19":[["Nevada Connections Acad",69.8,false],["Nevada Virtual Charter",85.8,false]],"2019-20":[["Nevada Connections Acad",80.2,false],["Nevada Virtual Charter",88.6,false]],"2020-21":[["Nevada Connections Acad",86.1,false],["Nevada Virtual Charter",86.2,false]],"2021-22":[["Nevada Connections Acad",80.6,false],["Nevada Virtual Charter",86.0,false]],"2022-23":[["Nevada Connections Acad",81.4,false],["Nevada Virtual Charter",87.3,false]],"2023-24":[["Nevada Connections Acad",81.9,false],["Nevada Virtual Charter",87.8,false]],"2024-25":[["Nevada Connections Acad",82.2,false],["Nevada Virtual Charter",88.0,false]]},"alternative":{"2013-14":[["Beacon Acad",37.61,true],["Alpine Acad",78.43,false]],"2014-15":[["Beacon Acad",56.5,true],["Alpine Acad",97.5,false]],"2015-16":[["Beacon Acad",52.6,true],["Alpine Acad",97.5,false]],"2016-17":[["Beacon Acad",52.4,true],["Alpine Acad",85.1,false]],"2024-25":[["Beacon Acad",25.9,true],["Alpine Acad",97.5,false],["Equipo Acad",90.2,false],["Leadership Acad",89.2,false],["Thrive Point Academy",34.1,false]],"2017-18":[["Beacon Acad",33.21,true],["Alpine Acad",86.21,false],["Equipo Acad",94.87,false],["Leadership Acad",83.33,false]],"2018-19":[["Beacon Acad",25.0,true],["Alpine Acad",90.6,false],["Equipo Acad",98.0,false],["Leadership Acad",92.0,false]],"2019-20":[["Beacon Acad",20.0,true],["Alpine Acad",97.5,false],["Equipo Acad",96.3,false],["Leadership Acad",94.4,false]],"2020-21":[["Beacon Acad",13.9,true],["Alpine Acad",96.2,false],["Equipo Acad",87.3,false],["Leadership Acad",96.0,false]],"2021-22":[["Beacon Acad",17.8,true],["Alpine Acad",97.0,false],["Equipo Acad",97.5,false],["Leadership Acad",96.4,false]],"2022-23":[["Beacon Acad",15.2,true],["Alpine Acad",90.9,false],["Equipo Acad",97.5,false],["Leadership Acad",87.5,false]],"2023-24":[["Beacon Acad",19.1,true],["Alpine Acad",97.5,false],["Equipo Acad",94.4,false],["Leadership Acad",90.0,false]]}};
+    const sliceConfig = {
+      brick: {
+        title: "SPCSA Brick & Mortar Detail",
+        note: "This view shows the school-by-school rows behind the blended SPCSA brick-and-mortar estimate.",
+        summaryPrefix: "brick-and-mortar estimate"
+      },
+      virtual: {
+        title: "SPCSA Virtual Detail",
+        note: "This view shows the school-by-school rows behind the blended SPCSA virtual estimate. Nevada Connections and Nevada Virtual are the formal statewide online schools in the working panel.",
+        summaryPrefix: "virtual estimate"
+      },
+      alternative: {
+        title: "SPCSA Alternative Schools Detail",
+        note: "This view shows the alternative-school slice behind the SPCSA alternative estimate. Beacon is highlighted here as the most important separate school to watch, while other alternative schools can sit alongside it as the public record expands.",
+        summaryPrefix: "alternative schools estimate"
+      }
+    };
+
+    const slicePanel = document.getElementById("spcsa-slice-detail");
+    const sliceTitle = document.getElementById("slice-detail-title");
+    const sliceNote = document.getElementById("slice-detail-note");
+    const sliceBody = document.getElementById("slice-detail-body");
+    const sliceSummary = document.getElementById("slice-detail-summary");
+    const sliceYearLabel = document.getElementById("slice-detail-year-label");
+    const sliceHeaders = document.querySelectorAll(".slice-trigger");
+    const sliceYearTriggers = document.querySelectorAll(".slice-year-trigger");
+
+    function formatRate(value) {
+      return Number(value).toFixed(2) + "%";
+    }
+
+    function clearHeaderState() {
+      sliceHeaders.forEach((header) => header.setAttribute("aria-expanded", "false"));
+    }
+
+    function renderSliceDetail(slice, selectedYear = null) {
+      const config = sliceConfig[slice];
+      const years = sliceData[slice];
+      sliceTitle.textContent = config.title;
+      sliceNote.textContent = config.note;
+      sliceBody.innerHTML = "";
+
+      const availableYears = Object.keys(years).sort();
+      const renderYears = selectedYear ? [selectedYear] : availableYears;
+      sliceYearLabel.textContent = selectedYear ? "Focused on " + selectedYear : "All available years";
+
+      renderYears.forEach((year) => {
+        (years[year] || []).forEach(([school, rate, highlight]) => {
+          const tr = document.createElement("tr");
+          if (selectedYear) {
+            tr.classList.add("detail-row-active");
+          }
+          if (highlight) {
+            tr.classList.add("detail-row-highlight");
+          }
+          tr.innerHTML = `<td>${year}</td><td>${school}</td><td>${formatRate(rate)}</td>`;
+          sliceBody.appendChild(tr);
+        });
+      });
+
+      const focusYear = selectedYear || availableYears[availableYears.length - 1];
+      const focusRows = years[focusYear] || [];
+      const highest = focusRows.slice().sort((a, b) => b[1] - a[1])[0];
+      let summary = `${focusYear}: blended SPCSA ${config.summaryPrefix} ${document.querySelector('.slice-year-trigger[data-slice=\"' + slice + '\"][data-year=\"' + focusYear + '\"]').textContent}%.`;
+      if (slice === "virtual") {
+        summary += " Leadership Academy is not part of this aggregate because it remains coded as alternative in the working panel.";
+      } else if (slice === "alternative") {
+        summary += " Beacon is highlighted for easy comparison against the rest of the alternative-school slice.";
+      } else if (highest) {
+        summary += ` Highest listed school in this view: ${highest[0]} at ${formatRate(highest[1])}.`;
+      }
+      sliceSummary.textContent = summary;
+    }
+
+    function openSliceDetail(slice, selectedYear = null) {
+      slicePanel.hidden = false;
+      clearHeaderState();
+      const activeHeader = document.querySelector('.slice-trigger[data-slice=\"' + slice + '\"]');
+      if (activeHeader) {
+        activeHeader.setAttribute("aria-expanded", "true");
+      }
+      renderSliceDetail(slice, selectedYear);
+      slicePanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+
+    sliceHeaders.forEach((header) => {
+      header.addEventListener("click", () => {
+        const slice = header.dataset.slice;
+        const isSameOpen = !slicePanel.hidden && header.getAttribute("aria-expanded") === "true";
+        if (isSameOpen) {
+          slicePanel.hidden = true;
+          clearHeaderState();
+          return;
+        }
+        openSliceDetail(slice);
+      });
+    });
+
+    sliceYearTriggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => {
+        openSliceDetail(trigger.dataset.slice, trigger.dataset.year);
+      });
+    });
+  </script>
+</body>
+</html>

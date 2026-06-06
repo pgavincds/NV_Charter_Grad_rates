@@ -1,0 +1,40 @@
+school_name,entity_id,project_status,legal_status_screen,authorizer_history,model_watchlist,include_in_charter_grad_universe,first_known_relevant_year,last_known_relevant_year,verification_priority,notes
+Innovations Int'l Charter J-SHS,02363,included,charter_confirmed,Clark through 2024-25; SPCSA beginning 2025-26,brick_and_mortar,yes,2017-18,2024-25,high,Verified charter high school in the modern Clark-sponsored universe
+Odyssey Charter Schools 9-12 HS,02614,included,charter_confirmed,Clark through 2024-25; SPCSA beginning 2025-26,brick_and_mortar,yes,2017-18,2024-25,high,Verified charter high school in the modern Clark-sponsored universe
+Explore Knowledge Academy J-SHS,02616,included,charter_confirmed,Clark through 2024-25; SPCSA beginning 2025-26,brick_and_mortar,yes,2017-18,2024-25,high,Verified charter high school in the modern Clark-sponsored universe
+The Delta Academy J-SHS,02621,included,charter_confirmed,Clark through 2024-25; SPCSA beginning 2025-26,alternative_watchlist,yes,2017-18,2024-25,high,Historically Clark-sponsored charter high school; separately documented as APF-rated beginning in 2021-22
+Academy for Career Education Charter,16608,included,charter_confirmed,Washoe,brick_and_mortar,yes,2016-17,2024-25,high,Washoe charter high school with stable legal status but year-level ACGR verification still ongoing
+Coral Academy of Science Charter,16312,included,charter_confirmed,Washoe,brick_and_mortar,yes,2016-17,2024-25,high,Washoe charter high school with stable legal status but naming still needs year-level checking
+ICDA Charter HS,16604,included,charter_confirmed,Washoe,alternative_watchlist,yes,2016-17,2024-25,high,Later years need closure verification before carrying forward
+Rainshadow CCHS,16610,included,charter_confirmed,Washoe,alternative_watchlist,yes,2016-17,2018-19,high,Needs formal crosswalk treatment against later enCompass naming
+enCompass Academy,,included,needs_legacy_crosswalk,Washoe,alternative_watchlist,yes,2019-20,2024-25,high,Treat as the likely successor reporting name after Rainshadow but do not assume APF status
+Alpine Acad,,included,charter_confirmed,SPCSA,alternative,yes,2017-18,2024-25,medium,SPCSA high school with alternative mission indicators
+Amplus Durango,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2017-18,2024-25,medium,Historical name crosswalk from American Prep Academy still needs cleanup
+Argent Preparatory Academy,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2017-18,2017-18,high,Historically associated with Silver State Charter School in Carson City; pre-2017-18 crosswalk needs careful handling
+Beacon Acad,,included,charter_confirmed,SPCSA,alternative,yes,2017-18,2024-25,high,Report separately because of alternative mission and APF treatment
+CASLV Sandy Ridge,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2018-19,2024-25,medium,Modern SPCSA charter high school
+Democracy Prep,,included,charter_confirmed,SPCSA following ASD transition,brick_and_mortar,yes,2019-20,2024-25,medium,Separate ASD-to-SPCSA crosswalk still needed to distinguish Agassi campus reporting from later SPCSA reporting
+Doral Red Rock,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2018-19,2024-25,medium,First graduating class timing matters for early ACGR years
+Equipo Acad,,included,charter_confirmed,SPCSA,alternative_watchlist,yes,2021-22,2024-25,medium,Verify whether formal APF treatment ever applied
+Founders Acad,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2018-19,2024-25,medium,Modern SPCSA charter high school
+Leadership Acad,,included,charter_confirmed,SPCSA,alternative_watchlist,yes,2021-22,2024-25,medium,Verify whether formal APF treatment ever applied
+Nevada Connections Acad,,included,charter_confirmed,SPCSA,statewide_online,yes,2017-18,2024-25,high,General education statewide online charter
+Nevada Virtual Charter,,included,charter_confirmed,SPCSA,statewide_online,yes,2017-18,2024-25,high,General education statewide online charter
+NSHS Downtown,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS Dtwn Henderson,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS Henderson,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS Meadowwood,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS North Las Vegas,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS Northwest,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS Southwest,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS Summerlin,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+NSHS Sunrise,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Nevada State High School campus
+Oasis Acad,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2017-18,2024-25,medium,Modern SPCSA charter high school
+Pinecrest Cadence,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2018-19,2024-25,medium,Early years affected by first-graduating-class timing
+Pinecrest Sloan Canyon,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Modern SPCSA charter high school
+SLAM NV,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Modern SPCSA charter high school
+Somerset Losee,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2018-19,2024-25,medium,Modern SPCSA charter high school
+Somerset Sky Pointe,,included,charter_confirmed,SPCSA,brick_and_mortar,yes,2021-22,2024-25,medium,Modern SPCSA charter high school
+Democracy Prep at Agassi High,,watchlist,charter_confirmed,Achievement School District through the July 3 2019 transition; transition path toward SPCSA,brick_and_mortar,conditional,2018-19,2019-20,high,Legal charter status appears clear but school-level graduation reporting is thin and transition-era naming is messy; pre-transition ASD materials may use the school name as both the LEA label and the campus label
+NV Learning Academy J-SHS,,excluded,not_a_charter,Clark district school,virtual_district_option,no,2017-18,2024-25,complete,Explicitly excluded because it was founded as an in-district option rather than under Nevada charter law
+North Star Online School,,excluded,not_a_charter,Washoe district school,virtual_district_option,no,2017-18,2024-25,complete,Explicitly excluded because it is a district-operated option school rather than a charter

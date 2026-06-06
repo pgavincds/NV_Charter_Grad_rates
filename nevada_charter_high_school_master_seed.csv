@@ -1,0 +1,45 @@
+school_name,entity_id,sponsor_bucket,charter_authorizer,model_type,latest_confirmed_in_grad_materials,primary_reference,include_in_sector_total,notes
+Innovations Int'l Charter J-SHS,02363,district_authorized,Clark County School District,brick_and_mortar,2023-24,2023-24 annual ACGR PDF,yes,Confirmed in 2023-24 Nevada ACGR school table
+Odyssey Charter Schools 9-12 HS,02614,district_authorized,Clark County School District,brick_and_mortar,2023-24,2023-24 annual ACGR PDF,yes,Confirmed in 2023-24 Nevada ACGR school table
+Explore Knowledge Academy J-SHS,02616,district_authorized,Clark County School District,brick_and_mortar,2023-24,2023-24 annual ACGR PDF,yes,Confirmed in 2023-24 Nevada ACGR school table
+The Delta Academy J-SHS,02621,district_authorized,Clark County School District,brick_and_mortar,2023-24,2023-24 annual ACGR PDF,yes,Confirmed in 2023-24 Nevada ACGR school table
+Explore Academy,107101,SPCSA,State Public Charter School Authority,brick_and_mortar,2024-25,2024-25 annual ACGR PDF,yes,Appears as Explore Academy in the official 2024-25 annual ACGR PDF and as Explore ACAD HS in statewide school ratings files
+Mater Academy East,49434,SPCSA,State Public Charter School Authority,brick_and_mortar,2024-25,2024-25 annual ACGR PDF,yes,Appears as Mater Academy East in the official 2023-24 and 2024-25 annual ACGR PDFs and as Mater East HS in statewide school ratings files
+CASLV Cadence,87316,SPCSA,State Public Charter School Authority,brick_and_mortar,2024-25,2024-2025 enrollment by grade workbook,yes,Appears as CASLV Cadence in statewide school ratings and enrollment files but no grade 12 cohort has yet been verified in the current build
+Southern Nevada Trades High School,95301,SPCSA,State Public Charter School Authority,brick_and_mortar,2024-25,2024-25 annual ACGR PDF,yes,Appears in the official 2024-25 annual ACGR PDF and statewide school ratings files; published ACGR row controls even though current-year enrollment still shows no grade 12
+Thrive Point Academy,96601,SPCSA,State Public Charter School Authority,alternative,2024-25,2024-25 annual ACGR PDF,yes,Appears in the official 2024-25 annual ACGR PDF and on Nevada's SY2025-2026 APF school list, so treat as alternative/APF
+CIVICA Academy,110100,SPCSA,State Public Charter School Authority,brick_and_mortar,2024-25,2024-2025 enrollment by grade workbook,yes,Appears in statewide school ratings and enrollment files but no grade 12 cohort has yet been verified in the current build
+Young Women's Leadership Academy of Las Vegas,113100,SPCSA,State Public Charter School Authority,brick_and_mortar,2024-25,2024-2025 enrollment by grade workbook,yes,Appears in statewide school ratings and enrollment files but no grade 12 cohort has yet been verified in the current build
+Academy for Career Education Charter,16608,district_authorized,Washoe County School District,brick_and_mortar,2016-17,2016-17 Washoe accountability report,yes,Needs validation against later school directory naming
+Coral Academy of Science Charter,16312,district_authorized,Washoe County School District,brick_and_mortar,2016-17,2016-17 Washoe accountability report,yes,Needs validation against later school directory naming
+ICDA Charter HS,16604,district_authorized,Washoe County School District,alternative,2016-17,2016-17 Washoe accountability report,yes,Appears as charter in Washoe accountability report; user reports the school later closed and it should not be assumed to persist in later-year charter slices without year-specific confirmation
+Rainshadow CCHS,16610,district_authorized,Washoe County School District,alternative,2016-17,2016-17 Washoe accountability report,yes,Later naming may align to enCompass or other alternative program; treat enCompass as the key Washoe follow-up school for turnaround or alternative-status verification, but note enCompass does not appear on Nevada's SY2025-2026 APF school list
+Alpine Acad,,SPCSA,State Public Charter School Authority,alternative,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Amplus Durango,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck; historical NDE/SPCSA materials may refer to this school as American Prep Academy before the later Amplus name change
+Argent Preparatory Academy,,SPCSA,State Public Charter School Authority,brick_and_mortar,2017-18,2017-18 SPCSA annual report card,yes,Older SPCSA high school appearing in the official 2017-18 annual report card; historically associated with Silver State Charter School in Carson City and should be tracked carefully in any pre-2017-18 crosswalk or turnaround narrative
+Beacon Acad,,SPCSA,State Public Charter School Authority,alternative,2022-23,State of the SPCSA 2024,yes,SPCSA separately reports portfolio rates excluding Beacon; transitioned to exclusively alternative education mission in December 2016 and is a strong candidate for separate reporting
+CASLV Sandy Ridge,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Democracy Prep,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Doral Red Rock,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Equipo Acad,,SPCSA,State Public Charter School Authority,alternative,2022-23,State of the SPCSA 2024,yes,Likely alternative/credit-recovery model; verify in directory
+Founders Acad,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Leadership Acad,,SPCSA,State Public Charter School Authority,alternative,2022-23,State of the SPCSA 2024,yes,Likely alternative/credit-recovery model; verify in directory
+Nevada Connections Acad,,SPCSA,State Public Charter School Authority,statewide_online,2022-23,State of the SPCSA 2024,yes,Online school
+Nevada Virtual Charter,,SPCSA,State Public Charter School Authority,statewide_online,2022-23,State of the SPCSA 2024,yes,Online school
+NSHS Legacy Single-Campus,18401,SPCSA,State Public Charter School Authority,brick_and_mortar,2016-17,Nevada Report Card cohort4yr portal,yes,Legacy pre-campus-split Nevada State High School row recovered from the Nevada Report Card portal for 2013-14 through 2016-17
+NSHS Downtown,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS Dtwn Henderson,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS Henderson,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS Meadowwood,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS North Las Vegas,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS Northwest,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS Southwest,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS Summerlin,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+NSHS Sunrise,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Nevada State High School campus
+Oasis Acad,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Pinecrest Cadence,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Pinecrest Sloan Canyon,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Quest Academy,18408,SPCSA,State Public Charter School Authority,brick_and_mortar,2016-17,Nevada Report Card cohort4yr portal,yes,Legacy SPCSA school visible in the Nevada Report Card portal for 2013-14 through 2016-17; later crosswalk remains unresolved
+SLAM NV,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Somerset Losee,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck
+Somerset Sky Pointe,,SPCSA,State Public Charter School Authority,brick_and_mortar,2022-23,State of the SPCSA 2024,yes,Entity id not captured in cited SPCSA deck

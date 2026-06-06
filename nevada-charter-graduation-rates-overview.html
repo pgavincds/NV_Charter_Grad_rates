@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nevada Charter Graduation Rates Overview</title>
+  <meta name="description" content="Overview of a public estimate of Nevada charter-sector 4-year graduation rates, including official statewide and district comparisons.">
+  <style>
+    :root {
+      --sand: #f6f0e4;
+      --paper: #fffdf9;
+      --ink: #1f262b;
+      --muted: #5f6b70;
+      --line: #dbd1bf;
+      --copper: #9a5d2f;
+      --teal: #234e52;
+      --mist: #edf3f2;
+      --shadow: 0 20px 50px rgba(44, 32, 18, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        linear-gradient(135deg, rgba(154, 93, 47, 0.08), transparent 36%),
+        linear-gradient(180deg, #faf6ee 0%, var(--sand) 100%);
+    }
+
+    .wrap {
+      width: min(1100px, calc(100% - 32px));
+      margin: 28px auto 72px;
+    }
+
+    .hero,
+    .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      margin-bottom: 22px;
+    }
+
+    .hero-copy {
+      padding: 34px 32px 30px;
+    }
+
+    .hero-side {
+      padding: 32px;
+      background:
+        radial-gradient(circle at top right, rgba(35, 78, 82, 0.18), transparent 50%),
+        linear-gradient(180deg, #f3ece0 0%, #eee5d5 100%);
+      border-left: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      background: #f2e3d1;
+      color: var(--copper);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.08;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      max-width: 10ch;
+    }
+
+    h2 { font-size: 1.45rem; }
+
+    p {
+      margin: 0 0 12px;
+      line-height: 1.6;
+    }
+
+    .lede {
+      color: var(--muted);
+      font-size: 1.06rem;
+      max-width: 68ch;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid var(--line);
+    }
+
+    .button.primary {
+      background: var(--teal);
+      color: #fff;
+      border-color: var(--teal);
+    }
+
+    .button.secondary {
+      background: #fff;
+      color: var(--ink);
+    }
+
+    .metric {
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(95, 107, 112, 0.18);
+    }
+
+    .metric:last-child { border-bottom: 0; }
+
+    .metric-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 4px;
+    }
+
+    .metric-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--teal);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 22px;
+    }
+
+    .span-12 { grid-column: span 12; }
+    .span-7 { grid-column: span 7; }
+    .span-6 { grid-column: span 6; }
+    .span-5 { grid-column: span 5; }
+
+    .panel {
+      padding: 24px;
+    }
+
+    .callout {
+      padding: 16px 18px;
+      border-radius: 16px;
+      background: var(--mist);
+      border: 1px solid #d6e4e2;
+      color: var(--teal);
+      margin-top: 12px;
+    }
+
+    .mini-kicker {
+      margin-bottom: 8px;
+      color: var(--copper);
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .year-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .year-box {
+      padding: 14px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: #faf7f0;
+    }
+
+    .year-box strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .insight {
+      padding: 16px;
+      border-radius: 16px;
+      background: #fcf8f1;
+      border: 1px solid var(--line);
+    }
+
+    .insight + .insight {
+      margin-top: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+    }
+
+    th {
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    a { color: var(--copper); }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-side {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .span-12, .span-7, .span-6, .span-5 {
+        grid-column: span 12;
+      }
+
+      .year-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 620px) {
+      .year-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Overview</div>
+        <h1>Nevada Charter Graduation Rates</h1>
+        <p class="lede">
+          This project estimates Nevada charter-sector 4-year graduation rates from public school-level records,
+          while preserving official statewide and district comparison rates exactly as Nevada reported them.
+        </p>
+        <p class="lede">
+          The goal is not to replace Nevada's official files. It is to make the charter sector legible across time,
+          especially where school openings, sponsorship changes, tiny cohorts, and alternative-school treatment make the public record harder to read.
+        </p>
+        <div class="button-row">
+          <a class="button primary" href="nevada-charter-graduation-rates.html">Open Data Page</a>
+          <a class="button secondary" href="nevada_charter_publishable_trend_table.csv">Download Trend Table</a>
+          <a class="button secondary" href="README.md">Open Repository Guide</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <div class="metric">
+          <span class="metric-label">Latest Statewide Official</span>
+          <span class="metric-value">85.40%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">2024-25 SPCSA Brick &amp; Mortar Estimate</span>
+          <span class="metric-value">92.43%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Remaining Modern Hold Rows</span>
+          <span class="metric-value">1</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <article class="panel span-7">
+        <div class="mini-kicker">Purpose</div>
+        <h2>Why This Exists</h2>
+        <p>
+          Nevada publishes official authorizer and district graduation rates, but those public files do not always give
+          a clean charter-sector breakout by school model, school mission, or historical authorizer. This project builds
+          that layer transparently from school-year evidence.
+        </p>
+        <div class="callout">
+          The public artifact is strongest where the state published direct school-level ACGR rows and where grade-by-grade
+          enrollment files confirm which schools actually had 12th graders in a given year.
+        </div>
+      </article>
+
+      <article class="panel span-5">
+        <div class="mini-kicker">Scope</div>
+        <h2>What The Files Separate</h2>
+        <ul>
+          <li>Official statewide and district rows from NDE annual ACGR releases</li>
+          <li>Estimated SPCSA, Clark, and Washoe charter slices</li>
+          <li>SPCSA schools sorted into clearer type-based groups such as brick and mortar, virtual, and alternative rather than left in one blended average</li>
+          <li>The school-level drilldowns let readers see the specific campuses inside those groups, including Nevada Connections, Nevada Virtual, Leadership Academy, and Beacon</li>
+          <li>Historical ASD rows kept under ASD for ASD years</li>
+        </ul>
+      </article>
+
+      <article class="panel span-12">
+        <div class="mini-kicker">How To Read It</div>
+        <h2>What Counts As Official And What Counts As Estimated</h2>
+        <p>
+          The statewide, district, and authorizer totals shown here are official public numbers taken from Nevada's annual ACGR releases.
+          The charter slices are estimated from school-level public rows and should be read as transparent reconstructions rather than sponsor-issued subgroup totals.
+        </p>
+        <div class="callout">
+          In practice, that means a row like <strong>SPCSA official public</strong> is Nevada's published sponsor total,
+          while a row like <strong>SPCSA adjusted charter-only</strong> or <strong>SPCSA brick and mortar</strong> is a school-level estimate built from counted campuses in that class year.
+        </div>
+      </article>
+
+      <article class="panel span-12">
+        <div class="mini-kicker">Method</div>
+        <h2>Interpretation Rules</h2>
+        <ul>
+          <li>Historical authorizer stays tied to the reporting year.</li>
+          <li>Historical NDE sponsor reporting appears to have mixed some non-charter entities into SPCSA public totals, so the project keeps the official SPCSA line as published but also shows a separate adjusted charter-only SPCSA estimate.</li>
+          <li>District option schools are excluded if they were not legally charter schools.</li>
+          <li>Suppressed top-coded rows use a 95.0 to 100.0 interval with midpoint 97.5.</li>
+          <li>Suppressed bottom-coded rows use a 0.0 to 5.0 interval with midpoint 2.5.</li>
+          <li>When a school had no 12th grade and no contrary ACGR row, that school-year is excluded rather than held.</li>
+          <li>Democracy Prep is treated as an Achievement School District school in 2017-18 and 2018-19.</li>
+          <li>`Davidson` and `Independence` are excluded from the SPCSA charter-only estimate even where historical official SPCSA totals may still deserve a caveat.</li>
+          <li>The separate virtual and alternative columns are there to show how different policy and operating environments shape outcomes, not just to create drilldown menus.</li>
+        </ul>
+      </article>
+
+      <article class="panel span-6">
+        <div class="mini-kicker">Coverage</div>
+        <h2>Coverage Snapshot</h2>
+        <div class="year-grid">
+          <div class="year-box"><strong>2017-18</strong>25 counted<br>0 held</div>
+          <div class="year-box"><strong>2018-19</strong>25 counted<br>1 held</div>
+          <div class="year-box"><strong>2019-20</strong>30 counted<br>0 held</div>
+          <div class="year-box"><strong>2024-25</strong>37 counted<br>0 held</div>
+        </div>
+        <p class="note">
+          Some school-years sit outside the graduation-rate universe because the school had no reported 12th grade, no usable public ACGR row, or was changing or ending its high-school program. Those cases are explained in the deeper method files instead of being flattened into an unexplained `excluded` label here.
+        </p>
+      </article>
+
+      <article class="panel span-6">
+        <div class="mini-kicker">Use</div>
+        <h2>Use Cases</h2>
+        <ul>
+          <li>Public policy writing about Nevada charter performance trends</li>
+          <li>Authorizer-by-authorizer historical comparison</li>
+          <li>Model-specific comparisons such as virtual, alternative, and brick-and-mortar</li>
+          <li>External replication or challenge of school-year inclusion decisions</li>
+        </ul>
+      </article>
+
+      <article class="panel span-12">
+        <div class="mini-kicker">Takeaways</div>
+        <h2>What Stands Out</h2>
+        <div class="insight">
+          The early years required the most cleanup. A large share of apparent legacy gaps turned out not to be missing graduation data at all, but schools that had not yet reached 12th grade.
+        </div>
+        <div class="insight">
+          The separate SPCSA adjusted charter-only line is most useful in the earlier years. By roughly 2018-19 forward, the public files look materially cleaner, so later gaps between the official sponsor total and the screened charter-only estimate should be read more cautiously.
+        </div>
+        <div class="insight">
+          Alternative and transition cases matter. Beacon is clearer when separated from general brick-and-mortar trends, and Democracy Prep reads more honestly when its ASD-era years remain attached to ASD rather than being back-cast into SPCSA.
+        </div>
+        <div class="insight">
+          Tiny programs can distort impressions if left unexamined. Several early Nevada State High School campus rows were better treated as not yet operating in the graduation universe rather than as unresolved missing data.
+        </div>
+        <div class="insight">
+          The statewide online picture is easier to read when the schools are separated. Nevada Connections and Nevada Virtual now appear as their own lines, and Leadership Academy is also shown separately even though the working panel still codes it as alternative rather than statewide online.
+        </div>
+        <div class="insight">
+          The model-specific breakouts matter substantively, not cosmetically. The alternative and virtual slices make it easier to see how structure, accountability rules, and operator behavior influenced outcomes over time instead of hiding those differences inside one blended charter average.
+        </div>
+      </article>
+
+      <article class="panel span-12">
+        <div class="mini-kicker">Selected Years</div>
+        <h2>Selected Comparison Years</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Class Year</th>
+              <th>Statewide Official</th>
+              <th>SPCSA Official</th>
+              <th>SPCSA Adjusted Charter-Only</th>
+              <th>SPCSA Brick &amp; Mortar</th>
+              <th>Clark Charter Total</th>
+              <th>Washoe Charter Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>2017-18</td><td>83.17</td><td>70.03</td><td>78.66</td><td>81.35</td><td>85.64</td><td>68.97</td></tr>
+            <tr><td>2019-20</td><td>82.57</td><td>84.11</td><td>92.10</td><td>96.83</td><td>89.95</td><td>70.47</td></tr>
+            <tr><td>2022-23</td><td>81.39</td><td>83.82</td><td>92.44</td><td>97.18</td><td>91.80</td><td>86.21</td></tr>
+            <tr><td>2024-25</td><td>85.40</td><td>82.60</td><td>87.77</td><td>92.43</td><td>91.70</td><td>94.17</td></tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
