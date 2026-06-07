@@ -8,6 +8,7 @@ import pandas as pd
 
 
 PLOTLY_CDN = "https://cdn.plot.ly/plotly-2.35.2.min.js"
+PRESENTATION_START_YEAR = "2014-15"
 
 
 def _write_plotly_html(path: Path, title: str, traces: list[dict], layout: dict, note: str = "") -> None:
@@ -92,6 +93,8 @@ def build_visualizations(release_root: Path) -> None:
 
     weighted = pd.read_csv(clean_dir / "weighted_sector_series.csv")
     audit = pd.read_csv(release_root / "04_Audit_Files" / "weighted_line_items_audit_release.csv")
+    weighted = weighted[weighted["year"] >= PRESENTATION_START_YEAR].copy()
+    audit = audit[audit["class_year"] >= PRESENTATION_START_YEAR].copy()
 
     trend_traces = [
         _series_trace(weighted, "statewide_official", "Statewide Official", "#1f2a2e"),
@@ -112,7 +115,7 @@ def build_visualizations(release_root: Path) -> None:
             "yaxis": {"title": "Weighted ACGR (%)", "range": [0, 100]},
             "legend": {"orientation": "h", "y": -0.2},
         },
-        "Weighted ACGR is the primary sector measure. It reflects the average student rather than the average school.",
+        f"Weighted ACGR is the primary sector measure. It reflects the average student rather than the average school. Public presentation begins in {PRESENTATION_START_YEAR} because 2013-14 remains a high-uncertainty legacy baseline year.",
     )
 
     graduates = (
@@ -141,7 +144,7 @@ def build_visualizations(release_root: Path) -> None:
             "xaxis": {"title": "Graduating Class Year"},
             "yaxis": {"title": "Graduates"},
         },
-        "This is a core policy chart: it shows how many students actually graduated, not just whether rates rose or fell.",
+        f"This is a core policy chart: it shows how many students actually graduated, not just whether rates rose or fell. Public presentation begins in {PRESENTATION_START_YEAR}.",
     )
 
     composition = (
@@ -172,7 +175,7 @@ def build_visualizations(release_root: Path) -> None:
             "xaxis": {"title": "Graduating Class Year"},
             "yaxis": {"title": "Cohort"},
         },
-        "The sector changed materially over time. This chart shows how much of the graduating cohort sat in brick-and-mortar, virtual, and alternative models.",
+        f"The sector changed materially over time. This chart shows how much of the graduating cohort sat in brick-and-mortar, virtual, and alternative models. Public presentation begins in {PRESENTATION_START_YEAR}.",
     )
 
     compare = weighted[
@@ -209,10 +212,10 @@ def build_visualizations(release_root: Path) -> None:
             "xaxis": {"title": "Graduating Class Year"},
             "yaxis": {"title": "ACGR (%)", "range": [0, 100]},
         },
-        "Weighted = average student. Unweighted = average school. The difference matters most when a few schools dominate the sector's cohort.",
+        f"Weighted = average student. Unweighted = average school. The difference matters most when a few schools dominate the sector's cohort. Public presentation begins in {PRESENTATION_START_YEAR}.",
     )
 
-    top_years = ["2013-14", "2018-19", "2024-25"]
+    top_years = ["2014-15", "2018-19", "2024-25"]
     top_parts = []
     for year in top_years:
         sub = audit[audit["class_year"] == year].copy()
@@ -240,7 +243,7 @@ def build_visualizations(release_root: Path) -> None:
             "xaxis": {"title": "Graduates"},
             "yaxis": {"title": "School"},
         },
-        "These are the schools producing the largest numbers of graduates in selected years. The policy story is not only about rates; it is also about who actually produced graduating students.",
+        f"These are the schools producing the largest numbers of graduates in selected years. The policy story is not only about rates; it is also about who actually produced graduating students. Public presentation begins in {PRESENTATION_START_YEAR}.",
     )
 
     summary = {
@@ -251,6 +254,7 @@ def build_visualizations(release_root: Path) -> None:
             "weighted_vs_unweighted.html",
             "top_contributors_selected_years.html",
         ],
+        "presentation_start_year": PRESENTATION_START_YEAR,
         "png_generation": "not attempted because this environment does not currently include a Plotly static image engine such as kaleido",
     }
     (viz_dir / "visualization_manifest.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")

@@ -6,5 +6,6 @@
     "weighted_vs_unweighted.html",
     "top_contributors_selected_years.html"
   ],
+  "presentation_start_year": "2014-15",
   "png_generation": "not attempted because this environment does not currently include a Plotly static image engine such as kaleido"
 }
