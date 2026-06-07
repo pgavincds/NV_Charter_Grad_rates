@@ -1,0 +1,58 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2017,18,"State Public Charter School Authority ",18400.2,Silver State MS,Charter,N/A,Not Rated,NO,N/A,N/A,N/A,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,N/A,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18400.3,Silver State HS,Charter,15.56,-1,NO,45.9,38,,N/A,N/A,YES,NO,NO,N/A,N/A,N/A,N/A,60.7,,,,45,48.1,<5,YES,1,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18401.3,Nevada State HS,Charter,83.53,-1,NO,76.3,52.8,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,>95,>95,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18404.1,Nevada Virtual Ac ES,Regular,21.11,1,YES,39.2,28.9,N/A,YES,NO,YES,NO,NO,36.2,28.3,-,N/A,N/A,,,,N/A,N/A,21.6,YES,1,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18404.2,Nevada Virtual Ac MS,Regular,61.11,3,YES,46.7,28.3,N/A,YES,YES,YES,NO,NO,47.7,32.2,-,91.5,N/A,,,,N/A,N/A,7.2,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18404.3,Nevada Virtual Ac HS,Regular,34.44,-1,YES,65.8,53,,N/A,N/A,YES,NO,NO,N/A,N/A,-,N/A,74.4,,,,67.4,74.3,27.8,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18405.1,NV Connections Ac ES,Regular,24.44,1,YES,46.3,23.4,N/A,YES,YES,YES,NO,NO,40.7,18,-,N/A,N/A,,,,N/A,N/A,<5,YES,1,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18405.2,NV Connections Ac MS,Regular,51.67,3,YES,54.6,21.9,N/A,NO,NO,YES,NO,NO,55.9,19.4,-,93.7,N/A,,,,N/A,N/A,7.4,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18405.3,NV Connections Ac HS,Regular,34,-1,YES,71.1,50.8,,N/A,N/A,NO,NO,NO,N/A,N/A,7.6,N/A,67.9,,,,40,42.2,12.5,YES,1,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18407.1,Coral Acad of Sci ES,Regular,65.5,3,NO,67.2,62.1,N/A,YES,YES,NO,NO,NO,53.3,43.1,47.3,N/A,N/A,,,,N/A,N/A,6.1,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18407.2,Coral Acad of Sci MS,Regular,89.22,5,NO,63.8,61.5,N/A,YES,YES,NO,NO,NO,58.9,58.5,-,>95,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18407.3,Coral Acad of Sci HS,Regular,94.22,-1,NO,88.3,70.5,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,100,,,,>95,94.4,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18408.1,Quest Acad ES,Charter,19,1,NO,26.3,27.7,N/A,YES,YES,NO,NO,NO,31.1,30.3,33.3,N/A,N/A,,,,N/A,N/A,>95,YES,1,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18408.2,Quest Acad MS,Charter,33.5,2,NO,31.7,19.5,N/A,YES,YES,NO,NO,NO,34.5,26,15.3,91.1,N/A,,,,N/A,N/A,>95,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18408.3,Quest Acad HS,Charter,46.67,-1,NO,N/A,N/A,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,79.3,81.4,N/A,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18409.3,Beacon Academy HS,Regular,14.22,-1,YES,55.2,33.1,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,77.7,,,,52.4,45.4,21.3,YES,1,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18410.1,Elko Institute ES,Regular,65.33,3,NO,37.5,41,N/A,YES,YES,NO,NO,NO,47,47,N/A,N/A,N/A,,,,N/A,N/A,7.8,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18410.2,Elko Institute MS,Regular,72.56,4,NO,45.2,38.1,N/A,NO,NO,YES,NO,NO,47.2,47.2,N/A,>95,N/A,,,,N/A,N/A,6.1,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18410.3,Elko Institute HS,Regular,N/A,-1,NO,N/A,N/A,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,N/A,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18411.1,Silver Sands ES,Regular,57.78,3,NO,47.5,31,N/A,YES,YES,NO,NO,NO,57.1,39.2,-,N/A,N/A,,,,N/A,N/A,16.9,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18411.2,Silver Sands MS,Regular,47.78,2,NO,41.5,26.1,N/A,YES,YES,NO,NO,NO,45.4,25.4,N/A,>95,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18412.3,Alpine Charter HS,Regular,57.78,-1,NO,70,48.6,,N/A,N/A,YES,NO,NO,N/A,N/A,-,N/A,92.3,,,,85.1,>95,32.7,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18414.1,Oasis Acad ES,Regular,85.33,5,NO,71.4,59.6,N/A,YES,YES,NO,NO,NO,54.5,46.7,N/A,N/A,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18414.2,Oasis Acad MS,Regular,97.56,5,NO,76.2,48.7,N/A,YES,NO,YES,NO,NO,73.4,51.9,N/A,>95,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18414.3,Oasis Acad HS,Regular,82,-1,NO,69.2,68.6,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,100,,,,-,N/A,6.7,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18417.1,Discovery Sch ES,Regular,43.33,2,NO,40.4,30.9,N/A,YES,YES,NO,NO,NO,42.3,39.6,-,N/A,N/A,,,,N/A,N/A,12.1,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18417.2,Discovery Sch MS,Regular,70.56,4,NO,48.4,22.6,N/A,YES,YES,NO,NO,NO,51.6,30.1,-,>95,N/A,,,,N/A,N/A,15.3,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18418.1,Imagine MTN View ES,Regular,53,3,NO,48.4,42.1,N/A,YES,YES,NO,NO,NO,44.2,38.4,50,N/A,N/A,,,,N/A,N/A,13.1,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18418.2,Imagine MTN View MS,Regular,64.94,3,NO,39,28.5,N/A,YES,NO,YES,NO,NO,60,36.1,-,N/A,N/A,,,,N/A,N/A,21.1,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18419.1,Somerset Acad ES,Regular,75,4,NO,62.6,59.4,N/A,YES,YES,NO,NO,NO,53.3,50.9,37.5,N/A,N/A,,,,N/A,N/A,6.8,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18419.2,Somerset Acad MS,Regular,56,3,NO,50.5,33.5,N/A,YES,YES,NO,NO,NO,48.9,28.1,21.2,91.8,N/A,,,,N/A,N/A,7.6,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18419.3,Somerset Acad HS,Regular,47.14,-1,NO,71.7,58.2,,N/A,N/A,YES,NO,NO,N/A,N/A,<5,N/A,89.1,,,,N/A,N/A,14.8,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18423.1,Pinecrest ES,Regular,88,5,NO,68.2,66.5,N/A,YES,YES,NO,NO,NO,59.6,53.6,50,N/A,N/A,,,,N/A,N/A,8.7,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18423.2,Pinecrest MS,Regular,93,5,NO,60.3,48.1,N/A,YES,YES,NO,NO,NO,62.3,48.6,57.1,>95,N/A,,,,N/A,N/A,11.9,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18423.3,Pinecrest HS,Regular,62,-1,NO,76.8,71.7,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,85.5,,,,N/A,N/A,18.5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18424.1,Honors Acad ES,Charter,83.89,4,NO,55.5,61.9,N/A,YES,YES,NO,NO,NO,62.2,73.3,-,N/A,N/A,,,,N/A,N/A,11.2,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18424.2,Honors Acad MS,Charter,60.56,3,NO,44,26.5,N/A,NO,NO,YES,NO,NO,53,27,-,92.8,N/A,,,,N/A,N/A,25.7,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18426.1,Doral CS ES,Regular,86,5,NO,69.9,59.5,N/A,YES,YES,NO,NO,NO,59.3,49.4,53.5,N/A,N/A,,,,N/A,N/A,5.5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18426.2,Doral CS MS,Regular,83.5,5,NO,63,39.1,N/A,YES,YES,NO,NO,NO,60.9,35.5,41.1,>95,N/A,,,,N/A,N/A,9.1,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18426.3,Doral CS HS,Regular,86,-1,NO,91,69,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,93.4,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18428.1,Learning Bridge ES,Regular,53.67,3,NO,51.6,46.6,N/A,YES,YES,NO,NO,NO,51.2,35.9,N/A,N/A,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18428.2,Learning Bridge MS,Regular,84.78,5,NO,47.4,33.9,N/A,YES,YES,NO,NO,NO,52.7,47.2,N/A,>95,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18429.2,Leadership MS,Regular,53.89,3,NO,48.8,24,N/A,NO,NO,YES,NO,NO,57.6,20.2,N/A,88.7,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18429.3,Leadership HS,Regular,70,-1,NO,93.9,76.9,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,77.1,,,,69.2,-,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18430.1,Founders ES,Charter,27.78,2,NO,44.7,28.2,N/A,YES,YES,NO,NO,NO,39.4,12.5,N/A,N/A,N/A,,,,N/A,N/A,6.9,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18430.2,Founders MS,Charter,87.22,5,NO,57.3,38,N/A,YES,YES,NO,NO,NO,63.8,40,N/A,83,N/A,,,,N/A,N/A,6.4,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18430.3,Founders HS,Charter,73.33,-1,NO,86.9,61.1,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,90.9,,,,N/A,N/A,8.9,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18431.1,American Prep ES,Regular,77,4,NO,62.1,51.4,N/A,YES,YES,NO,NO,NO,60,52.5,36,N/A,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18431.2,American Prep MS,Regular,94,5,NO,63.5,53.2,N/A,YES,YES,NO,NO,NO,68,60,30.7,>95,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18431.3,American Prep HS,Regular,83.33,-1,NO,74.3,71.2,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,100,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18432.1,Mater ES,Regular,28.5,2,YES,32.5,25.4,N/A,YES,YES,YES,NO,NO,41.8,18.6,39.6,N/A,N/A,,,,N/A,N/A,15.3,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18432.2,Mater MS,Regular,53,3,YES,29.1,13.7,N/A,YES,YES,NO,NO,NO,39.1,19.7,45.6,>95,N/A,,,,N/A,N/A,15.5,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18432.3,Mater HS,Regular,N/A,-1,YES,N/A,N/A,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,N/A,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18433.2,Equipo AC Sh SCH MS,Charter,42.5,2,YES,37.4,16.9,N/A,NO,NO,YES,NO,NO,38.6,15.2,10.8,88.7,N/A,,,,N/A,N/A,6.3,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18433.3,Equipo AC Sh SCH HS,Charter,46.29,-1,YES,93.9,40.5,,N/A,N/A,NO,NO,NO,N/A,N/A,<5,N/A,94.4,,,,N/A,N/A,19.3,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18434.2,SLAM MS,Regular,59,3,NO,42.3,28.2,N/A,YES,YES,NO,NO,NO,39.1,31.6,36,>95,N/A,,,,N/A,N/A,10.2,NO,N/A,NO,N/A,NO,N/A
+2017,18,"State Public Charter School Authority ",18434.3,SLAM HS,Regular,60,-1,NO,N/A,69.7,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,82.1,,,,N/A,N/A,14.1,NO,N/A,NO,N/A,NO,N/A

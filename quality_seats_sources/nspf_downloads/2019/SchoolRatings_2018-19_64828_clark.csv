@@ -1,0 +1,19 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2019,03,Douglas,03201.1,Gardnerville ES,Regular,82,4,YES,56.4,47.3,26.3,YES,YES,NO,NO,NO,63.1,54,48.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.5,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03202.1,Zephyr Cove ES,Regular,53.5,3,YES,60.4,55,33.3,YES,YES,NO,NO,NO,42.6,30,54.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,10.4,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03205.1,Meneley  ES,Regular,78,4,YES,49.7,56.3,41,YES,YES,NO,NO,NO,58.4,68.9,61.9,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7.1,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03206.1,Jacks Vly ES,Regular,60.5,3,YES,51,43.9,29.3,YES,YES,NO,NO,NO,60.5,40.3,45.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,10.9,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03207.1,Scarselli ES,Regular,77,4,YES,58.1,52,28.9,YES,YES,NO,NO,NO,62.7,46.6,57.8,N/A,N/A,N/A,N/A,N/A,N/A,N/A,8,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03209.1,Pinon Hills ES,Regular,80,4,NO,77.4,73.7,44.4,YES,YES,NO,NO,NO,68.6,59.3,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03210.1,Minden ES,Zoom Regular,71,4,NO,60.6,62.6,35.4,YES,YES,NO,NO,NO,56,44.8,60,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7.1,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03301.2,Carson Vly MS,Regular,68.5,3,NO,54.4,41.6,43.3,YES,YES,NO,NO,NO,53.9,40.3,46.1,93,N/A,N/A,N/A,N/A,N/A,N/A,9.2,NO,N/A,YES,2,YES,2
+2019,03,Douglas,03302.2,Pau Wa Lu MS,Regular,58.5,3,NO,50,31.2,48.2,YES,YES,NO,NO,NO,50.6,29.2,25,90.9,N/A,N/A,N/A,N/A,N/A,N/A,11.7,NO,N/A,YES,2,YES,2
+2019,03,Douglas,03501.3,Douglas HS,Regular,90,5,NO,58.8,40.3,36.9,YES,YES,NO,NO,NO,N/A,N/A,27,N/A,91.7,77,45.2,45.6,92.9,93.2,14.4,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03502.2,Whittell MS,Regular,34.44,2,NO,36.9,33.2,42.4,NO,NO,NO,NO,NO,32,32,-,88.5,N/A,N/A,N/A,N/A,N/A,N/A,15.2,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03502.3,Whittell HS,Regular,80.56,4,NO,65.2,34.7,31,YES,YES,NO,NO,NO,N/A,N/A,-,N/A,94.7,62.9,44.4,56.7,92.5,>95,25,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03503.2,Jacobsen MS,Correctional,N/A,Not Rated,NO,-,-,N/A,-,-,NO,NO,NO,N/A,N/A,N/A,-,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03503.3,Jacobsen HS,Correctional,15,Not Rated,NO,-,-,N/A,-,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,-,-,-,<5,63.1,63.6,<5,YES,2,NO,N/A,NO,N/A
+2019,03,Douglas,03504.3,ASPIRE HS,Alternative,11.88,1,NO,36.3,9,-,-,N/A,NO,NO,NO,N/A,N/A,-,N/A,-,5.5,<4.5,<5,53.8,75.6,50.7,YES,1,NO,N/A,NO,N/A
+2019,03,Douglas,03901.1,Douglas ALT ALT ES,Alternative,N/A,Not Rated,NO,N/A,N/A,N/A,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03901.2,Douglas ALT ALT MS,Alternative,N/A,Not Rated,NO,-,-,-,-,-,NO,NO,NO,N/A,N/A,N/A,-,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2019,03,Douglas,03901.3,Douglas ALT ALT HS,Alternative,N/A,Not Rated,NO,N/A,N/A,-,-,-,NO,NO,NO,N/A,N/A,N/A,N/A,-,N/A,N/A,-,-,-,-,NO,N/A,NO,N/A,NO,N/A

@@ -1,0 +1,120 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2017,16,Washoe,16201.1,Anderson ES,Regular,57,3,YES,34.3,34.3,N/A,YES,YES,NO,NO,NO,52.6,41.9,40.3,N/A,N/A,,,,N/A,N/A,16.6,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16202.1,Loder ES,Regular,19,1,YES,16.8,25,N/A,YES,YES,NO,NO,NO,28,21.4,36.5,N/A,N/A,,,,N/A,N/A,17.2,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16203.1,Elmcrest ES,Regular,45,2,YES,30,36.9,N/A,YES,YES,NO,NO,NO,42.3,39,44,N/A,N/A,,,,N/A,N/A,16.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16204.1,Duncan ES,Regular,21,1,YES,21.6,25.6,N/A,YES,YES,NO,NO,NO,27,17.4,46.4,N/A,N/A,,,,N/A,N/A,18.6,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16205.1,Warner ES,Regular,57,3,YES,49.2,42,N/A,YES,YES,NO,NO,NO,54.5,46.1,31.8,N/A,N/A,,,,N/A,N/A,23.5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16206.1,Hunter Lake ES,Regular,87,5,NO,77,70.8,N/A,YES,YES,NO,NO,NO,70.6,63.4,25,N/A,N/A,,,,N/A,N/A,14,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16207.1,Beck ES,Regular,85,5,NO,65.7,60.2,N/A,YES,YES,YES,NO,NO,64,60.2,41.8,N/A,N/A,,,,N/A,N/A,10,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16208.1,Booth ES,Regular,25,1,YES,24.6,28.3,N/A,YES,YES,NO,NO,NO,24.6,22.5,42,N/A,N/A,,,,N/A,N/A,16.1,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16209.1,Towles ES,Regular,66,3,NO,60.8,52.3,N/A,YES,YES,NO,NO,NO,60.2,33.8,50,N/A,N/A,,,,N/A,N/A,11.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16210.1,Melton ES,Regular,89,5,NO,75.6,65,N/A,YES,YES,NO,NO,NO,65.2,49.4,52.3,N/A,N/A,,,,N/A,N/A,8.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16211.1,Mount Rose ES,Regular,81.5,4,NO,58.9,56.9,N/A,YES,YES,NO,NO,NO,58.2,58.9,29.1,N/A,N/A,,,,N/A,N/A,7.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16211.2,Mount Rose MS,Regular,97.71,5,NO,92.3,86.2,N/A,YES,YES,YES,NO,NO,92.1,93.1,-,>95,N/A,,,,N/A,N/A,9.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16212.1,Double Diamond ES,Regular,80.5,4,NO,61.8,65,N/A,YES,YES,NO,NO,NO,53.9,53.7,50,N/A,N/A,,,,N/A,N/A,10.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16213.1,Peavine ES,Regular,69.5,4,NO,60.7,62,N/A,YES,YES,NO,NO,NO,48.5,45.6,53.3,N/A,N/A,,,,N/A,N/A,12.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16214.1,Cannan ES,Regular,28,2,YES,16.6,20.1,N/A,YES,YES,NO,NO,NO,31.3,34.9,30,N/A,N/A,,,,N/A,N/A,19.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16215.1,Corbett ES,Regular,43,2,YES,26.9,21.2,N/A,YES,YES,NO,NO,NO,44.8,33.9,36.5,N/A,N/A,,,,N/A,N/A,10.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16216.1,Gomm ES,Regular,98.67,5,NO,82.8,80.8,N/A,YES,YES,NO,NO,NO,72.7,76.6,-,N/A,N/A,,,,N/A,N/A,8.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16218.1,Smithridge ES,Regular,40.5,2,YES,34.3,26.4,N/A,YES,YES,NO,NO,NO,39.2,31.4,41.8,N/A,N/A,,,,N/A,N/A,9.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16219.1,Stead ES,Regular,32.5,2,YES,35.1,29.2,N/A,YES,YES,NO,NO,NO,38.3,24,48.7,N/A,N/A,,,,N/A,N/A,13.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16220.1,Veterans Mem ES,Regular,20,1,YES,27.9,23.6,N/A,YES,YES,NO,NO,NO,29.6,22,26.3,N/A,N/A,,,,N/A,N/A,12.5,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16221.1,Risley ES,Regular,55,3,YES,38.1,30.6,N/A,YES,YES,NO,NO,NO,49.4,44.2,36.1,N/A,N/A,,,,N/A,N/A,11.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16222.1,Maxwell ES,Regular,42.5,2,YES,33.5,31.5,N/A,YES,YES,NO,NO,NO,44.5,35.3,26.2,N/A,N/A,,,,N/A,N/A,10.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16223.1,Drake ES,Regular,55,3,YES,48,43.7,N/A,YES,YES,YES,NO,NO,52.6,30.4,43.1,N/A,N/A,,,,N/A,N/A,10,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16224.1,Greenbrae ES,Regular,36.5,2,YES,40.3,36.1,N/A,YES,YES,NO,NO,NO,38.5,27.9,47.6,N/A,N/A,,,,N/A,N/A,14.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16225.1,Smith Kate ES,Regular,30.5,2,YES,32.1,27.1,N/A,YES,YES,NO,NO,NO,35,25.4,35,N/A,N/A,,,,N/A,N/A,6.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16226.1,Juniper ES,Regular,44.5,2,NO,45.6,40,N/A,YES,YES,NO,NO,NO,46.6,33.1,42.4,N/A,N/A,,,,N/A,N/A,12.5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16227.1,Lincoln Park ES,Regular,33,2,YES,20.6,23.1,N/A,YES,YES,YES,NO,NO,27.7,33.3,52,N/A,N/A,,,,N/A,N/A,17.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16228.1,Mitchell ES,Regular,44.5,2,YES,27.7,21.1,N/A,YES,YES,NO,NO,NO,47.2,32.6,49.2,N/A,N/A,,,,N/A,N/A,16.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16229.1,Brown ES,Regular,88,5,NO,64.1,63.9,N/A,YES,YES,NO,NO,NO,56.7,56,75,N/A,N/A,,,,N/A,N/A,7.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16230.1,Huffaker ES,Regular,76.5,4,NO,57,56.1,N/A,YES,YES,NO,NO,NO,50.2,53.4,47,N/A,N/A,,,,N/A,N/A,14.5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16231.1,Lemelson STEM ES ES,Regular,19,1,NO,24.3,23.9,N/A,YES,YES,NO,NO,NO,32.4,21.6,25,N/A,N/A,,,,N/A,N/A,11.8,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16232.1,Lemmon Vly ES,Regular,34.5,2,YES,36.3,34.2,N/A,YES,YES,NO,NO,NO,35,33.5,38.8,N/A,N/A,,,,N/A,N/A,14.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16233.1,Pleasant Vly ES,Regular,97.56,5,NO,71.5,70.5,N/A,YES,YES,YES,NO,NO,73.1,69.7,-,N/A,N/A,,,,N/A,N/A,7.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16234.1,Sun Valley ES,Regular,35.5,2,YES,22.8,19.7,N/A,YES,YES,NO,NO,NO,45.8,25.4,32.8,N/A,N/A,,,,N/A,N/A,13.5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16235.1,Verdi ES,Regular,80,4,NO,66.6,57.2,N/A,YES,YES,YES,NO,NO,62.6,44,-,N/A,N/A,,,,N/A,N/A,10.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16237.1,Natchez ES,Regular,12,1,YES,16.4,9.2,N/A,YES,YES,NO,NO,NO,23,19.7,-,N/A,N/A,,,,N/A,N/A,29.9,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16238.1,Diedrichsen ES,Regular,77,4,NO,57.8,46.8,N/A,YES,YES,NO,NO,NO,54.8,51.2,45.8,N/A,N/A,,,,N/A,N/A,8.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16239.1,Dunn ES,Regular,69.5,4,YES,47.8,41.2,N/A,YES,YES,NO,NO,NO,52.4,35.9,61.1,N/A,N/A,,,,N/A,N/A,8.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16240.1,Palmer ES,Regular,33,2,YES,30.2,28.5,N/A,YES,YES,NO,NO,NO,39.9,22.8,47.4,N/A,N/A,,,,N/A,N/A,13.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16241.1,Hall ES,Regular,49.22,2,NO,47.5,40.4,N/A,YES,YES,NO,NO,NO,45.1,38,-,N/A,N/A,,,,N/A,N/A,10.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16242.1,Sepulveda ES,Regular,60.5,3,NO,48.6,44.9,N/A,YES,YES,NO,NO,NO,47.2,46.3,42.6,N/A,N/A,,,,N/A,N/A,7.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16251.1,Incline ES,Regular,37.5,2,NO,37.2,36,N/A,NO,NO,YES,NO,NO,38.6,32.3,43.6,N/A,N/A,,,,N/A,N/A,10.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16256.1,Gomes ES,Regular,45.5,2,NO,47.6,48.6,N/A,YES,YES,NO,NO,NO,37.6,33.6,19,N/A,N/A,,,,N/A,N/A,12.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16257.1,Lenz ES,Regular,96.44,5,NO,79.6,79.2,N/A,YES,YES,YES,NO,NO,75,69.4,-,N/A,N/A,,,,N/A,N/A,8.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16258.1,Dodson ES,Regular,40,2,YES,33.9,21.7,N/A,YES,YES,NO,NO,NO,46.3,23.1,48.8,N/A,N/A,,,,N/A,N/A,13.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16259.1,Whitehead ES,Regular,71,4,NO,58.4,50.7,N/A,YES,YES,NO,NO,NO,59.7,47.8,25,N/A,N/A,,,,N/A,N/A,8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16260.1,Smith Alice ES,Regular,50,3,YES,40.7,31.8,N/A,YES,YES,NO,NO,NO,50.1,36.7,37.9,N/A,N/A,,,,N/A,N/A,16.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16261.1,Caughlin Ranch ES,Regular,100,5,NO,81.8,82.7,N/A,YES,YES,YES,NO,NO,77.9,75.5,71.4,N/A,N/A,,,,N/A,N/A,8.6,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16262.1,Hidden Vly ES,Regular,35,2,NO,33.2,27.8,N/A,YES,YES,NO,NO,NO,39.4,26.2,56.7,N/A,N/A,,,,N/A,N/A,16.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16263.1,Silver Lake ES,Regular,57,3,NO,43.2,47.9,N/A,YES,YES,NO,NO,NO,38.1,47.5,45.7,N/A,N/A,,,,N/A,N/A,10.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16264.1,Westergard ES,Regular,76.5,4,NO,66.9,67.8,N/A,YES,YES,NO,NO,NO,58.3,48.7,41.6,N/A,N/A,,,,N/A,N/A,9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16265.1,Taylor ES,Regular,88,5,NO,58.5,57.2,N/A,YES,YES,NO,NO,NO,63.5,59.1,45.4,N/A,N/A,,,,N/A,N/A,13,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16266.1,Allen ES,Regular,38,2,YES,21.4,23.5,N/A,YES,YES,NO,NO,NO,34.3,33.3,55.9,N/A,N/A,,,,N/A,N/A,17.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16267.1,Moss ES,Regular,78.5,4,NO,48.3,51.7,N/A,YES,YES,NO,NO,NO,62,56.9,49.1,N/A,N/A,,,,N/A,N/A,11,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16268.1,Desert Heights ES,Regular,23.5,1,YES,26.4,24.5,N/A,YES,YES,NO,NO,NO,33.9,24.8,36.3,N/A,N/A,,,,N/A,N/A,21,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16269.1,Spanish Spgs ES,Regular,85,5,NO,60.8,55.4,N/A,YES,YES,YES,NO,NO,57.8,51.8,58.6,N/A,N/A,,,,N/A,N/A,8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16270.1,Winnemucca ES,Regular,70,4,NO,59,51.6,N/A,YES,YES,NO,NO,NO,60.4,43.9,46.9,N/A,N/A,,,,N/A,N/A,17.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16271.1,Beasley ES,Regular,78.5,4,NO,58.3,52.6,N/A,YES,YES,NO,NO,NO,55.5,46.1,64.8,N/A,N/A,,,,N/A,N/A,12.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16272.1,Donner Spgs ES,Regular,65.5,3,YES,42.1,35,N/A,YES,YES,NO,NO,NO,53.6,42.2,41.3,N/A,N/A,,,,N/A,N/A,9.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16273.1,Mathews ES,Regular,20,1,YES,25.2,22.5,N/A,YES,YES,NO,NO,NO,26.9,14.2,41.2,N/A,N/A,,,,N/A,N/A,13.9,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16274.1,Hunsberger ES,Regular,97.56,5,NO,86.1,79.5,N/A,YES,YES,YES,NO,NO,71.9,65.5,-,N/A,N/A,,,,N/A,N/A,7.6,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16275.1,Bennett ES,Regular,59,3,YES,32.5,30.3,N/A,YES,YES,NO,NO,NO,55.6,42.7,37.3,N/A,N/A,,,,N/A,N/A,14.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16276.1,Van Gorder ES,Regular,96.44,5,NO,69,67.8,N/A,YES,YES,YES,NO,NO,65.2,69.1,-,N/A,N/A,,,,N/A,N/A,10.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16278.1,Bailey ES,Charter,42.5,2,YES,29.4,33.8,N/A,YES,YES,NO,NO,NO,42,34,51.1,N/A,N/A,,,,N/A,N/A,9.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16281.1,Mariposa Acad ES,Charter,19,1,YES,16.4,23.8,N/A,YES,YES,NO,NO,NO,25.6,15.3,34.1,N/A,N/A,,,,N/A,N/A,16.5,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16282.1,High Desert Monte ES,Charter,31.5,2,NO,35.8,18.6,N/A,YES,YES,YES,NO,NO,42.1,22.5,42.1,N/A,N/A,,,,N/A,N/A,12.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16282.2,High Desert Monte MS,Charter,72.78,4,NO,51.3,15.7,N/A,YES,YES,NO,NO,NO,55.8,18.5,-,90,N/A,,,,N/A,N/A,9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16282.3,High Desert Monte HS,Charter,82,-1,NO,N/A,80,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,70,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16301.2,Clayton MS,Regular,74,4,NO,57.7,38.9,N/A,YES,YES,NO,NO,NO,56.5,36,36.3,91,N/A,,,,N/A,N/A,19.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16302.2,Pine MS,Regular,59.5,3,NO,57.4,31.2,N/A,YES,YES,NO,NO,NO,56.9,25.9,19.3,90.7,N/A,,,,N/A,N/A,13.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16303.2,Swope MS,Regular,59.5,3,NO,68.1,45.9,N/A,YES,YES,NO,NO,NO,57.4,34.2,24.3,94.7,N/A,,,,N/A,N/A,11.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16304.2,Vaughn MS,Regular,27.5,1,YES,36.5,13,N/A,YES,YES,NO,NO,NO,35.8,13.4,19.2,>95,N/A,,,,N/A,N/A,22.4,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16305.2,Traner MS,Regular,19,1,YES,22.6,10,N/A,YES,YES,NO,NO,NO,22.1,10.2,17.7,>95,N/A,,,,N/A,N/A,22.8,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16306.2,Dilworth MS,Regular,47.5,2,YES,42.1,27.3,N/A,YES,YES,NO,NO,NO,41,25.2,18.9,91.7,N/A,,,,N/A,N/A,16.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16307.2,Sparks MS,Regular,29.5,2,YES,33.3,18.3,N/A,YES,YES,NO,NO,NO,30.8,16.4,20.6,>95,N/A,,,,N/A,N/A,22.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16308.2,OBrien MS,Regular,44,2,YES,40.5,22.5,N/A,YES,YES,YES,NO,NO,38,24.6,8.9,88.1,N/A,,,,N/A,N/A,17.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16309.2,Incline MS,Regular,63.5,3,NO,45.6,30.5,N/A,NO,NO,YES,NO,NO,42.7,24.8,29.4,>95,N/A,,,,N/A,N/A,10.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16310.2,Billinghurst MS,Regular,70,4,NO,62,43.2,N/A,YES,YES,NO,NO,NO,56,35.8,15.3,94.6,N/A,,,,N/A,N/A,11.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16311.2,Mendive MS,Regular,82.5,5,NO,65.7,46.2,N/A,YES,YES,NO,NO,NO,63.5,40.9,20,93.8,N/A,,,,N/A,N/A,5.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16312.2,Coral Acad of Sci MS,Charter,84.5,5,NO,61.5,44.8,N/A,YES,YES,NO,NO,NO,57.5,41.5,30,92.3,N/A,,,,N/A,N/A,8.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16312.3,Coral Acad of Sci HS,Charter,86.44,-1,NO,>95,74.3,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,100,,,,87.8,83.3,12.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16315.2,Depoali MS,Regular,81.5,5,NO,65.6,44.9,N/A,YES,YES,NO,NO,NO,60.3,38.9,42.8,>95,N/A,,,,N/A,N/A,10.6,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16316.2,Shaw MS,Regular,69,3,NO,60,35.3,N/A,YES,YES,NO,NO,NO,59.3,34.9,18.1,>95,N/A,,,,N/A,N/A,13.5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16317.2,Cold Springs MS,Regular,41.5,2,NO,42.7,23.4,N/A,YES,YES,YES,NO,NO,42.1,19.3,12.1,89.7,N/A,,,,N/A,N/A,17,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16318.1,Coral Acad of Sci ES,Charter,63,3,NO,59.5,55.7,N/A,YES,YES,NO,NO,NO,42.8,51.4,45.2,N/A,N/A,,,,N/A,N/A,6.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16501.3,Wooster HS,Regular,56,-1,NO,78.7,54.9,,N/A,N/A,YES,NO,NO,N/A,N/A,8.7,N/A,73.5,,,,81,84.1,20.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16502.3,Reno HS,Regular,87,-1,NO,91.1,75.4,,N/A,N/A,NO,NO,NO,N/A,N/A,10.8,N/A,89.4,,,,89.5,91.4,12.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16503.3,Sparks HS,Regular,35,-1,YES,71.6,47.7,,N/A,N/A,NO,NO,NO,N/A,N/A,7.4,N/A,69,,,,74.2,72.8,23.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16504.3,Hug HS,Regular,35,-1,YES,67,50,,N/A,N/A,YES,NO,NO,N/A,N/A,8,N/A,80.8,,,,73.6,80,32.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16505.3,Reed HS,Regular,65,-1,NO,82.8,64.8,,N/A,N/A,NO,NO,NO,N/A,N/A,9,N/A,84.5,,,,85.6,84.5,15.6,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16507.1,Inspire ES,Alternative,N/A,Not Rated,NO,-,N/A,N/A,-,-,NO,NO,NO,-,N/A,N/A,N/A,N/A,,,,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16507.2,Inspire MS,Alternative,20,Not Rated,NO,-,-,N/A,NO,NO,YES,NO,NO,-,-,N/A,63.1,N/A,,,,N/A,N/A,35.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16507.3,Inspire HS,Alternative,18,-1,NO,7.6,23,,N/A,N/A,NO,NO,NO,N/A,N/A,20,N/A,12.5,,,,7.5,21.4,46.1,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16508.3,McQueen HS,Regular,88,-1,NO,92.2,70.6,,N/A,N/A,NO,NO,NO,N/A,N/A,19.6,N/A,89.1,,,,93.4,91.5,12.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16509.3,Galena HS,Regular,79,-1,NO,89.5,66,,N/A,N/A,NO,NO,NO,N/A,N/A,13.8,N/A,92.6,,,,89.1,92.5,16.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16510.3,Innovations HS,Alternative,22,-1,NO,71.4,33.9,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,-,,,,30.4,25.7,58.3,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16601.1,Gerlach K-12 ES,Regular,93.33,Not Rated,NO,-,-,N/A,-,-,NO,NO,NO,-,-,N/A,N/A,N/A,,,,N/A,N/A,8.3,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16601.2,Gerlach K-12 MS,Regular,N/A,Not Rated,NO,N/A,N/A,N/A,-,-,NO,NO,NO,N/A,N/A,N/A,-,N/A,,,,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16601.3,Gerlach K-12 HS,Regular,N/A,-1,NO,N/A,-,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,-,,,,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16602.3,Incline HS,Regular,78,-1,NO,85.5,71.7,,N/A,N/A,NO,NO,NO,N/A,N/A,12.9,N/A,92.4,,,,85.5,83.1,13.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16603.3,T M C C Magnet HS,Regular,102,-1,NO,>95,83.3,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,>95,>95,<5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16604.3,I Can Do Anything HS,Charter,12.22,-1,NO,54.7,42.5,,N/A,N/A,YES,NO,NO,N/A,N/A,-,N/A,50,,,,23.7,39.7,41.9,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16605.1,Sierra NV Acad ES,Charter,41,2,NO,53.3,32.5,N/A,YES,YES,NO,NO,NO,60,22.3,30.7,N/A,N/A,,,,N/A,N/A,20.7,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16605.2,Sierra NV Acad MS,Charter,60,3,NO,69.7,34.8,N/A,YES,YES,NO,NO,NO,62.7,27.9,-,>95,N/A,,,,N/A,N/A,35.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16606.3,Spanish Spgs HS,Regular,59,-1,NO,79.8,61.7,,N/A,N/A,NO,NO,NO,N/A,N/A,11.6,N/A,84.3,,,,81.1,86,18.2,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16607.3,North Valleys HS,Regular,45,-1,NO,72.1,56.6,,N/A,N/A,NO,NO,NO,N/A,N/A,12.1,N/A,80.5,,,,71.4,78.4,23,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16608.3,Acad for Career E HS,Charter,77,-1,NO,91.6,58.1,,N/A,N/A,NO,NO,NO,N/A,N/A,16.6,N/A,100,,,,>95,93,15.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16609.3,Damonte Ranch HS,Regular,82,-1,NO,89,70.3,,N/A,N/A,NO,NO,NO,N/A,N/A,10.7,N/A,87.9,,,,89.8,90.7,14.8,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16610.3,enCompass HS,Charter,9,-1,NO,-,33.3,,N/A,N/A,YES,NO,NO,N/A,N/A,<5,N/A,35.7,,,,28.9,31.5,82.5,YES,1,NO,N/A,NO,N/A
+2017,16,Washoe,16611.3,AACT HS,Regular,98.67,-1,NO,>95,68.8,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,99.3,,,,>95,>95,7.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16911.1,Picollo Sch ES,Special Education,0,Not Rated,NO,N/A,N/A,N/A,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,46.1,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16911.2,Picollo Sch MS,Special Education,16.67,Not Rated,NO,N/A,N/A,N/A,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,-,N/A,,,,N/A,N/A,46.6,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16911.3,Picollo Sch HS,Special Education,11.11,-1,NO,N/A,N/A,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,-,,,,-,-,40.4,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16917.1,Turning Point ES,Alternative,N/A,Not Rated,YES,N/A,N/A,N/A,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,N/A,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16917.2,Turning Point MS,Alternative,N/A,Not Rated,YES,-,-,N/A,-,-,NO,NO,NO,-,-,N/A,-,N/A,,,,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16917.3,Turning Point HS,Alternative,8.75,-1,YES,29.4,47.3,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,-,,,,-,-,73.9,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16923.1,North Star ES,Alternative,93.33,Not Rated,NO,-,-,N/A,-,N/A,YES,NO,NO,-,-,N/A,N/A,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16923.2,North Star MS,Alternative,88.57,5,NO,85.1,57.1,N/A,NO,NO,YES,NO,NO,81.8,55.5,N/A,91.6,N/A,,,,N/A,N/A,<5,NO,N/A,NO,N/A,NO,N/A
+2017,16,Washoe,16923.3,North Star HS,Alternative,81.11,-1,NO,>95,73.5,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,92.3,,,,89.8,76,16.1,NO,N/A,NO,N/A,NO,N/A

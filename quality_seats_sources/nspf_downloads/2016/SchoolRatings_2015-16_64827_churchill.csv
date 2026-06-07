@@ -1,0 +1,391 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2016,02,Clark,02076.1,Duncan ES,Regular,,,YES,43.9,31.9,60.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02077.1,Wallin ES,Regular,,,NO,83.4,74.7,87.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02078.1,Stuckey ES,Regular,,,NO,68.3,64.5,68.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02079.1,Keller  ES,Regular,,,YES,40.5,27.1,38.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02080.1,Fine  ES,Regular,,,YES,62.8,48.2,61.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02081.1,Bozarth  ES,Regular,,,NO,70.9,54.4,70.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02082.1,Triggs E.S. ES,Regular,,,NO,60.8,43.9,66.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02083.1,ORoarke  ES,Regular,,,NO,73.5,61.8,78.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02084.1,Reedom ES,Regular,,,NO,59.8,44,69,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02085.1,Diaz ES,Regular,,,YES,33.3,24.7,35.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02086.1,Scott ES,Regular,,,YES,26.3,19.7,36.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02087.1,Rainbow Dreams ES,Charter,,,YES,33,14.8,57.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02089.1,West Prep Acad ES,Regular,,,YES,34.2,24.2,51.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02090.1,Smalley ES,Regular,,,NO,77.8,68.3,81.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02091.1,Perkins Claude ES,Regular,,,YES,40.6,23.2,38.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02092.1,Innovations ES,Charter,,,YES,33.9,21.1,46.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02093.1,One Hundred Acad ES,Charter,,,YES,26.7,16.7,22,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02094.1,Dickens ES,Regular,,,YES,39.8,31.7,32.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02095.1,Bailey ES,Regular,,,YES,40.4,31.9,54.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02096.1,Roundy ES,Regular,,,YES,49.3,48,39.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02097.1,Forbuss ES,Regular,,,NO,64.5,40.4,75.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02098.1,Steele ES,Regular,,,NO,66.7,49.2,68.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02099.1,Schorr ES,Regular,,,YES,59.7,44.5,62.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02100.1,Ward Kitty ES,Regular,,,NO,66.8,58.9,64.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02101.1,Blue Diamond ES,Regular,,,NO,68.8,56.3,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02102.1,Goodsprings ES,Regular,,,YES,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02103.1,Lundy ES,Regular,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02104.1,Reid ES,Regular,,,YES,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02105.1,King Martin ES,Regular,,,YES,24.3,14.4,42.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02106.1,Deskin ES,Regular,,,YES,50.4,40.2,51.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02107.1,Kim ES,Regular,,,YES,58.6,33.5,56.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02108.1,Beatty ES,Regular,,,YES,64.4,52.2,74.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02109.1,Christensen ES,Regular,,,YES,65.2,47.8,68.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02110.1,Parson ES,Regular,,,YES,40.3,25.7,44.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02111.1,Dooley ES,Regular,,,NO,65.5,55.7,66.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02112.1,Mendoza ES,Regular,,,YES,35.1,28.3,44.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02113.1,McMillan ES,Regular,,,YES,25.7,15.4,32.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02114.1,Perkins Ute ES,Regular,,,YES,55.8,42.9,66.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02115.1,Lynch ES,Regular,,,YES,18.2,17.6,28.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02116.1,Woolley ES,Regular,,,YES,41.5,30.2,36.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02117.1,Lunt  ES,Regular,,,YES,22.5,26.4,33,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02118.1,Eisenberg ES,Regular,,,YES,42.3,38.2,59.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02119.1,Fong ES,Regular,,,YES,44.1,32.8,46.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02120.1,Gibson ES,Regular,,,NO,58,44.9,57.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02121.1,Wynn ES,Regular,,,YES,34.1,23.6,27.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02122.1,Hill ES,Regular,,,YES,46.2,33,62.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02123.1,Jacobson ES,Regular,,,YES,54.8,46.6,61,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02124.1,Derfelt ES,Regular,,,YES,49.5,38.3,52,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02125.1,Cunningham ES,Regular,,,YES,40.1,30.5,39.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02126.1,Cox David ES,Regular,,,NO,71.9,61.5,81.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02127.1,Treem ES,Regular,,,YES,48.4,30.1,63,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02128.1,Rundle ES,Regular,,,YES,30.7,22.5,36,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02129.1,Herr ES,Regular,,,YES,31.4,19.9,42,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02130.1,Dailey ES,Regular,,,YES,43,40.2,36.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02131.1,Adams ES,Regular,,,YES,34.5,26.5,43.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02132.1,May ES,Regular,,,YES,54.8,39.5,71.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02133.1,Kahre ES,Regular,,,YES,50,23.9,50,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02134.1,Katz ES,Regular,,,YES,38.8,33,47.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02135.1,Jydstrup ES,Regular,,,YES,41.2,27.7,44.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02136.1,King Martha ES,Regular,,,NO,59.4,48.2,86.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02137.1,Bartlett ES,Regular,,,NO,74.8,66.5,79.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02138.1,Bendorf ES,Regular,,,YES,67,53.4,73.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02139.1,Thorpe ES,Regular,,,YES,37.9,22.4,54.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02140.1,Antonello ES,Regular,,,YES,50.2,40.5,51.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02141.1,Lummis ES,Regular,,,NO,62.3,56,84.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02142.1,Wiener ES,Regular,,,YES,58.6,50.9,68,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02143.1,Fitzgerald ES,Regular,,,YES,18.5,14.8,21.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02144.1,Lowman ES,Regular,,,YES,25.9,17.3,16.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02145.1,Piggott ES,Regular,,,NO,62.4,53.5,71.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02146.1,Newton ES,Regular,,,NO,56.7,44,70.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02147.1,Bruner ES,Regular,,,YES,31.5,18.8,38.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02148.1,Bryan Richard ES,Regular,,,NO,61,43.8,60.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02149.1,Wilhelm ES,Regular,,,YES,41.5,29.6,42.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02150.1,Roberts ES,Regular,,,NO,53.7,45.7,62.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02151.1,Allen ES,Regular,,,NO,61.6,53.1,71.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02152.1,Wolfe ES,Regular,,,YES,41.9,34.9,50.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02153.1,Goldfarb ES,Regular,,,YES,42,43.7,46.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02154.1,Vanderburg ES,Regular,,,NO,86.3,74.3,83.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02155.1,Cambeiro ES,Regular,,,YES,21.3,13.5,16.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02156.1,Bryan Roger ES,Regular,,,YES,56.9,47.4,67.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02157.1,Bonner ES,Regular,,,NO,79.7,71.8,84.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02158.1,Cartwright ES,Regular,,,YES,55,47.1,72.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02159.1,Bowler Joseph ES,Regular,,,YES,38.2,31.1,49.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02160.1,Rhodes ES,Regular,,,NO,61.7,49.8,67.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02161.1,Guy ES,Regular,,,YES,40.7,29.1,55.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02162.1,Morrow ES,Regular,,,NO,75.9,52.6,85,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02163.1,Bunker ES,Regular,,,YES,39.6,27.8,44.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02164.1,Elizondo ES,Regular,,,YES,46.6,34.9,58.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02165.1,Cortez ES,Regular,,,YES,35.5,16.4,24.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02166.1,Lamping ES,Regular,,,NO,79.7,70,89.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02167.1,Garehime ES,Regular,,,NO,63.6,45.8,72.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02168.1,Hayes ES,Regular,,,YES,64.6,52.2,69.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02169.1,Kesterson ES,Regular,,,NO,58.4,43.5,68.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02170.1,Neal ES,Regular,,,YES,58.6,44.3,69.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02171.1,Carl ES,Regular,,,YES,49.8,32.2,60.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02172.1,Darnell ES,Regular,,,NO,61.6,41.3,62.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02173.1,Heckethorn ES,Regular,,,NO,66.7,57.3,77.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02174.1,Rogers ES,Regular,,,YES,68.4,59.8,61.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02175.1,Snyder ES,Regular,,,YES,34.3,29.9,36.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02176.1,Twitchell ES,Regular,,,NO,76.8,63.3,81.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02177.1,Watson ES,Regular,,,YES,29.1,20,33,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02178.1,Alamo ES,Regular,,,YES,58.7,50.8,62,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02179.1,Brookman ES,Regular,,,YES,46.5,31.7,54.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02180.1,Cozine ES,Regular,,,YES,38.9,33.4,38.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02181.1,Gehring ES,Regular,,,YES,66.4,61.5,61.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02182.1,Iverson ES,Regular,,,YES,64.5,44.9,67.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02183.1,Walker ES,Regular,,,NO,72.1,58.1,81.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02184.1,Conners ES,Regular,,,NO,59.4,44.1,68.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02185.1,Givens ES,Regular,,,NO,79.4,71.7,89.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02186.1,Goolsby ES,Regular,,,NO,77.2,71.6,82.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02187.1,Hummel ES,Regular,,,YES,47.2,35.4,66.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02188.1,Scherkenbach ES,Regular,,,NO,57,44.5,82.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02189.1,Simmons ES,Regular,,,YES,46.4,48.1,49.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02190.1,Tanaka ES,Regular,,,YES,51.5,32.3,58.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02191.1,Tartan ES,Regular,,,YES,33.1,27.9,32.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02192.1,Thiriot ES,Regular,,,YES,47.9,34.2,60.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02193.1,Batterman ES,Regular,,,NO,74.1,63.9,78.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02194.1,Ries ES,Regular,,,YES,47.7,34.7,50.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02195.1,Hickey ES,Regular,,,YES,32.6,18.8,36.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02196.1,Jeffers ES,Regular,,,YES,32.5,30.9,44.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02197.1,Goynes ES,Regular,,,NO,59.5,51.6,71.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02198.1,Thompson ES,Regular,,,NO,78,63.2,82.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02199.1,Hayden ES,Regular,,,YES,53.7,35.1,53.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02200.1,Wright ES,Regular,,,NO,67.1,57.6,80.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02201.1,Ronzone ES,Regular,,,YES,33.1,20.2,43.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02202.1,Hoggard ES,Regular,,,YES,68.9,59.5,83.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02203.1,Ronnow ES,Regular,,,YES,45.1,33.8,53.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02204.1,Squires ES,Regular,,,YES,23.6,23.3,39.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02205.1,Crestwood ES,Regular,,,YES,45.6,22.1,51.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02206.1,Gilbert ES,Regular,,,YES,54.5,35.4,67.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02207.1,Hancock ES,Regular,,,YES,30.7,24.4,39.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02208.1,Griffith ES,Regular,,,YES,30.6,14.7,45.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02209.1,Herron ES,Regular,,,YES,46.8,54.3,49.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02210.1,Hewetson ES,Regular,,,YES,33.2,24.1,33.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02211.1,Booker ES,Regular,,,YES,29,20.3,42.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02212.1,Earl Ira ES,Regular,,,YES,28.3,16.8,31.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02213.1,Manch ES,Regular,,,YES,24.9,17.7,23.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02214.1,Ullom ES,Regular,,,YES,37.1,31.2,46.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02215.1,Miller Sch ES,Special Education,,,NO,<5,<5,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02215.2,Miller Sch MS,Special Education,,,NO,<5,<5,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02215.3,Miller Sch HS,Special Education,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02216.1,Park ES,Regular,,,YES,33.8,26.5,50,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02217.1,Mackey ES,Regular,,,YES,69,53.5,81.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02218.1,McWilliams ES,Regular,,,YES,38.8,32.9,39.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02219.1,Carson ES,Regular,,,YES,46.3,38.7,57.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02220.1,Dearing ES,Regular,,,YES,38.6,29.7,27.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02221.1,Rowe ES,Regular,,,YES,36.4,25,46.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02222.1,Lincoln ES,Regular,,,YES,27.6,20.4,33.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02223.1,Craig ES,Regular,,,YES,22.5,12.3,32,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02224.1,Williams Wendell ES,Regular,,,YES,14.5,12,21.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02225.1,Cahlan ES,Regular,,,YES,53.6,47.8,50.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02226.1,Kelly ES,Regular,,,YES,14.2,16.8,37.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02228.1,Mountain View ES,Regular,,,YES,30.6,26.1,41.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02229.1,Heard ES,Regular,,,NO,67.3,46.8,83.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02230.1,Taylor Glen ES,Regular,,,NO,76.5,66.4,85.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02231.1,Adcock ES,Regular,,,YES,50.4,37,59.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02232.1,Paradise ES,Regular,,,YES,40.6,23.2,39.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02233.1,Culley ES,Regular,,,YES,37.5,18.3,40.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02234.1,McCall ES,Regular,,,YES,39,24.3,40,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02235.1,Red Rock ES,Regular,,,YES,29.2,13,35.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02236.1,Bell ES,Regular,,,YES,37.3,22.4,48.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02237.1,Lake ES,Regular,,,YES,46.7,39.2,37.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02238.1,Warren ES,Regular,,,YES,30.2,29.2,37.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02239.1,Thomas ES,Regular,,,YES,28.3,19.5,50.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02240.1,Fyfe ES,Regular,,,YES,23.8,14.3,24.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02241.1,Sunrise Acres ES,Regular,,,YES,33.5,38.5,32.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02242.1,Williams Tom ES,Regular,,,YES,25.7,21.4,28.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02243.1,Twin Lakes ES,Regular,,,YES,33.9,19.9,41.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02244.1,Pittman ES,Regular,,,YES,33.9,25.2,35.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02245.1,Vegas Verdes ES,Regular,,,YES,59.5,53.3,56.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02246.1,Bracken ES,Regular,,,YES,82,63.7,90.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02247.1,Wasden ES,Regular,,,YES,39,27.6,59.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02248.1,Beckley ES,Regular,,,YES,31.5,17.3,35.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02249.1,McCaw ES,Regular,,,YES,66.3,64.8,80.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02250.1,Mitchell ES,Regular,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02251.1,Sewell ES,Regular,,,YES,72.1,62.8,74.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02252.1,Indian Springs ES,Regular,,,YES,40.9,36.4,46.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02253.1,Priest ES,Regular,,,YES,31.9,25.6,36,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02254.1,Taylor Robert ES,Regular,,,YES,30.5,17.5,40.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02255.1,Virgin Valley ES,Regular,,,YES,51,44.9,53.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02256.1,Whitney ES,Regular,,,YES,39.8,31.1,45.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02257.1,Ferron ES,Regular,,,YES,44.8,44.4,57.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02258.1,Ward Gene ES,Regular,,,YES,31.7,25.5,28,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02259.1,Wengert ES,Regular,,,YES,48.9,29.4,49.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02260.1,Tate ES,Regular,,,YES,37.1,27.7,38.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02261.1,Harmon ES,Regular,,,YES,31.2,20.5,32.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02262.1,Harris ES,Regular,,,YES,35.2,21.6,52.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02263.1,Diskin ES,Regular,,,YES,46.3,34.4,45.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02264.1,Smith Helen ES,Regular,,,YES,54.2,40.5,53.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02265.1,Tomiyasu ES,Regular,,,YES,37,29.1,59.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02266.1,Dondero ES,Regular,,,YES,36.8,27.7,47.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02267.1,Edwards ES,Regular,,,YES,32.5,19.4,36,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02268.1,French ES,Regular,,,YES,59.8,47.7,58.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02269.1,Decker ES,Regular,,,YES,36.2,27.7,38.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02270.1,Long ES,Regular,,,YES,32.5,18.4,35.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02271.1,Bilbray ES,Regular,,,NO,69.2,62.1,68.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02272.1,Frias ES,Regular,,,NO,76.8,67.2,72.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02273.1,Hollingsworth ES,Regular,,,YES,36.3,23,35.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02274.1,Miller Sandy ES,Regular,,,YES,58.7,45.7,68.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02275.1,Gragson ES,Regular,,,YES,37.8,29.7,46.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02276.1,Galloway ES,Regular,,,YES,46.4,42.4,59.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02277.1,NateMack ES,Regular,,,YES,64.6,55.1,73.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02278.1,Gray ES,Regular,,,YES,34.3,26.7,42,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02279.1,Bowler Grant ES,Regular,,,NO,61.2,53.5,73.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02280.1,Bass ES,Regular,,,YES,57.7,47.6,49.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02281.1,Martinez ES,Regular,,,YES,35.1,26.3,33.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02282.1,Moore ES,Regular,,,YES,31.6,19.9,36.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02283.1,Ober ES,Regular,,,NO,70.8,65.4,77.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02284.1,Smith Hal ES,Regular,,,YES,30.7,18.9,42.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02285.1,Tarr ES,Regular,,,YES,58.8,45.8,67,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02286.1,Staton ES,Regular,,,NO,71.3,66.6,80.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02287.1,Wolff ES,Regular,,,NO,79.9,69.9,86.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02288.1,Agassi ES,Charter,,,YES,52.3,22.4,63,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02289.1,Petersen ES,Regular,,,YES,23.2,14.2,25.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02290.1,Tobler ES,Regular,,,YES,29.4,20.2,41.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02291.1,Sandy Valley ES,Regular,,,YES,19.7,19.7,23.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02292.1,Bennett ES,Regular,,,YES,30,26.4,57.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02293.1,Cox Clyde ES,Regular,,,YES,23,10.7,27.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02294.1,Stanford ES,Regular,,,YES,34.3,21.7,35,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02295.1,Reed ES,Regular,,,YES,26.5,11.5,26.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02296.1,Earl Marion ES,Regular,,,YES,51.7,47.6,58.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02297.1,Hinman ES,Regular,,,YES,48.1,38.5,50.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02298.1,McDoniel ES,Regular,,,YES,63,46.5,70.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02299.1,Odyssey ES,Charter,,,YES,36.6,26.7,51,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02300.1,Detwiler ES,Regular,,,YES,24.2,19.5,24.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02301.2,Von Tobel MS,Regular,,,YES,20.4,12.7,33.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02302.2,Garside MS,Regular,,,YES,32.2,16.1,39.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02303.2,Hyde Park MS,Regular,,,YES,67,48.3,57,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02304.2,Cashman MS,Regular,,,YES,46.3,21.9,59.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02305.2,Smith MS,Regular,,,YES,26.7,14.9,34.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02306.2,Brinley MS,Regular,,,YES,21,12.6,24.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02307.2,Bridger MS,Regular,,,YES,45.7,20.9,57.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02308.2,Fremont MS,Regular,,,YES,27.3,11.6,46,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02309.2,Knudson MS,Regular,,,YES,51.1,22.1,69,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02310.2,Gibson MS,Regular,,,YES,39.7,16.5,44.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02311.2,Martin MS,Regular,,,YES,46.1,24.5,54.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02312.2,Orr MS,Regular,,,YES,23.4,11.6,19.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02313.2,Burkholder MS,Regular,,,YES,45.5,22.7,64.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02314.2,Woodbury MS,Regular,,,YES,36.1,14.9,50.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02315.2,Robison MS,Regular,,,YES,29.4,10.9,40.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02316.2,Cannon MS,Regular,,,YES,36,13.3,52.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02317.2,Guinn MS,Regular,,,YES,48.6,27.3,48.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02318.2,Garrett MS,Regular,,,NO,59.2,37.1,80.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02319.2,Brown MS,Regular,,,YES,49.9,24,60.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02320.2,Sandy Valley MS,Regular,,,YES,27.9,16.3,40,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02320.3,Sandy Valley HS,Regular,,,YES,77.3,37.1,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02321.2,Laughlin JSHS MS,Regular,,,YES,32.6,15.9,51.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02321.3,Laughlin JSHS HS,Regular,,,YES,68.2,45.5,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02322.2,OCallaghan MS,Regular,,,YES,32.5,16.3,38.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02323.2,Johnson MS,Regular,,,YES,43.9,24.4,60.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02324.2,Greenspun MS,Regular,,,NO,64.3,35.6,78.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02325.2,Swainston MS,Regular,,,YES,30.4,14.2,44.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02326.2,White MS,Regular,,,YES,50.6,24.4,67.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02327.2,Becker MS,Regular,,,YES,63.8,35.8,74,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02328.2,Sawyer MS,Regular,,,YES,43.8,19.8,48.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02329.2,Lyon MS,Regular,,,NO,60.5,43,71.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02330.2,West Prep Sec MS,Regular,,,YES,20.2,9.4,33,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02330.3,West Prep Sec HS,Regular,,,YES,86,53.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02331.2,Lied MS,Regular,,,YES,38.2,12.8,61.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02332.2,Keller MS,Regular,,,YES,29.7,14.1,48.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02333.2,Molasky MS,Regular,,,YES,30.7,14.4,50.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02334.2,Silvestri MS,Regular,,,YES,50.7,32.2,60.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02335.2,Cortney MS,Regular,,,YES,27.1,14.3,40.5,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02336.2,Indian Springs MS,Regular,,,YES,40.7,44.4,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02337.2,Lawrence MS,Regular,,,YES,54.6,25.7,60.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02338.2,Miller Bob MS,Regular,,,NO,71.1,46.2,82.6,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02339.2,Rogich MS,Regular,,,NO,64.6,50.6,81.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02341.2,Leavitt MS,Regular,,,YES,59.2,30.7,68.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02342.2,Cram MS,Regular,,,YES,37.2,25.1,53.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02343.2,Monaco MS,Regular,,,YES,23,15.4,37,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02344.2,Schofield MS,Regular,,,YES,49.9,25.5,65.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02345.2,Sedway MS,Regular,,,YES,28.4,9.2,33,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02346.2,Harney MS,Regular,,,YES,40.9,22.4,53.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02347.2,Fertitta MS,Regular,,,YES,59.5,40.8,72.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02348.2,Cadwallader MS,Regular,,,NO,60.2,39.4,72.9,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02349.2,Canarelli MS,Regular,,,YES,60,43.1,75.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02350.2,Hughes MS,Regular,,,YES,40.4,33.3,61.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02352.2,Findlay MS,Regular,,,YES,32.6,12.4,41.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02353.2,Mannion MS,Regular,,,NO,65,39.8,79.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02354.2,Saville MS,Regular,,,NO,50.9,27.3,67.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02355.2,Webb MS,Regular,,,NO,72.4,50.8,82.1,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02356.2,Jerome Mack MS,Regular,,,YES,23.9,7.9,32.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02357.2,Bailey MS,Regular,,,YES,22,13.7,37.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02358.2,Odyssey MS,Charter,,,YES,53.9,23.7,57.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02359.2,Johnston MS,Regular,,,YES,29.9,10.9,43.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02360.2,Tarkanian MS,Regular,,,NO,62.6,33,80,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02361.2,Escobedo MS,Regular,,,NO,45.5,24.5,56.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02362.2,Faiss MS,Regular,,,YES,53.7,29.7,68.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02363.2,Innovations MS,Charter,,,YES,25.7,16.4,27.8,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02363.3,Innovations HS,Charter,,,YES,73.2,48.6,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02364.2,100 Academy 6-8 MS,Charter,,,YES,19.7,<5,29.7,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02367.2,RainbowDreamAC MS,Charter,,,NO,20.8,<5,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02401.3,Clark HS,Regular,,,YES,56.7,37.9,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02402.3,Las Vegas HS,Regular,,,YES,65.4,38,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02403.3,Rancho HS,Regular,,,YES,47.4,55.7,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02404.3,Valley HS,Regular,,,YES,50.5,39.8,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02405.3,Western HS,Regular,,,YES,53.5,41.6,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02406.3,Basic HS,Regular,,,YES,72.7,45,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02407.2,Jeffrey Behavior MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02407.3,Jeffrey Behavior HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02408.3,Morris Sunset HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02409.3,Chaparral HS,Regular,,,YES,28.1,33.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02410.3,Eldorado HS,Regular,,,YES,61,42.8,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02411.3,Bonanza HS,Regular,,,YES,81.8,48,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02412.3,SECTA HS,Regular,,,YES,93.8,69.1,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02414.3,Cimarron Mem HS,Regular,,,YES,67.5,38.8,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02415.3,Cheyenne HS,Regular,,,YES,9,32.9,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02416.3,Green Valley HS,Regular,,,NO,85.4,64.1,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02417.3,Durango HS,Regular,,,YES,60.8,49.2,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02418.3,Las Vegas Acad HS,Regular,,,NO,91.1,75.1,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02420.3,Advanced Tech Aca HS,Regular,,,NO,N/A,86.2,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02421.3,Silverado HS,Regular,,,NO,51.3,52.3,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02422.3,Coll So. NV HS E HS,Regular,,,NO,N/A,50,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02423.3,Coll So. NV HS W HS,Regular,,,NO,>95,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02424.3,Mojave HS,Regular,,,YES,47.3,32.7,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02425.3,Palo Verde HS,Regular,,,NO,40,54.8,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02426.3,Coll So. NV HS S HS,Regular,,,NO,36.4,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02427.3,Shadow Ridge HS,Regular,,,NO,61.3,52.8,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02428.3,Liberty HS,Regular,,,NO,82,55.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02429.3,Canyon Springs HS,Regular,,,YES,54.7,38.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02430.3,Del Sol HS,Regular,,,YES,52.2,40.9,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02431.3,Spring Valley HS,Regular,,,YES,73.5,57.2,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02432.3,VTCTA HS,Regular,,,YES,>95,64,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02433.3,SWCTA HS,Regular,,,NO,91.1,72.2,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02434.3,Sunrise Mountain HS,Regular,,,NO,38.6,35,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02435.3,West C&T HS,Regular,,,NO,>95,77.6,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02601.3,Boulder City HS,Regular,,,NO,85.7,65.3,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02602.3,Moapa Valley HS,Regular,,,NO,75.9,46.6,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02603.3,Virgin Valley HS,Regular,,,YES,70.4,54.6,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02604.3,Indian Springs HS,Regular,,,NO,85.2,48,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02607.3,Centennial HS,Regular,,,NO,56.5,45.5,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02608.3,Foothill HS,Regular,,,NO,55.6,51.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02609.3,Desert Pines HS,Regular,,,YES,29.4,37,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02611.3,Sierra Vista HS,Regular,,,NO,40.2,44.9,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02612.3,Coronado HS,Regular,,,NO,25.3,58.1,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02614.3,Odyssey HS,Charter,,,YES,68,34.3,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02615.1,Expl Knowledge ES,Charter,,,NO,56,48.8,60.4,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02616.2,Expl Knowledge MS,Charter,,,NO,54.6,29.4,59.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02616.3,Expl Knowledge HS,Charter,,,NO,90,56.3,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02617.2,Agassi MS,Charter,,,YES,25.1,8.1,48.2,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02617.3,Agassi HS,Charter,,,YES,75.3,58,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02618.3,Arbor View HS,Regular,,,NO,83.6,60.7,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02619.3,Legacy HS,Regular,,,YES,45.5,28.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02620.3,NW Career & Tech HS,Regular,,,NO,>95,63.5,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02621.2,Delta Charter MS,Charter,,,YES,18.8,7.8,30.3,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02621.3,Delta Charter HS,Charter,,,YES,54.3,34.1,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02623.3,Desert Oasis HS,Regular,,,NO,89.2,58.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02624.3,ECTA HS,Regular,,,YES,N/A,62.9,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02625.2,NV LRN Academy MS,Regular,,,NO,91.7,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02625.3,NV LRN Academy HS,Regular,,,NO,>95,39.4,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02777.2,CC Detention MS,Correctional,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02777.3,CC Detention HS,Correctional,,,NO,44,42.1,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02908.2,Southwest Behavio MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02908.3,Southwest Behavio HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02910.1,Stewart Sch ES,Special Education,,,NO,5.9,<5,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02910.2,Stewart Sch MS,Special Education,,,NO,<5,21.7,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02910.3,Stewart Sch HS,Special Education,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02911.2,Variety School E MS,Special Education,,,NO,<5,<5,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02911.3,Variety School E HS,Special Education,,,NO,7.1,9.5,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02912.2,Juvenile Court MS,Correctional,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02912.3,Juvenile Court HS,Correctional,,,NO,22.9,28.6,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02913.2,Spring Mtn JSHS MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02913.3,Spring Mtn JSHS HS,Alternative,,,NO,32,20,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02916.2,Miley Achvmt MS,Special Education,,,NO,10,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02916.3,Miley Achvmt HS,Special Education,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02917.1,Miley Achvmt ES,Special Education,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02918.2,Summit School MS,Special Education,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02918.3,Summit School HS,Special Education,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02922.3,Burk Horizon SW HS,Alternative,,,YES,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02923.2,Global Community MS,Alternative,,,YES,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02923.3,Global Community HS,Alternative,,,YES,7.2,19.5,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02924.2,Cowan Sunset SE MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02924.3,Cowan Sunset SE HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02926.1,Desert Willow ES,Special Education,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02927.2,Desert Willow MS,Special Education,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02927.3,Desert Willow HS,Special Education,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02928.2,South Cont JSHS MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02928.3,South Cont JSHS HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02929.2,Washington Cont MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02930.3,Biltmore Cont HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02932.2,Cowan Behavior MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02932.3,Cowan Behavior HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02933.2,Peterson Behavior MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02933.3,Peterson Behavior HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02934.2,Morris Behavior MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02934.3,Morris Behavior HS,Alternative,,,NO,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02935.1,Variety School ES,Special Education,,,NO,16.7,<5,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02936.1,Child Haven ES,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02936.2,Child Haven  MS,Alternative,,,NO,N/A,N/A,N/A,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2016,02,Clark,02955.3,Desert Rose HS,Alternative,,,YES,N/A,N/A,,NO,NO,NO,NO,NO,N/A,N/A,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A

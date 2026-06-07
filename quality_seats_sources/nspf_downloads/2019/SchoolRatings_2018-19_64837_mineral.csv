@@ -1,0 +1,28 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2019,12,Nye,12101.1,Duckwater ES,Regular,87.27,5,NO,-,-,-,-,-,NO,NO,NO,63.6,72.7,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12102.1,Manse ES,Zoom Regular,54,3,YES,47.1,40.1,10.3,YES,YES,NO,NO,NO,48.9,48.3,42.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,14.4,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12103.1,Round Mtn ES,Regular,10,1,NO,24.2,15.1,<5,YES,YES,NO,NO,NO,11.3,<5,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,25.2,YES,2,NO,N/A,NO,N/A
+2019,12,Nye,12105.1,Gabbs ES,Regular,6.15,1,YES,-,-,-,-,N/A,NO,NO,NO,<5,<5,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,26.3,YES,1,NO,N/A,NO,N/A
+2019,12,Nye,12106.1,Amargosa Vly ES,Victory Regular,23,1,YES,34,36.1,9,YES,YES,NO,NO,NO,28,16,33.3,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.7,YES,1,NO,N/A,NO,N/A
+2019,12,Nye,12108.1,Johnson ES,Zoom Regular,28,2,YES,26.1,21.1,8.2,YES,YES,NO,NO,NO,35.2,29.5,37.9,N/A,N/A,N/A,N/A,N/A,N/A,N/A,17.4,YES,2,NO,N/A,NO,N/A
+2019,12,Nye,12201.1,Beatty ES,Regular,70,4,YES,43.4,61.9,-,YES,YES,NO,NO,NO,53.3,64.2,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,14.5,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12202.1,Tonopah ES,Regular,29.44,2,NO,43.2,22.9,11.1,YES,YES,NO,NO,NO,50,25,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,25,YES,3,NO,N/A,NO,N/A
+2019,12,Nye,12207.1,Hafen ES,Regular,51,3,YES,40.1,35.4,21,NO,NO,NO,NO,NO,52,40.8,50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,17.9,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12210.1,Floyd ES,Regular,34,2,YES,44.6,43.4,28,YES,YES,NO,NO,NO,45.7,37.6,30.4,N/A,N/A,N/A,N/A,N/A,N/A,N/A,13,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12211.1,Warm Springs ES,Regular,25,Not Rated,NO,-,-,-,-,-,NO,NO,NO,-,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12211.2,Warm Springs MS,Regular,N/A,Not Rated,NO,-,-,N/A,-,-,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12301.2,Clarke MS,Regular,39,2,YES,40.9,24.4,37.8,YES,YES,NO,NO,NO,42.5,23.6,25.4,>95,N/A,N/A,N/A,N/A,N/A,N/A,20.3,NO,N/A,YES,2,YES,2
+2019,12,Nye,12311.2,Beatty MS,Regular,19.44,1,YES,28,14.5,25,NO,NO,NO,NO,NO,32.1,7.4,-,91.6,N/A,N/A,N/A,N/A,N/A,N/A,18.7,YES,1,NO,N/A,NO,N/A
+2019,12,Nye,12312.2,Tonopah MS,Regular,25.56,1,NO,34.5,10.7,27.2,YES,YES,NO,NO,NO,37.5,11.2,-,69.4,N/A,N/A,N/A,N/A,N/A,N/A,25,YES,1,NO,N/A,NO,N/A
+2019,12,Nye,12313.2,Round Mtn MS,Regular,36.11,2,NO,17.7,8.8,15,NO,NO,NO,NO,NO,24.6,15.6,-,82.6,N/A,N/A,N/A,N/A,N/A,N/A,14.2,YES,2,NO,N/A,NO,N/A
+2019,12,Nye,12315.2,Gabbs MS,Regular,4,Not Rated,YES,-,-,-,-,-,NO,NO,NO,-,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12316.2,Amargosa Vly MS,Regular,54,3,YES,32.6,34.6,38.8,YES,YES,NO,NO,NO,34.6,36.7,14.2,94.7,N/A,N/A,N/A,N/A,N/A,N/A,14.2,NO,N/A,YES,2,YES,2
+2019,12,Nye,12317.2,Duckwater MS,Regular,4,Not Rated,NO,-,-,-,-,-,NO,NO,NO,-,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12601.3,Beatty HS,Regular,60,3,YES,16,7.4,19.2,YES,YES,NO,NO,NO,N/A,N/A,<5,N/A,100,76.9,50,24,>95,>95,22.1,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12602.3,Gabbs HS,Regular,10,Not Rated,YES,-,-,-,-,-,NO,NO,NO,N/A,N/A,N/A,N/A,-,-,-,-,-,-,27.2,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12603.3,Tonopah HS,Regular,58.89,3,NO,36,23,14.2,YES,YES,NO,NO,NO,N/A,N/A,-,N/A,96.1,63.1,<4.5,45.8,>95,>95,28.5,YES,3,NO,N/A,NO,N/A
+2019,12,Nye,12604.3,Pahrump Vly HS,Regular,68.5,3,YES,47.9,26.2,21.8,YES,YES,NO,NO,NO,N/A,N/A,23.8,N/A,89.9,64.2,26.6,24.1,93.8,94.2,24.4,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12605.3,Round Mtn HS,Regular,67.78,3,NO,50,25,28.1,-,N/A,NO,NO,NO,N/A,N/A,-,N/A,100,42.8,35.7,50,>95,>95,15.8,NO,N/A,NO,N/A,NO,N/A
+2019,12,Nye,12606.3,Pathways ALT HS,Alternative,8.24,1,NO,33.3,5.5,-,YES,YES,NO,NO,NO,N/A,N/A,N/A,N/A,11.7,14.6,<4.5,<5,50.7,57.3,45.2,YES,3,NO,N/A,NO,N/A
+2019,12,Nye,12607.2,Pathways ALT MS,Alternative,20.56,1,NO,22.7,<5,14.2,NO,NO,NO,YES,NO,30,5.2,-,27.6,N/A,N/A,N/A,N/A,N/A,N/A,21.5,YES,3,NO,N/A,NO,N/A
+2019,12,Nye,12609.1,Pathways Elem ALT ES,Alternative,N/A,Not Rated,NO,-,-,N/A,-,-,NO,NO,NO,-,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A

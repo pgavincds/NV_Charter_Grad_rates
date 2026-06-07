@@ -1,0 +1,23 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2017,10,Lyon,10201.1,Dayton  ES,Regular,39.5,2,YES,47.6,30.8,N/A,YES,YES,YES,NO,NO,46.3,30.7,39,N/A,N/A,,,,N/A,N/A,16.7,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10202.1,Yerington  ES,Regular,47.5,2,YES,32.4,38.6,N/A,YES,YES,NO,NO,NO,36.3,41.4,46,N/A,N/A,,,,N/A,N/A,11.5,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10203.1,Fernley  ES,Regular,30,2,YES,40.3,36.7,N/A,YES,YES,NO,NO,NO,37.9,32.4,29,N/A,N/A,,,,N/A,N/A,13.4,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10205.1,Silver Stage ES,Regular,24.78,1,YES,36.1,29.6,N/A,YES,YES,NO,NO,NO,36.5,12.6,-,N/A,N/A,,,,N/A,N/A,14.1,YES,1,NO,N/A,NO,N/A
+2017,10,Lyon,10205.2,SilverSprings  MS,Regular,64.22,3,YES,37.8,26.3,N/A,YES,YES,YES,NO,NO,47,31.4,-,83.7,N/A,,,,N/A,N/A,11.6,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10206.1,East Valley  ES,Regular,72.5,4,YES,51.9,55.8,N/A,YES,YES,YES,NO,NO,53.7,48.7,81.8,N/A,N/A,,,,N/A,N/A,14.8,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10208.2,Dayton  MS,Regular,41.5,2,NO,42.4,29.5,N/A,YES,YES,NO,NO,NO,38.2,27.9,29.4,87.2,N/A,,,,N/A,N/A,19.1,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10209.1,Cottonwood  ES,Regular,48.5,2,YES,44.8,47.2,N/A,YES,YES,NO,NO,NO,40.9,39,44.4,N/A,N/A,,,,N/A,N/A,12.2,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10210.1,Sutro  ES,Regular,34.5,2,YES,45.2,37.7,N/A,YES,YES,NO,NO,NO,42.3,25.8,44.4,N/A,N/A,,,,N/A,N/A,15.8,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10211.1,Riverview  ES,Regular,59,3,YES,45.1,46.3,N/A,YES,YES,NO,NO,NO,46.8,45.1,42.8,N/A,N/A,,,,N/A,N/A,11.3,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10302.2,Yerington MS,Regular,56,3,NO,33.9,29.8,N/A,YES,YES,YES,NO,NO,36.8,36.4,17.6,94.5,N/A,,,,N/A,N/A,12.4,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10303.1,Fernley  ES,Regular,73.05,4,NO,50,42.8,N/A,YES,YES,NO,NO,NO,54.4,49.6,53.3,N/A,N/A,,,,N/A,N/A,11.9,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10305.2,Silverland  MS,Regular,45.5,2,NO,46.4,30.6,N/A,YES,YES,NO,NO,NO,44.4,24.4,31.2,>95,N/A,,,,N/A,N/A,19.1,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10601.3,Fernley  HS,Regular,64,-1,NO,81.4,63.3,,N/A,N/A,YES,NO,NO,N/A,N/A,9,N/A,91.7,,,,86.4,85.3,19,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10602.1,Smith Valley Sch ES,Regular,57.71,3,NO,53.6,45,N/A,YES,YES,YES,NO,NO,38.4,53.8,-,N/A,N/A,,,,N/A,N/A,14.2,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10602.2,Smith Valley Sch MS,Regular,67.56,3,NO,52.8,35.8,N/A,YES,YES,YES,NO,NO,50.9,35.2,-,>95,N/A,,,,N/A,N/A,8.2,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10602.3,Smith Valley Sch HS,Regular,86.44,-1,NO,91.1,83.3,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,78.5,,,,>95,>95,17.8,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10603.3,Yerington  HS,Regular,63,-1,NO,68.2,67.8,,N/A,N/A,YES,NO,NO,N/A,N/A,20,N/A,91.2,,,,87.6,83.3,19.8,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10604.3,Dayton  HS,Regular,52,-1,NO,79.3,61.9,,N/A,N/A,YES,NO,NO,N/A,N/A,8.3,N/A,88,,,,78.8,80.6,21.2,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10605.3,Silver Stage  HS,Regular,58.67,-1,NO,85.6,66.9,,N/A,N/A,NO,NO,NO,N/A,N/A,-,N/A,97.4,,,,80.3,80.3,29.6,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10902.2,Western NV Yth Ct MS,Alternative,N/A,Not Rated,NO,N/A,N/A,N/A,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,N/A,N/A,-,NO,N/A,NO,N/A,NO,N/A
+2017,10,Lyon,10902.3,Western NV Yth Ct HS,Alternative,10.71,-1,NO,N/A,N/A,,N/A,N/A,NO,NO,NO,N/A,N/A,N/A,N/A,N/A,,,,-,N/A,33.3,NO,N/A,NO,N/A,NO,N/A

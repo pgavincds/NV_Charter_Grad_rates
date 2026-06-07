@@ -1,0 +1,39 @@
+{
+  "generated_files": [
+    "all_charters_raw_5level.html",
+    "all_charters_share_5level.html",
+    "all_charters_raw_collapsed.html",
+    "es_raw_5level.html",
+    "es_share_5level.html",
+    "es_raw_collapsed.html",
+    "es_share_collapsed.html",
+    "ms_raw_5level.html",
+    "ms_share_5level.html",
+    "ms_raw_collapsed.html",
+    "ms_share_collapsed.html",
+    "hs_raw_5level.html",
+    "hs_share_5level.html",
+    "hs_raw_collapsed.html",
+    "hs_share_collapsed.html",
+    "headline_45_seats.html",
+    "headline_45_share.html",
+    "headline_12_seats.html",
+    "headline_12_share.html",
+    "headline_total_enrollment.html",
+    "all_charters_enrollment_by_level.html"
+  ],
+  "analysis_years": [
+    "2012-13",
+    "2013-14",
+    "2014-15",
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2022-23",
+    "2023-24",
+    "2024-25"
+  ],
+  "png_generation": "not attempted because this environment does not currently include a Plotly static image engine such as kaleido"
+}

@@ -1,0 +1,397 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2020,02,Clark,02061.1,Abston ES,Regular,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02062.1,Jenkins ES,Regular,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02064.1,Ellis ES,Regular,77.22,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02065.1,Ortwein ES,Regular,51,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02066.1,Barber ES,Regular,56.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02067.1,Divich ES,Regular,85,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02068.1,Blackhurst ES,Regular,89.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02069.1,Vassiliadis ES,Regular,88,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02070.1,Berkley ES,Regular,64,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02071.1,Stevens ES,Regular,66,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02072.1,Mathis ES,Regular,82.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02073.1,Heard ES,Regular,34.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02074.1,Snyder ES,Regular,57,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02076.1,Duncan ES,Regular,25,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02077.1,Wallin ES,Regular,84.44,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02078.1,Stuckey ES,Regular,88,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02079.1,Keller  ES,Regular,28,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02080.1,Fine  ES,Regular,72,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02081.1,Bozarth  ES,Regular,74.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02082.1,Triggs E.S. ES,Regular,87,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02083.1,ORoarke  ES,Regular,88.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02084.1,Reedom ES,Regular,54.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02085.1,Diaz ES,Regular,84,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02086.1,Scott ES,Regular,26,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02087.1,Rainbow Dreams ES,Charter District,24.44,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02089.1,West Prep Acad ES,Regular,45,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02090.1,Smalley ES,Regular,88.89,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02091.1,Perkins Claude ES,Regular,25.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02092.1,Innovations ES,Charter District,54,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02093.1,One Hundred Acad ES,Charter District,28.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02094.1,Dickens ES,Regular,33,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02095.1,Bailey ES,Regular,42.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02096.1,Roundy ES,Regular,36.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02097.1,Forbuss ES,Regular,55,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02098.1,Steele ES,Regular,89.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02099.1,Schorr ES,Regular,57.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02100.1,Ward Kitty ES,Regular,78.33,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02101.1,Blue Diamond ES,Regular,56.92,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02102.1,Goodsprings ES,Regular,6.67,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02103.1,Lundy ES,Regular,88.46,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02104.1,Reid ES,Regular,16.92,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02105.1,King Martin ES,Regular,33,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02106.1,Deskin ES,Regular,54,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02107.1,Kim ES,Regular,35,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02108.1,Beatty ES,Regular,55,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02109.1,Christensen ES,Regular,70,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02110.1,Parson ES,Regular,32.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02111.1,Dooley ES,Regular,58.33,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02112.1,Mendoza ES,Regular,46,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02113.1,McMillan ES,Regular,31.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02114.1,Perkins Ute ES,Regular,36.11,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02115.1,Lynch ES,Regular,15.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02116.1,Woolley ES,Regular,44,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02117.1,Lunt  ES,Regular,33.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02118.1,Eisenberg ES,Regular,54,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02119.1,Fong ES,Regular,64.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02120.1,Gibson ES,Regular,76,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02121.1,Wynn ES,Regular,28.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02122.1,Hill ES,Regular,77.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02123.1,Jacobson ES,Regular,30.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02124.1,Derfelt ES,Regular,46.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02125.1,Cunningham ES,Regular,37,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02126.1,Cox David ES,Regular,46.5,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02127.1,Treem ES,Regular,81.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02128.1,Rundle ES,Regular,27.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02129.1,Herr ES,Regular,17.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02130.1,Dailey ES,Regular,60,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02131.1,Adams ES,Regular,50.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02132.1,May ES,Regular,78,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02133.1,Kahre ES,Regular,39.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02134.1,Katz ES,Regular,24.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02135.1,Jydstrup ES,Regular,67,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02136.1,King Martha ES,Regular,55.56,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02137.1,Bartlett ES,Regular,75,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02138.1,Bendorf ES,Regular,59,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02139.1,Thorpe ES,Regular,36.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02140.1,Antonello ES,Regular,20.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02141.1,Lummis ES,Regular,77,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02142.1,Wiener ES,Regular,68,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02143.1,Fitzgerald ES,Regular,42.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02144.1,Lowman ES,Regular,19.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02145.1,Piggott Academy ES,Regular,52,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02146.1,Newton ES,Regular,77,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02147.1,Bruner ES,Regular,35,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02148.1,Bryan Richard ES,Regular,60,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02149.1,Wilhelm ES,Regular,17,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02150.1,Roberts ES,Regular,28.5,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02151.1,Allen ES,Regular,52.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02152.1,Wolfe ES,Regular,35,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02153.1,Goldfarb ES,Regular,65.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02154.1,Vanderburg ES,Regular,72.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02155.1,Cambeiro ES,Regular,66,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02156.1,Bryan Roger ES,Regular,69,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02157.1,Bonner ES,Regular,82,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02158.1,Cartwright ES,Regular,71.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02159.1,Bowler Joseph ES,Regular,39.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02160.1,Rhodes ES,Regular,63,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02161.1,Guy ES,Regular,58.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02162.1,Morrow ES,Regular,77.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02163.1,Bunker ES,Regular,44,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02164.1,Elizondo ES,Regular,19.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02165.1,Cortez ES,Regular,51.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02166.1,Lamping ES,Regular,79,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02167.1,Garehime ES,Regular,54,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02168.1,Hayes ES,Regular,47.5,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02169.1,Kesterson ES,Regular,55.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02170.1,Neal ES,Regular,76,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02171.1,Carl ES,Regular,33.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02172.1,Darnell ES,Regular,60.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02173.1,Heckethorn ES,Regular,71.67,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02174.1,Rogers ES,Regular,74.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02175.1,WE Snyder ES,Regular,52,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02176.1,Twitchell ES,Regular,78.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02177.1,Watson ES,Regular,46,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02178.1,Alamo ES,Regular,69.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02179.1,Brookman ES,Regular,42,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02180.1,Cozine ES,Regular,45.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02181.1,Gehring ACAD ES,Regular,93.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02182.1,Iverson ES,Regular,46.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02183.1,Walker ES,Regular,54,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02184.1,Conners ES,Regular,61.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02185.1,Givens ES,Regular,88,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02186.1,Goolsby ES,Regular,96,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02187.1,Hummel ES,Regular,40.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02188.1,Scherkenbach ES,Regular,76.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02189.1,Simmons ES,Regular,69,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02190.1,Tanaka ES,Regular,45.5,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02191.1,Tartan ES,Regular,12.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02192.1,Thiriot ES,Regular,62,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02193.1,Batterman ES,Regular,91.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02194.1,Ries ES,Regular,54,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02195.1,Hickey ES,Regular,48,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02196.1,Jeffers ES,Regular,30.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02197.1,Goynes ES,Regular,64.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02198.1,Thompson ES,Regular,74,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02199.1,Hayden ES,Regular,52,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02200.1,Wright ES,Regular,59,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02201.1,Ronzone ES,Regular,45,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02202.1,Hoggard ES,Regular,74.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02203.1,Ronnow ES,Regular,32.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02204.1,Squires ES,Regular,38,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02205.1,Crestwood ES,Regular,41.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02206.1,Gilbert ES,Regular,43.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02207.1,Hancock ES,Regular,18.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02208.1,Griffith ES,Regular,31.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02209.1,Herron ES,Regular,92,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02210.1,Hewetson ES,Regular,28.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02211.1,Booker ES,Regular,29,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02212.1,Earl Ira ES,Regular,44.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02213.1,Manch ES,Regular,15,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02214.1,Ullom ES,Regular,29.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02215.1,Miller Sch ES,Special Education,3.33,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02215.2,Miller Sch MS,Special Education,2.7,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02215.3,Miller Sch HS,Special Education,3.75,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02216.1,Park ES,Regular,41.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02217.1,Mackey ES,Regular,68.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02218.1,McWilliams ES,Regular,40,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02219.1,Carson ES,Regular,37.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02220.1,Dearing ES,Regular,39.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02221.1,Rowe ES,Regular,70,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02222.1,Lincoln ES,Regular,31,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02223.1,Craig ES,Regular,23.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02224.1,Williams Wendell ES,Regular,20.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02225.1,Cahlan ES,Regular,61,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02226.1,Kelly ES,Regular,17,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02228.1,Mountain View ES,Regular,33,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02230.1,Taylor Glen ES,Regular,86.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02231.1,Adcock ES,Regular,29.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02232.1,Paradise ES,Regular,30,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02233.1,Culley ES,Regular,49,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02234.1,McCall ES,Regular,13,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02235.1,Red Rock ES,Regular,18.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02236.1,Bell ES,Regular,42,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02237.1,Lake ES,Regular,50.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02238.1,Warren ES,Regular,53,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02239.1,Thomas ES,Regular,25.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02241.1,Sunrise Acres ES,Regular,48.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02242.1,Tom Williams ES,Regular,39,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02243.1,Twin Lakes ES,Regular,35,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02244.1,Pittman ES,Regular,51,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02245.1,Vegas Verdes ES,Regular,65,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02246.1,Bracken ES,Regular,62.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02247.1,Wasden ES,Regular,56,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02248.1,Beckley ES,Regular,29.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02249.1,McCaw ES,Regular,89,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02250.1,Mitchell ES,Regular,55,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02251.1,Sewell ES,Regular,43.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02252.1,Indian Springs ES,Regular,25,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02253.1,Priest ES,Regular,33.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02254.1,Taylor Robert ES,Regular,19.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02255.1,Virgin Valley ES,Regular,79.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02256.1,Whitney ES,Regular,15,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02257.1,Ferron ES,Regular,47.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02258.1,Gene Ward ES,Regular,24,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02259.1,Wengert ES,Regular,56.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02260.1,Tate ES,Regular,41.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02261.1,Harmon ES,Regular,24.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02262.1,Harris ES,Regular,31.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02263.1,Diskin ES,Regular,42.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02264.1,Smith Helen ES,Regular,70.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02265.1,Tomiyasu ES,Regular,43,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02266.1,Dondero ES,Regular,69,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02267.1,Edwards ES,Regular,44,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02268.1,French ES,Regular,58.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02269.1,Decker ES,Regular,35,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02270.1,Long ES,Regular,20,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02271.1,Bilbray ES,Regular,88.33,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02272.1,Frias ES,Regular,95,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02273.1,Hollingsworth ES,Regular,18,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02274.1,Miller Sandy ES,Regular,64.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02275.1,Gragson ES,Regular,51.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02276.1,Galloway ES,Regular,42,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02277.1,NateMack ES,Regular,78,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02278.1,Gray ES,Regular,46,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02279.1,Bowler Grant ES,Regular,91.11,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02280.1,Bass ES,Regular,51,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02281.1,Martinez ES,Regular,59,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02282.1,Moore ES,Regular,25,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02283.1,Ober ES,Regular,71.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02284.1,Smith Hal ES,Regular,18.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02285.1,Tarr ES,Regular,73,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02286.1,Staton ES,Regular,72,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02287.1,Wolff ES,Regular,85,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02289.1,Petersen ES,Regular,17.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02290.1,Tobler ES,Regular,56.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02291.1,Sandy Valley ES,Regular,62,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02292.1,Bennett ES,Regular,31,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02293.1,Cox Clyde ES,Regular,29.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02294.1,Stanford ES,Regular,47,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02295.1,Reed ES,Regular,30.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02296.1,Earl Marion ES,Regular,49.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02297.1,Hinman ES,Regular,29,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02298.1,McDoniel ES,Regular,92.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02299.1,Odyssey ES,Charter District,68.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02300.1,Detwiler ES,Regular,32,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02301.2,Von Tobel MS,Regular,33,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02302.2,Garside MS,Regular,38,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02303.2,Hyde Park MS,Regular,73.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02304.2,Cashman MS,Regular,30,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02305.2,Smith MS,Regular,27,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02306.2,Brinley MS,Regular,14,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02307.2,Bridger MS,Regular,53,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02308.2,Fremont MS,Regular,69.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02309.2,Knudson MS,Regular,51.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02310.2,Gibson MS,Regular,38,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02311.2,Martin MS,Regular,39,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02312.2,Orr MS,Regular,29.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02313.2,Burkholder MS,Regular,42,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02314.2,Woodbury MS,Regular,19,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02315.2,Robison MS,Regular,35,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02316.2,Cannon MS,Regular,44.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02317.2,Guinn MS,Regular,60,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02318.2,Garrett MS,Regular,85.56,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02319.2,Brown JHS MS,Regular,32.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02320.2,Sandy Valley MS,Regular,77.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02320.3,Sandy Valley HS,Regular,61.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02321.2,Laughlin JSHS MS,Regular,59,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02321.3,Laughlin JSHS HS,Regular,62,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02322.2,OCallaghan i3 ACAD MS,Regular,69.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02323.2,Johnson JHS MS,Regular,83,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02324.2,Greenspun MS,Regular,74,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02325.2,Swainston MS,Regular,41.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02326.2,White MS,Regular,60.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02327.2,Becker MS,Regular,83.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02328.2,Sawyer MS,Regular,44,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02329.2,Lyon MS,Regular,77,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02330.2,West Prep Sec SEC MS,Regular,19,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02330.3,West Prep Sec SEC HS,Regular,73,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02331.2,Lied STEM ACAD MS,Regular,77.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02332.2,Keller MS,Regular,15.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02333.2,Molasky MS,Regular,27,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02334.2,Silvestri MS,Regular,61.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02335.2,Cortney MS,Regular,36,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02336.2,Indian Springs MS,Regular,54.44,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02337.2,Lawrence MS,Regular,49.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02338.2,Miller Bob MS,Regular,79,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02339.2,Rogich MS,Regular,84.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02341.2,Leavitt MS,Regular,62,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02342.2,Cram MS,Regular,70.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02343.2,Monaco MS,Regular,21.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02344.2,Schofield MS,Regular,59,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02345.2,Sedway MS,Regular,22.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02346.2,Harney MS,Regular,39,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02347.2,Fertitta MS,Regular,77,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02348.2,Cadwallader MS,Regular,66,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02349.2,Canarelli MS,Regular,84,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02350.2,Hughes MS,Regular,53,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02352.2,Findlay MS,Regular,24,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02353.2,Mannion MS,Regular,82.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02354.2,Saville MS,Regular,55,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02355.2,Webb MS,Regular,85,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02356.2,Jerome Mack MS,Regular,29,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02357.2,Bailey MS,Regular,20,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02358.2,Odyssey MS,Charter District,72.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02359.2,Johnston MS,Regular,42,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02360.2,Tarkanian MS,Regular,92,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02361.2,Escobedo MS,Regular,31.5,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02362.2,Faiss MS,Regular,65,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02363.2,Innovations SEC MS,Charter District,51.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02363.3,Innovations SEC HS,Charter District,58.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02364.2,100 Academy 6-8 MS,Charter District,45,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02367.2,RainbowDreamAC MS,Charter District,22.22,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02401.3,Clark HS,Regular,67,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02402.3,Las Vegas HS,Regular,65,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02403.3,Rancho HS,Regular,71,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02404.3,Valley HS,Regular,49.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02405.3,Western HS,Regular,47.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02406.3,Basic HS,Regular,50.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02408.3,Morris Sunset HS,Alternative,16.11,1,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02409.3,Chaparral HS,Regular,56,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02410.3,Eldorado HS,Regular,49.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02411.3,Bonanza HS,Regular,51.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02412.3,SECTA HS,Regular,92.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02414.3,Cimarron Mem HS,Regular,52,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02415.3,Cheyenne HS,Regular,47.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02416.3,Green Valley HS,Regular,70,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02417.3,Durango HS,Regular,52.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02418.3,Las Vegas Acad HS,Regular,96,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02420.3,Advanced Tech Aca HS,Regular,97.22,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02421.3,Silverado HS,Regular,69.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02422.3,Coll So. NV E HS,Regular,98.13,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02423.3,Coll So. NV W HS,Regular,96.88,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02424.3,Mojave HS,Regular,51,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02425.3,Palo Verde HS,Regular,87,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02426.3,Coll So. NV S HS,Regular,96.88,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02427.3,Shadow Ridge HS,Regular,70,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02428.3,Liberty HS,Regular,74.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02429.3,Canyon Springs HS,Regular,55.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02430.3,Del Sol HS,Regular,57,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02431.3,Spring Valley HS,Regular,71.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02432.3,VTCTA HS,Regular,100,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02433.3,SWCTA HS,Regular,98,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02434.3,Sunrise Mountain HS,Regular,56.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02435.3,West C&T HS,Regular,99,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02601.3,Boulder City HS,Regular,87.22,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02602.3,Moapa Valley HS,Regular,84,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02603.3,Virgin Valley HS,Regular,70,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02604.3,Indian Springs HS,Regular,57.78,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02607.3,Centennial HS,Regular,67,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02608.3,Foothill HS,Regular,71,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02609.3,Desert Pines HS,Regular,44,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02611.3,Sierra Vista HS,Regular,59.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02612.3,Coronado HS,Regular,89,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02614.3,Odyssey HS,Charter District,50,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02615.1,Expl Knowledge ES,Charter District,61,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02616.2,Expl Knowledge SEC MS,Charter District,65,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02616.3,Expl Knowledge SEC HS,Charter District,74.44,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02618.3,Arbor View HS,Regular,71,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02619.3,Legacy HS,Regular,52,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02620.3,NW Career & Tech HS,Regular,96,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02621.2,Delta Charter MS,Charter District,36,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02621.3,Delta Charter HS,Charter District,13.5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02623.3,Desert Oasis HS,Regular,66.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02624.3,ECTA HS,Regular,92,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02625.2,NV LRN Academy MS,Regular,67.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02625.3,NV LRN Academy HS,Regular,60,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02777.2,CC Detention MS,Correctional,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02777.3,CC Detention HS,Correctional,10.91,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02910.1,Stewart Sch ES,Special Education,3.33,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02910.2,Stewart Sch MS,Special Education,10,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02910.3,Stewart Sch HS,Special Education,5,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02911.2,Variety School E SEC MS,Special Education,10.81,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02911.3,Variety School E SEC HS,Special Education,8.46,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02912.2,Juvenile Court MS,Correctional,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02912.3,Juvenile Court HS,Correctional,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02913.2,Spring Mtn JSHS MS,Alternative,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02913.3,Spring Mtn JSHS HS,Alternative,10.91,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02916.2,Miley Achvmt SEC MS,Special Education,11.25,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02916.3,Miley Achvmt SEC HS,Special Education,1.25,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02917.1,Miley Achvmt ES,Special Education,5.33,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02919.2,Summit View JSHS MS,Alternative,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02919.3,Summit View JSHS HS,Alternative,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02922.3,Burk Horizon SW HS,Alternative,4.38,1,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02923.3,Global Community HS,Alternative,27.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02924.3,Cowan Sunset SE HS,Alternative,6.25,1,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02926.1,Desert Willow ES,Special Education,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02927.2,Desert Willow MS,Special Education,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02927.3,Desert Willow HS,Special Education,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02928.2,South Cont JSHS MS,Alternative,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02928.3,South Cont JSHS HS,Alternative,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02932.2,Cowan Behavior MS,Alternative,13.33,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02932.3,Cowan Behavior HS,Alternative,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02933.2,Peterson Behavior MS,Alternative,5,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02933.3,Peterson Behavior HS,Alternative,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02935.1,Variety School ES,Special Education,3.33,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02936.1,Child Haven ES,Alternative,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02936.2,Child Haven MS,Alternative,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02936.3,Child Haven HS,Alternative,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02939.1,Juvenile Det ES,Correctional,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02940.3,Prison Program HS,Correctional,N/A,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02955.3,Desert Rose ALT HS,Alternative,5.56,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02956.3,HGHDSRTYOP HS,Correctional,0,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02957.2,Mission MS,Alternative,N/A,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02957.3,Mission HS,Alternative,7.78,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02965.2,Quest Program,Regular,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2020,02,Clark,02965.3,Quest Program,Regular,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A

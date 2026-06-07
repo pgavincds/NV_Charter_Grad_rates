@@ -1,0 +1,128 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,Participation Warning,Participation Penalty,Continuing Participation Penalty,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,Yrs In Designation As TSI,ATSI,Yrs In Designation As ATSI
+2021,18,"State Public Charter School Authority ",101101.1,NV Rise CS ES,SPCSA,0,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",102100.1,NV Prep CS ES,SPCSA,40,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",102100.2,NV Prep CS MS,SPCSA,89.69,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",103101.3,NSHS III Sunrise  HS,SPCSA,66.67,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",104101.3,NSHS II Meadowood HS,SPCSA,88,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",105101.1,Signature Prep CS ES,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",105101.2,Signature Prep CS MS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",106101.1,Pinecrest Northern NV ES,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",106101.2,Pinecrest Northern NV MS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",107101.2,Explore ACAD MS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",107101.3,Explore ACAD HS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",108101.2,GALS MS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",38435.1,Freedom Class ACAD ES,SPCSA,41,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",38435.2,Freedom Class ACAD MS,SPCSA,72,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",39438.1,Legacy N Valley ES,SPCSA,46.5,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",39438.2,Legacy N Valley MS,SPCSA,60,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",39439.1,Legacy Cadence ES,SPCSA,48,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",39439.2,Legacy Cadence MS,SPCSA,82,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",39440.1,Legacy SW ES,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",39440.2,Legacy SW MS,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",43100.1,Futuro ACAD ES,SPCSA,22.5,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",44437.1,Mater Northern NV ES,SPCSA,63,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",44437.2,Mater Northern NV MS,SPCSA,85.63,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",46100.1,DP Agassi ES,SPCSA,41,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",46200.2,DP Agassi MS,SPCSA,82.5,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",46300.3,DP Agassi  HS,SPCSA,26.15,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",47434.2,SLAM MS,SPCSA,68,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",47434.3,SLAM HS,SPCSA,70,Not Rated,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",48433.2,Equipo ACAD MS,SPCSA,83,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",48433.3,Equipo ACAD HS,SPCSA,77.89,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",49432.1,Mater Mtn Vista  ES,SPCSA,80.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",49432.2,Mater Mtn Vista  MS,SPCSA,91.5,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",49433.1,Mater Bonanza ES,SPCSA,52,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",49433.2,Mater Bonanza MS,SPCSA,78.35,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",49434.1,Mater East ES,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",49434.2,Mater East MS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",49434.3,Mater East HS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",50431.1,Amplus Durango ES,SPCSA,46,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",50431.2,Amplus Durango MS,SPCSA,83.89,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",50431.3,Amplus Durango HS,SPCSA,45,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",50432.1,Amplus Rainbow ES,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",51430.1,Founders ACAD ES,SPCSA,68.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",51430.2,Founders ACAD MS,SPCSA,81.67,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",51430.3,Founders ACAD HS,SPCSA,53.13,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",52429.2,Leadership ACAD MS,SPCSA,69.44,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",52429.3,Leadership ACAD HS,SPCSA,62.22,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",54428.1,Learning Bridge ES,SPCSA,74.44,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",54428.2,Learning Bridge MS,SPCSA,93.33,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55200.1,Doral Cactus  ES,SPCSA,98,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55200.2,Doral Cactus  MS,SPCSA,96.67,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55201.1,Doral Fire Mesa ES,SPCSA,84,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55201.2,Doral Fire Mesa MS,SPCSA,81.11,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55202.1,Doral Red Rock ES,SPCSA,95,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55202.2,Doral Red Rock MS,SPCSA,70.56,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55202.3,Doral Red Rock HS,SPCSA,71.43,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55203.1,Doral Saddle ES,SPCSA,78,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55203.2,Doral Saddle MS,SPCSA,81.67,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55204.1,Doral W Pebble ES,SPCSA,87.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",55204.2,Doral W Pebble MS,SPCSA,92.78,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",57424.1,Honors ACAD ES,SPCSA,50,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",57424.2,Honors ACAD MS,SPCSA,81.11,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58422.1,Pinecrest Horizon ES,SPCSA,83.33,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58423.1,Pinecrest Cadence ES,SPCSA,68.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58423.2,Pinecrest Cadence MS,SPCSA,92.22,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58423.3,Pinecrest Cadence HS,SPCSA,78.57,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58425.1,Pinecrest Inspirada ES,SPCSA,94.44,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58425.2,Pinecrest Inspirada MS,SPCSA,100,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58427.1,Pinecrest St Rose ES,SPCSA,80,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58427.2,Pinecrest St Rose MS,SPCSA,96.67,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58428.1,Pinecrest Sloan ES,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58428.2,Pinecrest Sloan MS,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",58428.3,Pinecrest Sloan HS,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59119.1,Somerset NLV ES,SPCSA,43.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59119.2,Somerset NLV MS,SPCSA,71.5,4,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59120.1,Somerset Losee ES,SPCSA,35.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59120.2,Somerset Losee MS,SPCSA,35.5,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59120.3,Somerset Losee HS,SPCSA,29.47,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59121.1,Somerset Lone Mtn ES,SPCSA,90.5,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59121.2,Somerset Lone Mtn MS,SPCSA,96.67,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59122.1,Somerset Sky Pointe ES,SPCSA,98.89,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59122.2,Somerset Sky Pointe MS,SPCSA,88.89,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59122.3,Somerset Sky Pointe HS,SPCSA,48.89,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59123.1,Somerset Stephanie ES,SPCSA,89,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59123.2,Somerset Stephanie MS,SPCSA,86.11,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59124.1,Somerset Aliante ES,SPCSA,49,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59124.2,Somerset Aliante MS,SPCSA,82.76,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59125.1,Somerset Skye Canyon ES,SPCSA,92.22,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",59125.2,Somerset Skye Canyon MS,SPCSA,91.11,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",61415.1,Discovery Sandhill ES,SPCSA,27.78,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",61415.2,Discovery Sandhill MS,SPCSA,44.81,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",61417.1,Discovery Hill Pointe ES,SPCSA,76.67,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",61417.2,Discovery Hill Pointe MS,SPCSA,70.56,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",65414.1,Oasis ACAD ES,SPCSA,86.67,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",65414.2,Oasis ACAD MS,SPCSA,97.78,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",65414.3,Oasis ACAD HS,SPCSA,96.67,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",66436.1,Doral Northern NV ES,SPCSA,97.78,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",66436.2,Doral Northern NV MS,SPCSA,82.18,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",68410.1,Elko Institute ES,SPCSA,31.11,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",68410.2,Elko Institute MS,SPCSA,84.44,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",72416.1,Quest Northwest ES,SPCSA,42,2,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",72416.2,Quest Northwest MS,SPCSA,52.78,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",74418.1,Imagine Mtn View ES,SPCSA,56.5,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",74418.2,Imagine Mtn View MS,SPCSA,76.44,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",76412.3,Alpine Acad HS,SPCSA,66.11,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",78411.1,Silver Sands ES,SPCSA,59.44,3,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",78411.2,Silver Sands MS,SPCSA,96.11,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",81101.3,NSHS Downtown HS,SPCSA,88,5,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",81102.3,NSHS Summerlin HS,SPCSA,93.13,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",81103.3,NSHS Henderson HS,SPCSA,98.75,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",81106.3,NSHS SW HS,SPCSA,,,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",81107.3,NSHS DownTwn Hend HS,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",81108.3,NSHS NW HS,SPCSA,,,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",85405.3,NV Connections ACAD HS,SPCSA,13.89,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",86404.2,Nevada Virtual ACAD MS,SPCSA,61.5,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",86404.3,Nevada Virtual ACAD HS,SPCSA,53,3,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87310.1,CASLV Centennial ES,SPCSA,67.5,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87310.2,CASLV Centennial MS,SPCSA,87.36,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87311.1,CASLV Nellis AFB ES,SPCSA,48.33,2,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87311.2,CASLV Nellis AFB MS,SPCSA,97.7,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87312.2,CASLV Sandy Ridge MS,SPCSA,83.33,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87312.3,CASLV Sandy Ridge HS,SPCSA,97.78,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87313.1,CASLV Tamarus ES,SPCSA,100,Not Rated,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87314.1,CASLV Windmill ES,SPCSA,78.24,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87314.2,CASLV Windmill MS,SPCSA,96.55,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87315.1,CASLV Eastgate ES,SPCSA,73,4,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",87315.2,CASLV Eastgate MS,SPCSA,95.4,5,NO,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
+2021,18,"State Public Charter School Authority ",89409.3,Beacon ACAD HS,SPCSA,10.56,1,YES,,,,NO,NO,NO,NO,NO,,,,,,,,,,,,NO,N/A,NO,N/A,NO,N/A
