@@ -722,11 +722,11 @@ def plotly_html(title: str, traces: list[dict], layout: dict, note: str) -> str:
 
 
 def color_map_5() -> dict[str, str]:
-    return {"1": "#7f1d1d", "2": "#c2410c", "3": "#737373", "4": "#1d4ed8", "5": "#065f46", "Not Rated": "#6b7280"}
+    return {"1": "#7f1d1d", "2": "#c2410c", "3": "#F2C94C", "4": "#1d4ed8", "5": "#065f46", "Not Rated": "#6b7280"}
 
 
 def color_map_3() -> dict[str, str]:
-    return {"1-2": "#b91c1c", "3": "#737373", "4-5": "#065f46", "Not Rated": "#6b7280"}
+    return {"1-2": "#b91c1c", "3": "#F2C94C", "4-5": "#065f46", "Not Rated": "#6b7280"}
 
 
 def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Path) -> list[str]:
