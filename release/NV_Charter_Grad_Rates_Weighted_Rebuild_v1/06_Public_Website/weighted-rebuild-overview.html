@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nevada Charter Graduation Rates Weighted Rebuild</title>
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --panel: #fffaf2;
+      --ink: #1f2a2e;
+      --muted: #4f646b;
+      --accent: #0f5c63;
+      --line: #d8cdb8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(180deg, #efe7d8 0%, var(--bg) 35%, #f8f4ec 100%);
+      color: var(--ink);
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    .hero {
+      padding: 1.5rem 0 1rem;
+    }
+    h1, h2, h3 {
+      line-height: 1.1;
+      margin: 0 0 0.75rem;
+    }
+    p {
+      line-height: 1.55;
+      margin: 0 0 1rem;
+    }
+    .kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .lede {
+      max-width: 74ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .card {
+      grid-column: span 12;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 1.1rem 1.1rem 1.2rem;
+      box-shadow: 0 8px 24px rgba(31, 42, 46, 0.05);
+    }
+    .card.half {
+      grid-column: span 6;
+    }
+    .card iframe {
+      width: 100%;
+      height: 760px;
+      border: 0;
+      border-radius: 12px;
+      background: #fff;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+    .links a {
+      text-decoration: none;
+      color: white;
+      background: var(--accent);
+      padding: 0.7rem 1rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+    }
+    .subtle a {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--line);
+    }
+    ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+    li {
+      margin: 0.35rem 0;
+      line-height: 1.45;
+    }
+    @media (max-width: 900px) {
+      .card.half { grid-column: span 12; }
+      .card iframe { height: 620px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="kicker">Phase 1 Release</div>
+      <h1>Nevada Charter Graduation Rates Weighted Rebuild</h1>
+      <p class="lede">
+        This release rebuilds Nevada charter graduation-rate reporting around weighted ACGR, documented graduation-universe rules,
+        and explicit inclusion and exclusion decisions. The core idea is simple: the headline sector rate should reflect the
+        average student rather than the average school.
+      </p>
+      <div class="links">
+        <a href="../03_Clean_Data/weighted_sector_series.csv">Download Weighted Sector Series</a>
+        <a href="../03_Clean_Data/graduation_universe.csv">Download Graduation Universe</a>
+        <a href="../01_Methodology/KEY_FINDINGS.md">Open Key Findings</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card half">
+        <h2>What This Page Shows</h2>
+        <ul>
+          <li>Weighted ACGR trend lines rather than average-of-school rates.</li>
+          <li>How many charter students actually graduated each year.</li>
+          <li>How the sector's cohort shifted across brick-and-mortar, virtual, and alternative models.</li>
+          <li>How different weighted and unweighted interpretations can be.</li>
+          <li>Which schools contributed the most graduates in selected years.</li>
+        </ul>
+      </article>
+      <article class="card half">
+        <h2>Interpretation Guardrails</h2>
+        <ul>
+          <li>Only legal charter rows under SPCSA, ASD, Clark, and Washoe are included in charter-slice calculations.</li>
+          <li>Non-charter outliers such as Davidson and Independence are excluded from charter-only estimates.</li>
+          <li>Validation Day enrollment is used to verify grade-12 presence, not as the ACGR denominator.</li>
+          <li>Published Nevada ACGR values control when they conflict with numerator/denominator-derived rates.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="kicker">Visualization 1</div>
+        <h2>Weighted ACGR Trend</h2>
+        <p>The main rate comparison: statewide official, SPCSA official, and the weighted charter-only and model-specific SPCSA series.</p>
+        <iframe src="../05_Visualizations/weighted_acgr_trend.html" title="Weighted ACGR Trend"></iframe>
+      </article>
+
+      <article class="card">
+        <div class="kicker">Visualization 2</div>
+        <h2>Graduates Produced By Year</h2>
+        <p>This is the core policy chart for sector scale: how many charter students actually graduated each year.</p>
+        <iframe src="../05_Visualizations/graduates_produced_by_year.html" title="Graduates Produced By Year"></iframe>
+      </article>
+
+      <article class="card">
+        <div class="kicker">Visualization 3</div>
+        <h2>Cohort Composition By Model</h2>
+        <p>This chart shows how much of the graduating cohort sat in brick-and-mortar, virtual, and alternative schools over time.</p>
+        <iframe src="../05_Visualizations/cohort_composition_by_model.html" title="Cohort Composition By Model"></iframe>
+      </article>
+
+      <article class="card">
+        <div class="kicker">Visualization 4</div>
+        <h2>Weighted vs Unweighted</h2>
+        <p>Weighted means average student. Unweighted means average school. The gap matters when a few schools dominate the sector's cohort.</p>
+        <iframe src="../05_Visualizations/weighted_vs_unweighted.html" title="Weighted vs Unweighted"></iframe>
+      </article>
+
+      <article class="card">
+        <div class="kicker">Visualization 5</div>
+        <h2>Top Contributors By Year</h2>
+        <p>The schools producing the largest numbers of graduates in selected years. This keeps the scale story visible alongside the rate story.</p>
+        <iframe src="../05_Visualizations/top_contributors_selected_years.html" title="Top Contributors By Year"></iframe>
+      </article>
+
+      <article class="card">
+        <h2>Supporting Files</h2>
+        <div class="links subtle">
+          <a href="../01_Methodology/README_weighted_phase1.md">Method Note</a>
+          <a href="../01_Methodology/EXECUTIVE_SUMMARY.md">Executive Summary</a>
+          <a href="../04_Audit_Files/data_validation_exceptions.csv">Data Validation Exceptions</a>
+          <a href="../04_Audit_Files/uncertainty_register.csv">Uncertainty Register</a>
+          <a href="../03_Clean_Data/school_lifecycle_report.csv">School Lifecycle Report</a>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

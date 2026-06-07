@@ -1,0 +1,31 @@
+{
+  "release_dir": "/Users/patrickgavin/Documents/New project/release/NV_Charter_Grad_Rates_Weighted_Rebuild_v1",
+  "zip_path": "/Users/patrickgavin/Documents/New project/release/NV_Charter_Grad_Rates_Weighted_Rebuild_v1.zip",
+  "files": [
+    "01_Methodology/EXECUTIVE_SUMMARY.md",
+    "01_Methodology/KEY_FINDINGS.md",
+    "01_Methodology/README_weighted_phase1.md",
+    "02_Source_Data/NDE_Validation_Day_Enrollment_2021_22.xlsx",
+    "02_Source_Data/NDE_Validation_Day_Enrollment_2022_23.xlsx",
+    "02_Source_Data/NDE_Validation_Day_Enrollment_2023_24.xlsx",
+    "02_Source_Data/NDE_Validation_Day_Enrollment_2024_25.xlsx",
+    "02_Source_Data/NDE_Validation_Day_Enrollment_2025_26_suppressed.xlsx",
+    "02_Source_Data/Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv",
+    "02_Source_Data/source_manifest.csv",
+    "02_Source_Data/source_manifest_original.csv",
+    "03_Clean_Data/graduation_universe.csv",
+    "03_Clean_Data/school_lifecycle_report.csv",
+    "03_Clean_Data/weighted_sector_series.csv",
+    "04_Audit_Files/data_validation_exceptions.csv",
+    "04_Audit_Files/uncertainty_register.csv",
+    "04_Audit_Files/weighted_line_items_audit_release.csv",
+    "05_Visualizations/cohort_composition_by_model.html",
+    "05_Visualizations/graduates_produced_by_year.html",
+    "05_Visualizations/top_contributors_selected_years.html",
+    "05_Visualizations/visualization_manifest.json",
+    "05_Visualizations/weighted_acgr_trend.html",
+    "05_Visualizations/weighted_vs_unweighted.html",
+    "06_Public_Website/index.html",
+    "07_Change_Log/CHANGELOG.md"
+  ]
+}

@@ -1,0 +1,213 @@
+school_name,school_code,year,uncertainty_type,low_value,likely_value,high_value,impact_level,notes,source
+Argent Preparatory Academy,18400,2013-14,entity_code_transition,,,,medium,Legacy SPCSA row reported as SSCS in the Nevada Report Card cohort portal and crosswalked here to the Silver State / Argent history.,nevada_charter_school_year_panel_current.csv
+Explore Knowledge Academy J-SHS,02616,2014-15,suppression,,,,medium,public_rate_unavailable,nevada_charter_school_year_panel_current.csv
+Northeastern Nevada Virtual Academy,04610,2014-15,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Alpine Acad,18412,2014-15,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Argent Preparatory Academy,18400,2014-15,entity_code_transition,,,,medium,Legacy SPCSA row reported as Silver State High School in the Nevada Report Card cohort4yr portal and crosswalked here to the Silver State / Argent history.,nevada_charter_school_year_panel_current.csv
+NSHS Legacy Single-Campus,18401,2014-15,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+North Star Online School,16923,2014-15,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2015-16,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Alpine Acad,18412,2015-16,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Legacy Single-Campus,18401,2015-16,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Academy for Career Education Charter,16608,2015-16,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+North Star Online School,16923,2015-16,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2016-17,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Argent Preparatory Academy,18400,2016-17,entity_code_transition,,,,medium,Legacy SPCSA row reported as Silver State Charter School in the Nevada Report Card cohort4yr portal and crosswalked here to the Silver State / Argent history.,nevada_charter_school_year_panel_current.csv
+CASLV Sandy Ridge,18407,2016-17,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Legacy Single-Campus,18401,2016-17,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Coral Academy of Science Charter,16312,2016-17,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+North Star Online School,16923,2016-17,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Rainshadow CCHS,16610,2016-17,suppression,,,,medium,public_rate_unavailable,nevada_charter_school_year_panel_current.csv
+Innovations Int'l Charter J-SHS,02363,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Independence High School,79903,2017-18,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2017-18,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+CASLV Sandy Ridge,87312,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Doral Red Rock,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+NSHS Downtown,,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Dtwn Henderson,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+NSHS Henderson,,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Meadowwood,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+NSHS North Las Vegas,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+NSHS Northwest,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+NSHS Southwest,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+NSHS Summerlin,,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Sunrise,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+Oasis Acad,,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Pinecrest Cadence,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+Pinecrest Sloan Canyon,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+SLAM NV,,2017-18,no_grade_12,,,,medium,no_grade_12_or_no_acgr,suppressed1718_afee2482a5.pdf
+Academy for Career Education Charter,16608,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Coral Academy of Science Charter,16312,2017-18,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+North Star Online School,16923,2017-18,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Explore Knowledge Academy J-SHS,02616,2018-19,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Independence High School,79903,2018-19,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2018-19,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Argent Preparatory Academy,,2018-19,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+Doral Red Rock,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+Founders Acad,,2018-19,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Dtwn Henderson,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+NSHS Meadowwood,,2018-19,suppression,,,,medium,small_n_unreported,nevada_charter_school_year_panel_current.csv
+NSHS North Las Vegas,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+NSHS Northwest,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+NSHS Southwest,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+NSHS Summerlin,,2018-19,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Sunrise,,2018-19,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Oasis Acad,,2018-19,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Pinecrest Cadence,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+Pinecrest Sloan Canyon,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+SLAM NV,,2018-19,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2018-2019.pdf
+Academy for Career Education Charter,16608,2018-19,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Coral Academy of Science Charter,16312,2018-19,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+North Star Online School,16923,2018-19,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Explore Knowledge Academy J-SHS,02616,2019-20,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Innovations Int'l Charter J-SHS,02363,2019-20,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Independence High School,79903,2019-20,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2019-20,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Alpine Acad,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Argent Preparatory Academy,,2019-20,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2019-20.pdf
+CASLV Sandy Ridge,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Doral Red Rock,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Founders Acad,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Dtwn Henderson,,2019-20,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2019-20.pdf
+NSHS Meadowwood,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS North Las Vegas,,2019-20,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2019-20.pdf
+NSHS Northwest,,2019-20,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2019-20.pdf
+NSHS Southwest,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Summerlin,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Sunrise,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Oasis Acad,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Pinecrest Sloan Canyon,,2019-20,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2019-20.pdf
+Somerset Sky Pointe,,2019-20,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Academy for Career Education Charter,16608,2019-20,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Coral Academy of Science Charter,16312,2019-20,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NORTH STAR ONLINE SCHOOL,16923,2019-20,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Explore Knowledge Academy J-SHS,02616,2020-21,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Innovations Int'l Charter J-SHS,02363,2020-21,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Independence High School,79903,2020-21,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2020-21,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Argent Preparatory Academy,,2020-21,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2020-21.pdf
+Doral Red Rock,,2020-21,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Downtown,,2020-21,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Dtwn Henderson,,2020-21,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Meadowwood,,2020-21,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS North Las Vegas,,2020-21,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2020-21.pdf
+NSHS Northwest,,2020-21,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Oasis Acad,,2020-21,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Pinecrest Sloan Canyon,,2020-21,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2020-21.pdf
+Academy for Career Education Charter,16608,2020-21,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Coral Academy of Science Charter,16312,2020-21,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+ICDA Charter HS,16604,2020-21,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2020-21.pdf
+ICDA Charter HS,16604,2020-21,closure_attribution,,,,high,ICDA closure case; post-closure student outcomes are not attributed back to the charter.,known_decisions_register.csv
+NORTH STAR ONLINE SCHOOL,16923,2020-21,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Explore Knowledge Academy J-SHS,02616,2021-22,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Independence High School,79903,2021-22,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2021-22,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Argent Preparatory Academy,,2021-22,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2021-22.pdf
+CASLV Sandy Ridge,,2021-22,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Equipo Acad,,2021-22,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Founders Acad,,2021-22,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Downtown,,2021-22,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Meadowwood,,2021-22,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS North Las Vegas,,2021-22,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2021-22.pdf
+Oasis Acad,,2021-22,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Pinecrest Sloan Canyon,,2021-22,no_grade_12,,,,medium,no_grade_12_or_no_acgr,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2021-22.pdf
+Davidson Academy,84406,2021-22,legal_status,,,,high,non-charter statewide entity,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Academy for Career Education Charter,16608,2021-22,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Coral Academy of Science Charter,16312,2021-22,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+ICDA Charter HS,16604,2021-22,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2021-22.pdf
+ICDA Charter HS,16604,2021-22,closure_attribution,,,,high,ICDA closure case; post-closure student outcomes are not attributed back to the charter.,known_decisions_register.csv
+NORTH STAR ONLINE SCHOOL,16923,2021-22,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Explore Knowledge Academy J-SHS,02616,2022-23,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Innovations Int'l Charter J-SHS,02363,2022-23,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Independence High School,79903,2022-23,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2022-23,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Amplus Durango,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Argent Preparatory Academy,,2022-23,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2022-23.pdf
+CASLV Sandy Ridge,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Doral Red Rock,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Equipo Acad,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Explore Academy,107101,2022-23,no_grade_12,,,,medium,no_grade_12,NDE_Validation_Day_Enrollment_2022_23.xlsx
+Explore Academy,107101,2022-23,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+Founders Acad,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Mater Academy East,49434,2022-23,no_grade_12,,,,medium,no_grade_12_or_no_acgr,NDE_Validation_Day_Enrollment_2022_23.xlsx
+Mater Academy East,49434,2022-23,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+NSHS Downtown,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS North Las Vegas,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Southwest,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Sunrise,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Oasis Acad,,2022-23,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Young Women's Leadership Academy of Las Vegas,113100,2022-23,no_grade_12,,,,medium,not_yet_in_graduation_universe,NDE_Validation_Day_Enrollment_2022_23.xlsx
+Young Women's Leadership Academy of Las Vegas,113100,2022-23,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+Davidson Academy,84406,2022-23,legal_status,,,,high,non-charter statewide entity,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Academy for Career Education Charter,16608,2022-23,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Coral Academy of Science Charter,16312,2022-23,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+ICDA Charter HS,16604,2022-23,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2022-23.pdf
+ICDA Charter HS,16604,2022-23,closure_attribution,,,,high,ICDA closure case; post-closure student outcomes are not attributed back to the charter.,known_decisions_register.csv
+NORTH STAR ONLINE SCHOOL,16923,2022-23,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Explore Knowledge Academy J-SHS,02616,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NV Learning Academy JR/SR High School,02625,2023-24,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Independence High School,79903,2023-24,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2023-24,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Alpine Acad,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Amplus Durango,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Argent Preparatory Academy,,2023-24,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2023-24.pdf
+CASLV Cadence,87316,2023-24,no_grade_12,,,,medium,no_grade_12_or_no_acgr,NDE_Validation_Day_Enrollment_2023_24.xlsx
+CASLV Cadence,87316,2023-24,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+CASLV Sandy Ridge,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+CIVICA Academy,110100,2023-24,no_grade_12,,,,medium,no_grade_12_or_no_acgr,NDE_Validation_Day_Enrollment_2023_24.xlsx
+CIVICA Academy,110100,2023-24,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+Doral Red Rock,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Founders Acad,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Mater Academy East,49434,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Downtown,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Dtwn Henderson,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Henderson,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Meadowwood,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS North Las Vegas,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Northwest,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Southwest,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Summerlin,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Sunrise,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Oasis Acad,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Pinecrest Cadence,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Pinecrest Sloan Canyon,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+SLAM NV,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Somerset Losee,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Somerset Sky Pointe,,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+Southern Nevada Trades High School,95301,2023-24,no_grade_12,,,,medium,no_grade_12_or_no_acgr,NDE_Validation_Day_Enrollment_2023_24.xlsx
+Southern Nevada Trades High School,95301,2023-24,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+Young Women's Leadership Academy of Las Vegas,113100,2023-24,no_grade_12,,,,medium,not_yet_in_graduation_universe,NDE_Validation_Day_Enrollment_2023_24.xlsx
+Young Women's Leadership Academy of Las Vegas,113100,2023-24,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+Davidson Academy,84406,2023-24,legal_status,,,,high,non-charter statewide entity,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Academy for Career Education Charter,16608,2023-24,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+ICDA Charter HS,16604,2023-24,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=4+Year+Graduation+Rates+for+the+Class+of+2023-24.pdf
+ICDA Charter HS,16604,2023-24,closure_attribution,,,,high,ICDA closure case; post-closure student outcomes are not attributed back to the charter.,known_decisions_register.csv
+North Star Online School,16923,2023-24,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Explore Knowledge Academy J-SHS,02616,2024-25,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NV Learning Academy JR/SR High School,02625,2024-25,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Independence High School,79903,2024-25,legal_status,,,,high,correctional LEA school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Northeastern Nevada Virtual Academy,04610,2024-25,legal_status,,,,high,district-operated virtual program,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Alpine Acad,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Argent Preparatory Academy,,2024-25,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=Class+of+2024-2025+4+Year+ACGR.pdf
+CASLV Cadence,87316,2024-25,no_grade_12,,,,medium,no_grade_12_or_no_acgr,NDE_Validation_Day_Enrollment_2024_25.xlsx
+CASLV Cadence,87316,2024-25,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+CIVICA Academy,110100,2024-25,no_grade_12,,,,medium,no_grade_12_or_no_acgr,NDE_Validation_Day_Enrollment_2024_25.xlsx
+CIVICA Academy,110100,2024-25,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+Founders Acad,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Mater Academy East,49434,2024-25,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+NSHS Downtown,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Dtwn Henderson,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS North Las Vegas,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Northwest,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+NSHS Sunrise,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Oasis Acad,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Somerset Sky Pointe,,2024-25,suppression,95,97.5,100,medium,topcoded_exact_shown,nevada_charter_school_year_panel_current.csv
+Southern Nevada Trades High School,95301,2024-25,suppression,0,2.5,5,medium,bottomcoded,nevada_charter_school_year_panel_current.csv
+Young Women's Leadership Academy of Las Vegas,113100,2024-25,no_grade_12,,,,medium,not_yet_in_graduation_universe,NDE_Validation_Day_Enrollment_2024_25.xlsx
+Young Women's Leadership Academy of Las Vegas,113100,2024-25,suppression,,,,medium,no_grade12_enrollment,nevada_charter_school_year_panel_current.csv
+Davidson Academy,84406,2024-25,legal_status,,,,high,non-charter statewide entity,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Academy for Career Education Charter,16608,2024-25,suppression,95,97.5,100,medium,topcoded,nevada_charter_school_year_panel_current.csv
+ICDA Charter HS,16604,2024-25,no_grade_12,,,,medium,school_not_operating,MoreDownload?filename=Class+of+2024-2025+4+Year+ACGR.pdf
+ICDA Charter HS,16604,2024-25,closure_attribution,,,,high,ICDA closure case; post-closure student outcomes are not attributed back to the charter.,known_decisions_register.csv
+North Star Online School,16923,2024-25,legal_status,,,,high,district-operated option school,Nevada_ReportCard_ACGR_school_level_export_2013_14_to_2024_25.csv
+Quest Academy,18408,2013-14,internal_state_data_conflict,81.25,80.0,80.0,medium,Published Nevada value retained as official point value; discrepancy flagged for transparency.,data_validation_exceptions.csv

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cohort Composition By Model</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f5f1e8;
+      color: #1f2a2e;
+      margin: 0;
+      padding: 2rem;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .note {
+      color: #4a5d63;
+      margin: 0 0 1rem 0;
+    }
+    #chart {
+      width: 100%;
+      height: 720px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Cohort Composition By Model</h1>
+    <p class="note">The sector changed materially over time. This chart shows how much of the graduating cohort sat in brick-and-mortar, virtual, and alternative models.</p>
+    <div id="chart"></div>
+  </div>
+  <script>
+    const payload = {"traces": [{"type": "bar", "name": "SPCSA Brick & Mortar", "x": ["2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"], "y": [477, 326, 223, 330, 558, 648, 980, 1197, 1360, 1603, 1963, 2095], "hovertemplate": "%{x}<br>%{y:,}<extra>SPCSA Brick & Mortar</extra>"}, {"type": "bar", "name": "SPCSA Virtual", "x": ["2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"], "y": [1830, 441, 515, 568, 768, 653, 512, 543, 612, 539, 645, 604], "hovertemplate": "%{x}<br>%{y:,}<extra>SPCSA Virtual</extra>"}, {"type": "bar", "name": "SPCSA Alternative", "x": ["2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"], "y": [643, 155, 172, 269, 390, 381, 326, 326, 405, 504, 678, 842], "hovertemplate": "%{x}<br>%{y:,}<extra>SPCSA Alternative</extra>"}], "layout": {"barmode": "stack", "paper_bgcolor": "#f5f1e8", "plot_bgcolor": "#fffaf2", "xaxis": {"title": "Graduating Class Year"}, "yaxis": {"title": "Cohort"}}};
+    Plotly.newPlot("chart", payload.traces, payload.layout, {responsive: true, displayModeBar: true});
+  </script>
+</body>
+</html>

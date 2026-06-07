@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weighted vs Unweighted</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f5f1e8;
+      color: #1f2a2e;
+      margin: 0;
+      padding: 2rem;
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .note {
+      color: #4a5d63;
+      margin: 0 0 1rem 0;
+    }
+    #chart {
+      width: 100%;
+      height: 720px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Weighted vs Unweighted</h1>
+    <p class="note">Weighted = average student. Unweighted = average school. The difference matters most when a few schools dominate the sector's cohort.</p>
+    <div id="chart"></div>
+  </div>
+  <script>
+    const payload = {"traces": [{"type": "scatter", "mode": "lines+markers", "name": "SPCSA Charter Only Weighted", "x": ["2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"], "y": [47.02, 54.01, 60.11, 58.18, 71.27, 77.65, 84.05, 86.69, 86.07, 83.82, 83.32, 82.69], "line": {"color": "#0f5c63", "width": 3, "dash": "solid"}, "marker": {"size": 8}}, {"type": "scatter", "mode": "lines+markers", "name": "SPCSA Charter Only Unweighted", "x": ["2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"], "y": [57.61, 62.36, 74.06, 70.53, 78.66, 89.63, 92.1, 91.44, 92.71, 92.44, 92.11, 87.77], "line": {"color": "#8bbfc4", "width": 3, "dash": "dot"}, "marker": {"size": 8}}], "layout": {"paper_bgcolor": "#f5f1e8", "plot_bgcolor": "#fffaf2", "xaxis": {"title": "Graduating Class Year"}, "yaxis": {"title": "ACGR (%)", "range": [0, 100]}}};
+    Plotly.newPlot("chart", payload.traces, payload.layout, {responsive: true, displayModeBar: true});
+  </script>
+</body>
+</html>

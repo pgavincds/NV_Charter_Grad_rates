@@ -1,0 +1,10 @@
+{
+  "generated_files": [
+    "weighted_acgr_trend.html",
+    "graduates_produced_by_year.html",
+    "cohort_composition_by_model.html",
+    "weighted_vs_unweighted.html",
+    "top_contributors_selected_years.html"
+  ],
+  "png_generation": "not attempted because this environment does not currently include a Plotly static image engine such as kaleido"
+}

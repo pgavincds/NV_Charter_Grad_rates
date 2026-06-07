@@ -1,0 +1,13 @@
+school_or_issue,decision,status,rationale,codex_action
+Weighted sector aggregation,Use weighted ACGR as primary,confirmed,ACGR sector rates should be student-weighted: sum graduates / sum cohort,Implement for all sector totals; keep unweighted only supplemental
+Reporting vs operating year,Keep separate fields,confirmed,NDE reports cohort outcomes in following accountability year,"Create operating_school_year, accountability_reporting_year, graduating_class_year"
+YWLA,Exclude through 2024-25,confirmed,No graduating cohort/grade 12 through reviewed years,Mark not_yet_in_graduation_universe
+Explore Academy,Exclude before first grade 12 in 2023-24 operating year,confirmed,Validation Day files show no grade 12 in 2021-22 or 2022-23; first grade 12 in 2023-24,First possible ACGR reporting year 2024-25
+Quest Academy,Include early ACGR rows; investigate lifecycle,confirmed/review,Panel shows reported cohorts 2013-14 through 2016-17,Do not auto-exclude; find last grade 12 year
+ICDA,Include reported cohorts only; no post-closure imputation,confirmed,Portal exports align with closure timing; no reliable post-closure attribution,Document closure case
+Northeastern Nevada Virtual Academy,Exclude,confirmed,"District-operated virtual, not SPCSA charter; 04 prefix supports LEA affiliation",Exclude from charter universe
+NV Learning Academy,Exclude,confirmed,"District-operated choice/virtual school, not charter",Exclude from charter universe
+North Star Online,Exclude,confirmed,"District-operated, not charter",Exclude from charter universe
+White Pine/K12 district virtual programs,Exclude unless legal charter proof exists,confirmed/review,District contract/choice is not charter authorization,Classify legal status carefully
+Published ACGR vs derived mismatch,Use published ACGR; flag discrepancy,confirmed,Project reconstructs public record and should not silently correct state-published values,Create data_validation_exceptions.csv
+Early sector interpretation,Explain composition shift,confirmed,Large online/alternative operators dominated early weighted results; later B&M sector grew,Reflect in README and charts

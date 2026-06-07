@@ -1,0 +1,121 @@
+year,series_id,series_label,cohort,graduates,weighted_acgr,low_acgr,likely_acgr,high_acgr,included_school_count,suppressed_school_count,current_unweighted_panel_avg,notes
+2013-14,statewide_official,Statewide Official,34201,23941,70.0,70.0,70.0,70.0,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 70.0%
+2013-14,spcsa_official,SPCSA Official,922,498,54.0,54.0,54.0,54.0,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 54.01%
+2013-14,clark_official,Clark Official,23432,16604,70.8,70.8,70.8,70.8,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 70.86%
+2013-14,washoe_official,Washoe Official,4777,3473,72.7,72.7,72.7,72.7,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 72.7%
+2013-14,spcsa_adjusted_charter_only,SPCSA Charter Only,2950,1387,47.02,47.01,47.01,47.01,7,0,57.61,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 57.61%.
+2013-14,spcsa_brick_mortar,SPCSA Brick & Mortar,477,243,50.94,50.82,50.82,50.82,3,0,67.02,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 67.02%.
+2013-14,spcsa_virtual,SPCSA Virtual,1830,866,47.32,47.36,47.36,47.36,2,0,43.1,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 43.1%.
+2013-14,spcsa_alternative,SPCSA Alternative,643,278,43.23,43.2,43.2,43.2,2,0,58.02,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 58.02%.
+2013-14,clark_charter_total,Clark Charter Total,512,253,49.41,49.34,49.34,49.34,4,0,54.05,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 54.05%.
+2013-14,washoe_charter_total,Washoe Charter Total,245,115,46.94,46.89,46.89,46.89,4,0,54.68,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 54.68%.
+2014-15,statewide_official,Statewide Official,33995,24247,71.3,71.3,71.3,71.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 71.33%
+2014-15,spcsa_official,SPCSA Official,919,551,59.9,59.9,59.9,59.9,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 59.96%
+2014-15,clark_official,Clark Official,23479,16922,72.0,72.0,72.0,72.0,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 72.07%
+2014-15,washoe_official,Washoe Official,4623,3467,74.9,74.9,74.9,74.9,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 74.99%
+2014-15,spcsa_adjusted_charter_only,SPCSA Charter Only,922,498,54.01,53.37,53.78,54.18,8,2,62.36,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 62.36%.
+2014-15,spcsa_brick_mortar,SPCSA Brick & Mortar,326,183,56.13,54.68,55.53,56.38,4,1,62.8,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 62.8%.
+2014-15,spcsa_virtual,SPCSA Virtual,441,211,47.85,47.8,47.8,47.8,2,0,46.85,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 46.85%.
+2014-15,spcsa_alternative,SPCSA Alternative,155,104,67.1,66.44,67.08,67.73,2,1,77.0,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 77.0%.
+2014-15,clark_charter_total,Clark Charter Total,591,293,49.58,49.54,49.54,49.54,3,0,42.73,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 42.73%.
+2014-15,washoe_charter_total,Washoe Charter Total,217,102,47.0,46.95,46.95,46.95,4,0,55.85,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 55.85%.
+2015-16,statewide_official,Statewide Official,34407,25307,73.5,73.5,73.5,73.5,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 73.55%
+2015-16,spcsa_official,SPCSA Official,1187,695,58.5,58.5,58.5,58.5,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 58.55%
+2015-16,clark_official,Clark Official,23483,17583,74.8,74.8,74.8,74.8,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 74.88%
+2015-16,washoe_official,Washoe Official,4708,3608,76.6,76.6,76.6,76.6,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 76.64%
+2015-16,spcsa_adjusted_charter_only,SPCSA Charter Only,910,547,60.11,59.32,59.81,60.3,7,2,74.06,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 74.06%.
+2015-16,spcsa_brick_mortar,SPCSA Brick & Mortar,223,213,95.52,92.85,94.63,96.4,3,1,89.73,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 89.73%.
+2015-16,spcsa_virtual,SPCSA Virtual,515,234,45.44,45.41,45.41,45.41,2,0,49.55,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 49.55%.
+2015-16,spcsa_alternative,SPCSA Alternative,172,100,58.14,57.53,57.82,58.11,2,1,75.05,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 75.05%.
+2015-16,clark_charter_total,Clark Charter Total,614,319,51.95,51.92,51.92,51.92,4,0,56.53,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 56.53%.
+2015-16,washoe_charter_total,Washoe Charter Total,215,108,50.23,50.04,50.59,51.14,4,1,59.48,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 59.48%.
+2016-17,statewide_official,Statewide Official,35771,28922,80.8,80.8,80.8,80.8,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 80.85%
+2016-17,spcsa_official,SPCSA Official,1495,976,65.2,65.2,65.2,65.2,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 65.28%
+2016-17,clark_official,Clark Official,24197,20129,83.1,83.1,83.1,83.1,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 83.19%
+2016-17,washoe_official,Washoe Official,4661,3916,84.0,84.0,84.0,84.0,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 84.02%
+2016-17,spcsa_adjusted_charter_only,SPCSA Charter Only,1167,679,58.18,57.52,57.95,58.38,8,2,70.53,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 70.53%.
+2016-17,spcsa_brick_mortar,SPCSA Brick & Mortar,330,266,80.61,78.47,79.99,81.51,4,2,79.83,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 79.83%.
+2016-17,spcsa_virtual,SPCSA Virtual,568,263,46.3,46.22,46.22,46.22,2,0,53.7,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 53.7%.
+2016-17,spcsa_alternative,SPCSA Alternative,269,150,55.76,55.68,55.68,55.68,2,0,68.75,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 68.75%.
+2016-17,clark_charter_total,Clark Charter Total,647,454,70.17,70.09,70.09,70.09,4,0,66.6,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 66.6%.
+2016-17,washoe_charter_total,Washoe Charter Total,182,110,60.44,59.51,59.97,60.42,3,1,74.1,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 74.1%.
+2017-18,statewide_official,Statewide Official,36319,30204,83.1,83.1,83.1,83.1,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 83.16%
+2017-18,spcsa_official,SPCSA Official,1775,1243,70.0,70.0,70.0,70.0,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 70.03%
+2017-18,clark_official,Clark Official,24763,21102,85.2,85.2,85.2,85.2,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 85.22%
+2017-18,washoe_official,Washoe Official,4716,3980,84.3,84.3,84.3,84.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 84.39%
+2017-18,spcsa_adjusted_charter_only,SPCSA Charter Only,1716,1223,71.27,70.61,71.08,71.56,15,5,78.66,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 78.66%.
+2017-18,spcsa_brick_mortar,SPCSA Brick & Mortar,558,489,87.63,85.59,87.06,88.53,9,5,81.35,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 81.35%.
+2017-18,spcsa_virtual,SPCSA Virtual,768,535,69.66,69.66,69.66,69.66,2,0,73.74,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 73.74%.
+2017-18,spcsa_alternative,SPCSA Alternative,390,199,51.03,51.03,51.03,51.03,4,0,74.41,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 74.41%.
+2017-18,clark_charter_total,Clark Charter Total,604,498,82.45,82.19,82.32,82.45,4,1,85.64,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 85.64%.
+2017-18,washoe_charter_total,Washoe Charter Total,110,89,80.91,79.18,80.96,82.73,3,2,68.97,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 68.97%.
+2018-19,statewide_official,Statewide Official,36842,30988,84.1,84.1,84.1,84.1,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 84.11%
+2018-19,spcsa_official,SPCSA Official,1702,1324,77.7,77.7,77.7,77.7,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 77.79%
+2018-19,clark_official,Clark Official,25254,21668,85.8,85.8,85.8,85.8,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 85.8%
+2018-19,washoe_official,Washoe Official,4723,4064,86.0,86.0,86.0,86.0,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 86.05%
+2018-19,spcsa_adjusted_charter_only,SPCSA Charter Only,1682,1306,77.65,77.12,77.36,77.6,15,3,89.63,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 89.63%.
+2018-19,spcsa_brick_mortar,SPCSA Brick & Mortar,648,637,98.3,97.0,97.64,98.27,9,3,97.29,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 97.29%.
+2018-19,spcsa_virtual,SPCSA Virtual,653,498,76.26,76.2,76.2,76.2,2,0,77.8,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 77.8%.
+2018-19,spcsa_alternative,SPCSA Alternative,381,171,44.88,44.87,44.87,44.87,4,0,76.4,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 76.4%.
+2018-19,clark_charter_total,Clark Charter Total,582,510,87.63,87.59,87.7,87.82,4,1,87.8,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 87.8%.
+2018-19,washoe_charter_total,Washoe Charter Total,128,110,85.94,82.11,84.02,85.94,3,2,68.7,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 68.7%.
+2019-20,statewide_official,Statewide Official,37460,30929,82.5,82.5,82.5,82.5,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 82.57%
+2019-20,spcsa_official,SPCSA Official,1812,1524,84.1,84.1,84.1,84.1,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 84.11%
+2019-20,clark_official,Clark Official,25662,21342,83.1,83.1,83.1,83.1,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 83.17%
+2019-20,washoe_official,Washoe Official,4854,4131,85.1,85.1,85.1,85.1,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 85.11%
+2019-20,spcsa_adjusted_charter_only,SPCSA Charter Only,1818,1528,84.05,82.72,83.36,84.0,21,9,92.1,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 92.1%.
+2019-20,spcsa_brick_mortar,SPCSA Brick & Mortar,980,962,98.16,95.84,96.99,98.14,15,8,96.83,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 96.83%.
+2019-20,spcsa_virtual,SPCSA Virtual,512,434,84.77,84.7,84.7,84.7,2,0,84.4,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 84.4%.
+2019-20,spcsa_alternative,SPCSA Alternative,326,132,40.49,40.2,40.31,40.42,4,1,77.05,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 77.05%.
+2019-20,clark_charter_total,Clark Charter Total,641,561,87.52,87.18,87.41,87.65,4,2,89.95,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 89.95%.
+2019-20,washoe_charter_total,Washoe Charter Total,122,112,91.8,88.06,89.93,91.79,3,2,70.48,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 70.48%.
+2020-21,statewide_official,Statewide Official,37486,30479,81.3,81.3,81.3,81.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.31%
+2020-21,spcsa_official,SPCSA Official,2121,1843,86.8,86.8,86.8,86.8,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 86.89%
+2020-21,clark_official,Clark Official,25689,20792,80.9,80.9,80.9,80.9,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 80.94%
+2020-21,washoe_official,Washoe Official,4925,4062,82.4,82.4,82.4,82.4,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 82.48%
+2020-21,spcsa_adjusted_charter_only,SPCSA Charter Only,2066,1791,86.69,86.02,86.33,86.64,23,6,91.44,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 91.44%.
+2020-21,spcsa_brick_mortar,SPCSA Brick & Mortar,1197,1165,97.33,96.21,96.74,97.28,17,6,96.05,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 96.05%.
+2020-21,spcsa_virtual,SPCSA Virtual,543,468,86.19,86.15,86.15,86.15,2,0,86.15,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 86.15%.
+2020-21,spcsa_alternative,SPCSA Alternative,326,158,48.47,48.4,48.4,48.4,4,0,73.35,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 73.35%.
+2020-21,clark_charter_total,Clark Charter Total,720,598,83.06,82.94,83.07,83.19,4,2,86.46,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 86.46%.
+2020-21,washoe_charter_total,Washoe Charter Total,115,110,95.65,91.83,93.74,95.65,3,2,92.16,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 92.16%.
+2021-22,statewide_official,Statewide Official,36918,30171,81.7,81.7,81.7,81.7,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.72%
+2021-22,spcsa_official,SPCSA Official,2377,2046,86.0,86.0,86.0,86.0,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 86.07%
+2021-22,clark_official,Clark Official,25212,20499,81.3,81.3,81.3,81.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.31%
+2021-22,washoe_official,Washoe Official,4667,3937,84.3,84.3,84.3,84.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 84.36%
+2021-22,spcsa_adjusted_charter_only,SPCSA Charter Only,2377,2046,86.07,85.34,85.68,86.03,24,6,92.71,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 92.71%.
+2021-22,spcsa_brick_mortar,SPCSA Brick & Mortar,1360,1336,98.24,97.34,97.77,98.19,18,5,97.21,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 97.21%.
+2021-22,spcsa_virtual,SPCSA Virtual,612,509,83.17,83.12,83.12,83.12,2,0,83.3,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 83.3%.
+2021-22,spcsa_alternative,SPCSA Alternative,405,201,49.63,48.37,48.97,49.57,4,1,77.18,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 77.18%.
+2021-22,clark_charter_total,Clark Charter Total,690,569,82.46,82.28,82.37,82.46,4,1,85.06,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 85.06%.
+2021-22,washoe_charter_total,Washoe Charter Total,163,149,91.41,88.74,90.69,92.64,3,2,87.22,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 87.22%.
+2022-23,statewide_official,Statewide Official,38348,31212,81.3,81.3,81.3,81.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.39%
+2022-23,spcsa_official,SPCSA Official,2646,2218,83.8,83.8,83.8,83.8,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 83.82%
+2022-23,clark_official,Clark Official,26596,21675,81.4,81.4,81.4,81.4,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.5%
+2022-23,washoe_official,Washoe Official,5168,4208,81.4,81.4,81.4,81.4,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.42%
+2022-23,spcsa_adjusted_charter_only,SPCSA Charter Only,2646,2218,83.82,82.45,83.12,83.79,26,10,92.44,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 92.44%.
+2022-23,spcsa_brick_mortar,SPCSA Brick & Mortar,1603,1580,98.57,96.61,97.57,98.54,20,9,97.18,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 97.18%.
+2022-23,spcsa_virtual,SPCSA Virtual,539,456,84.6,84.52,84.52,84.52,2,0,84.35,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 84.35%.
+2022-23,spcsa_alternative,SPCSA Alternative,504,182,36.11,35.21,35.66,36.11,4,1,72.78,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 72.78%.
+2022-23,clark_charter_total,Clark Charter Total,757,668,88.24,88.11,88.25,88.38,4,2,91.8,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 91.8%.
+2022-23,washoe_charter_total,Washoe Charter Total,137,128,93.43,89.96,92.06,94.16,3,2,86.21,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 86.21%.
+2023-24,statewide_official,Statewide Official,39180,31978,81.6,81.6,81.6,81.6,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.62%
+2023-24,spcsa_official,SPCSA Official,3294,2744,83.3,83.3,83.3,83.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 83.3%
+2023-24,clark_official,Clark Official,26668,21736,81.5,81.5,81.5,81.5,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.51%
+2023-24,washoe_official,Washoe Official,5103,4184,81.9,81.9,81.9,81.9,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 81.99%
+2023-24,spcsa_adjusted_charter_only,SPCSA Charter Only,3286,2738,83.32,80.94,82.42,83.91,27,21,92.11,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 92.11%.
+2023-24,spcsa_brick_mortar,SPCSA Brick & Mortar,1963,1935,98.57,94.68,97.11,99.54,21,20,95.83,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 95.83%.
+2023-24,spcsa_virtual,SPCSA Virtual,645,547,84.81,84.75,84.75,84.75,2,0,84.85,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 84.85%.
+2023-24,spcsa_alternative,SPCSA Alternative,678,256,37.76,37.55,37.69,37.83,4,1,75.25,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 75.25%.
+2023-24,clark_charter_total,Clark Charter Total,736,639,86.82,86.77,86.85,86.92,4,1,88.7,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 88.7%.
+2023-24,washoe_charter_total,Washoe Charter Total,171,152,88.89,87.49,88.17,88.84,3,1,86.87,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 86.87%.
+2024-25,statewide_official,Statewide Official,39975,34175,85.4,85.4,85.4,85.4,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 85.49%
+2024-25,spcsa_official,SPCSA Official,3576,2956,82.6,82.6,82.6,82.6,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 82.66%
+2024-25,clark_official,Clark Official,27066,23443,86.6,86.6,86.6,86.6,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 86.61%
+2024-25,washoe_official,Washoe Official,5326,4439,83.3,83.3,83.3,83.3,,,,Official public rate from Nevada reporting context file; calculated rate from counts was 83.35%
+2024-25,spcsa_adjusted_charter_only,SPCSA Charter Only,3541,2928,82.69,81.72,82.21,82.7,27,10,87.77,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 87.77%.
+2024-25,spcsa_brick_mortar,SPCSA Brick & Mortar,2095,2068,98.71,97.17,97.96,98.74,20,9,92.43,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 92.43%.
+2024-25,spcsa_virtual,SPCSA Virtual,604,515,85.26,85.24,85.24,85.24,2,0,85.1,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 85.1%.
+2024-25,spcsa_alternative,SPCSA Alternative,842,345,40.97,40.73,40.84,40.94,5,1,67.38,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 67.38%.
+2024-25,clark_charter_total,Clark Charter Total,923,825,89.38,89.18,89.25,89.31,4,1,91.7,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 91.7%.
+2024-25,washoe_charter_total,Washoe Charter Total,170,162,95.29,93.89,94.87,95.86,3,1,94.17,Weighted ACGR from school-level cohort and graduate counts. Unweighted comparison was 94.17%.

@@ -1,0 +1,13 @@
+school_name_pattern,model_type,confidence,notes
+Nevada Virtual,statewide_online,high,Statewide virtual operator; separate from brick-and-mortar
+Nevada Connections,statewide_online,high,Statewide virtual operator; separate from brick-and-mortar
+Beacon,alternative,high,Alternative/APF-style treatment; keep separate from general brick-and-mortar
+Leadership Academy,alternative,medium,Report separately; prior working panel coded alternative rather than statewide online
+NSHS,brick_and_mortar,high,High-performing but small/micro-campus structure; watch suppressed campus rows
+Coral,brick_and_mortar,high,Traditional charter high school / B&M
+Quest,brick_and_mortar,medium,Early ACGR rows exist; lifecycle requires review
+Alpine,alternative,medium,Early data management issues noted; classify carefully
+ICDA,alternative,high,Washoe-sponsored charter high school; closure case
+Rainshadow,alternative,medium,Transition/entity review needed
+enCompass,alternative,medium,Transition/entity review needed
+Explore Academy,brick_and_mortar,medium,Exclude before grade 12; include after first ACGR if legal charter/high-school evidence supports

@@ -1,0 +1,110 @@
+class_year,series,weighted_rate_from_counts,current_unweighted_panel_avg,weighted_minus_current_avg,cohort_count_used,graduates_used,schools_with_counts,exact_count_rows,imputed_count_rows,panel_rows_in_series,unmatched_rows,unmatched_school_names
+2013-14,spcsa_adjusted_charter_only,47.02,57.61,-10.6,2950,1387,7,7,0,7,0,
+2013-14,spcsa_brick_mortar,50.94,67.02,-16.08,477,243,3,3,0,3,0,
+2013-14,spcsa_general_ed_virtual,47.32,43.1,4.22,1830,866,2,2,0,2,0,
+2013-14,spcsa_alternative,43.23,58.02,-14.79,643,278,2,2,0,2,0,
+2013-14,clark_charter_total,49.41,54.05,-4.64,512,253,4,4,0,4,0,
+2013-14,clark_brick_mortar,49.41,54.05,-4.64,512,253,4,4,0,4,0,
+2013-14,washoe_charter_total,46.94,54.68,-7.74,245,115,4,4,0,4,0,
+2013-14,washoe_brick_mortar,80.0,80.0,0.0,90,72,2,2,0,2,0,
+2013-14,washoe_alternative,27.74,29.35,-1.61,155,43,2,2,0,2,0,
+2014-15,spcsa_adjusted_charter_only,54.01,62.36,-8.35,922,498,8,8,0,8,0,
+2014-15,spcsa_brick_mortar,56.13,62.8,-6.67,326,183,4,4,0,4,0,
+2014-15,spcsa_general_ed_virtual,47.85,46.85,1.0,441,211,2,2,0,2,0,
+2014-15,spcsa_alternative,67.1,77.0,-9.9,155,104,2,2,0,2,0,
+2014-15,clark_charter_total,49.58,42.73,6.84,591,293,3,3,0,4,1,Explore Knowledge Academy J-SHS
+2014-15,clark_brick_mortar,49.58,42.73,6.84,591,293,3,3,0,4,1,Explore Knowledge Academy J-SHS
+2014-15,washoe_charter_total,47.0,55.85,-8.85,217,102,4,4,0,4,0,
+2014-15,washoe_brick_mortar,86.11,84.95,1.16,72,62,2,2,0,2,0,
+2014-15,washoe_alternative,27.59,26.75,0.84,145,40,2,2,0,2,0,
+2015-16,spcsa_adjusted_charter_only,60.11,74.06,-13.95,910,547,7,7,0,7,0,
+2015-16,spcsa_brick_mortar,95.52,89.73,5.78,223,213,3,3,0,3,0,
+2015-16,spcsa_general_ed_virtual,45.44,49.55,-4.11,515,234,2,2,0,2,0,
+2015-16,spcsa_alternative,58.14,75.05,-16.91,172,100,2,2,0,2,0,
+2015-16,clark_charter_total,51.95,56.53,-4.57,614,319,4,4,0,4,0,
+2015-16,clark_brick_mortar,51.95,56.53,-4.57,614,319,4,4,0,4,0,
+2015-16,washoe_charter_total,50.23,59.48,-9.24,215,108,4,4,0,4,0,
+2015-16,washoe_brick_mortar,92.5,92.65,-0.15,80,74,2,2,0,2,0,
+2015-16,washoe_alternative,25.19,26.3,-1.11,135,34,2,2,0,2,0,
+2016-17,spcsa_adjusted_charter_only,58.18,70.53,-12.34,1167,679,8,8,0,8,0,
+2016-17,spcsa_brick_mortar,80.61,79.83,0.78,330,266,4,4,0,4,0,
+2016-17,spcsa_general_ed_virtual,46.3,53.7,-7.4,568,263,2,2,0,2,0,
+2016-17,spcsa_alternative,55.76,68.75,-12.99,269,150,2,2,0,2,0,
+2016-17,clark_charter_total,70.17,66.6,3.57,647,454,4,4,0,4,0,
+2016-17,clark_brick_mortar,79.54,77.97,1.57,518,412,3,3,0,3,0,
+2016-17,clark_alternative,32.56,32.5,0.06,129,42,1,1,0,1,0,
+2016-17,washoe_charter_total,60.44,74.1,-13.66,182,110,3,3,0,4,1,Rainshadow CCHS
+2016-17,washoe_brick_mortar,96.34,95.65,0.69,82,79,2,2,0,2,0,
+2016-17,washoe_alternative,31.0,31.0,0.0,100,31,1,1,0,2,1,Rainshadow CCHS
+2017-18,spcsa_adjusted_charter_only,71.27,78.66,-7.39,1716,1223.0,15,13,2,16,1,Argent Preparatory Academy
+2017-18,spcsa_brick_mortar,87.63,81.35,6.28,558,489.0,9,7,2,10,1,Argent Preparatory Academy
+2017-18,spcsa_general_ed_virtual,69.66,73.74,-4.07,768,535,2,2,0,2,0,
+2017-18,spcsa_alternative,51.03,74.41,-23.38,390,199,4,4,0,4,0,
+2017-18,clark_charter_total,82.45,85.64,-3.19,604,498,4,4,0,4,0,
+2017-18,clark_brick_mortar,82.45,85.64,-3.19,604,498,4,4,0,4,0,
+2017-18,washoe_charter_total,80.91,68.97,11.94,110,89,3,3,0,4,1,ICDA Charter HS
+2017-18,washoe_brick_mortar,97.44,97.5,-0.06,78,76,2,2,0,2,0,
+2017-18,washoe_alternative,40.63,40.43,0.2,32,13,1,1,0,2,1,ICDA Charter HS
+2018-19,spcsa_adjusted_charter_only,77.65,89.63,-11.99,1682,1306,15,15,0,17,2,NSHS Meadowwood; NSHS Sunrise
+2018-19,spcsa_brick_mortar,98.3,97.29,1.01,648,637,9,9,0,11,2,NSHS Meadowwood; NSHS Sunrise
+2018-19,spcsa_general_ed_virtual,76.26,77.8,-1.54,653,498,2,2,0,2,0,
+2018-19,spcsa_alternative,44.88,76.4,-31.52,381,171,4,4,0,4,0,
+2018-19,clark_charter_total,87.63,87.8,-0.17,582,510,4,4,0,4,0,
+2018-19,clark_brick_mortar,87.63,87.8,-0.17,582,510,4,4,0,4,0,
+2018-19,washoe_charter_total,85.94,68.7,17.24,128,110,3,3,0,4,1,ICDA Charter HS
+2018-19,washoe_brick_mortar,100.0,97.5,2.5,98,98,2,2,0,2,0,
+2018-19,washoe_alternative,40.0,39.9,0.1,30,12,1,1,0,2,1,ICDA Charter HS
+2019-20,spcsa_adjusted_charter_only,84.05,92.1,-8.05,1818,1528,21,21,0,22,1,NSHS Sunrise
+2019-20,spcsa_brick_mortar,98.16,96.83,1.34,980,962,15,15,0,16,1,NSHS Sunrise
+2019-20,spcsa_general_ed_virtual,84.77,84.4,0.37,512,434,2,2,0,2,0,
+2019-20,spcsa_alternative,40.49,77.05,-36.56,326,132,4,4,0,4,0,
+2019-20,clark_charter_total,87.52,89.95,-2.43,641,561,4,4,0,4,0,
+2019-20,clark_brick_mortar,87.52,89.95,-2.43,641,561,4,4,0,4,0,
+2019-20,washoe_charter_total,91.8,70.48,21.33,122,112,3,3,0,4,1,ICDA Charter HS
+2019-20,washoe_brick_mortar,100.0,97.5,2.5,91,91,2,2,0,2,0,
+2019-20,washoe_alternative,67.74,43.45,24.29,31,21,1,1,0,2,1,ICDA Charter HS
+2020-21,spcsa_adjusted_charter_only,86.69,91.44,-4.75,2066,1791,23,23,0,24,1,NSHS Sunrise
+2020-21,spcsa_brick_mortar,97.33,96.05,1.28,1197,1165,17,17,0,18,1,NSHS Sunrise
+2020-21,spcsa_general_ed_virtual,86.19,86.15,0.04,543,468,2,2,0,2,0,
+2020-21,spcsa_alternative,48.47,73.35,-24.88,326,158,4,4,0,4,0,
+2020-21,clark_charter_total,83.06,86.46,-3.4,720,598,4,4,0,4,0,
+2020-21,clark_brick_mortar,83.06,86.46,-3.4,720,598,4,4,0,4,0,
+2020-21,washoe_charter_total,95.65,92.16,3.49,115,110,3,3,0,3,0,
+2020-21,washoe_brick_mortar,100.0,97.5,2.5,88,88,2,2,0,2,0,
+2020-21,washoe_alternative,81.48,81.48,0.0,27,22,1,1,0,1,0,
+2021-22,spcsa_adjusted_charter_only,86.07,92.71,-6.64,2377,2046,24,24,0,24,0,
+2021-22,spcsa_brick_mortar,98.24,97.21,1.02,1360,1336,18,18,0,18,0,
+2021-22,spcsa_general_ed_virtual,83.17,83.3,-0.13,612,509,2,2,0,2,0,
+2021-22,spcsa_alternative,49.63,77.18,-27.55,405,201,4,4,0,4,0,
+2021-22,clark_charter_total,82.46,85.06,-2.6,690,569,4,4,0,4,0,
+2021-22,clark_brick_mortar,82.46,85.06,-2.6,690,569,4,4,0,4,0,
+2021-22,washoe_charter_total,91.41,87.22,4.19,163,149,3,3,0,3,0,
+2021-22,washoe_brick_mortar,98.43,97.5,0.93,127,125,2,2,0,2,0,
+2021-22,washoe_alternative,66.67,66.67,-0.0,36,24,1,1,0,1,0,
+2022-23,spcsa_adjusted_charter_only,83.82,92.44,-8.61,2646,2218,26,26,0,29,3,Explore Academy; Mater Academy East; Young Women's Leadership Academy of Las Vegas
+2022-23,spcsa_brick_mortar,98.57,97.18,1.39,1603,1580,20,20,0,23,3,Explore Academy; Mater Academy East; Young Women's Leadership Academy of Las Vegas
+2022-23,spcsa_general_ed_virtual,84.6,84.35,0.25,539,456,2,2,0,2,0,
+2022-23,spcsa_alternative,36.11,72.78,-36.66,504,182,4,4,0,4,0,
+2022-23,clark_charter_total,88.24,91.8,-3.55,757,668,4,4,0,4,0,
+2022-23,clark_brick_mortar,88.24,91.8,-3.55,757,668,4,4,0,4,0,
+2022-23,washoe_charter_total,93.43,86.21,7.22,137,128,3,3,0,3,0,
+2022-23,washoe_brick_mortar,99.13,97.5,1.63,115,114,2,2,0,2,0,
+2022-23,washoe_alternative,63.64,63.64,-0.0,22,14,1,1,0,1,0,
+2023-24,spcsa_adjusted_charter_only,83.32,92.11,-8.78,3286,2738,27,27,0,32,5,Explore Academy; CASLV Cadence; Southern Nevada Trades High School; CIVICA Academy; Young Women's Leadership Academy of Las Vegas
+2023-24,spcsa_brick_mortar,98.57,95.83,2.74,1963,1935,21,21,0,26,5,Explore Academy; CASLV Cadence; Southern Nevada Trades High School; CIVICA Academy; Young Women's Leadership Academy of Las Vegas
+2023-24,spcsa_general_ed_virtual,84.81,84.85,-0.04,645,547,2,2,0,2,0,
+2023-24,spcsa_alternative,37.76,75.25,-37.49,678,256,4,4,0,4,0,
+2023-24,clark_charter_total,86.82,88.7,-1.88,736,639,4,4,0,4,0,
+2023-24,clark_brick_mortar,86.82,88.7,-1.88,736,639,4,4,0,4,0,
+2023-24,washoe_charter_total,88.89,86.87,2.02,171,152,3,3,0,3,0,
+2023-24,washoe_brick_mortar,96.0,95.55,0.45,125,120,2,2,0,2,0,
+2023-24,washoe_alternative,69.57,69.5,0.07,46,32,1,1,0,1,0,
+2024-25,spcsa_adjusted_charter_only,82.69,87.77,-5.08,3541,2928,27,27,0,33,6,Explore Academy; CASLV Cadence; Southern Nevada Trades High School; CIVICA Academy; Young Women's Leadership Academy of Las Vegas; NSHS Meadowwood
+2024-25,spcsa_brick_mortar,98.71,92.43,6.28,2095,2068,20,20,0,26,6,Explore Academy; CASLV Cadence; Southern Nevada Trades High School; CIVICA Academy; Young Women's Leadership Academy of Las Vegas; NSHS Meadowwood
+2024-25,spcsa_general_ed_virtual,85.26,85.1,0.16,604,515,2,2,0,2,0,
+2024-25,spcsa_alternative,40.97,67.38,-26.41,842,345,5,5,0,5,0,
+2024-25,clark_charter_total,89.38,91.7,-2.32,923,825,4,4,0,4,0,
+2024-25,clark_brick_mortar,89.38,91.7,-2.32,923,825,4,4,0,4,0,
+2024-25,washoe_charter_total,95.29,94.17,1.13,170,162,3,3,0,3,0,
+2024-25,washoe_brick_mortar,95.92,95.6,0.32,147,141,2,2,0,2,0,
+2024-25,washoe_alternative,91.3,91.3,0.0,23,21,1,1,0,1,0,
