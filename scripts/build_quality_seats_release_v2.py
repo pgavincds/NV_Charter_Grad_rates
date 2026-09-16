@@ -741,35 +741,39 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
         created.append(name)
 
     aggregate5 = (
-        long_df[(long_df["rating_bucket_5level"] != "Collapsed") & (long_df["rating_bucket_5level"] != "Not Rated") & (long_df["school_year"].isin(chart_years))]
+        long_df[(long_df["rating_bucket_5level"] != "Collapsed") & (long_df["school_year"].isin(chart_years))]
         .groupby(["school_year", "rating_bucket_5level"], dropna=False, as_index=False)
         .agg({"enrollment": "sum"})
     )
+    rated5 = aggregate5[aggregate5["rating_bucket_5level"] != "Not Rated"]
     aggregate3 = (
-        long_df[(long_df["rating_bucket_5level"] == "Collapsed") & (long_df["rating_bucket_3level"] != "Not Rated") & (long_df["school_year"].isin(chart_years))]
+        long_df[(long_df["rating_bucket_5level"] == "Collapsed") & (long_df["school_year"].isin(chart_years))]
         .groupby(["school_year", "rating_bucket_3level"], dropna=False, as_index=False)
         .agg({"enrollment": "sum"})
     )
 
     agg_raw5 = []
     agg_share5 = []
-    for bucket in ["1", "2", "3", "4", "5"]:
+    for bucket in ["1", "2", "3", "4", "5", "Not Rated"]:
         ss = aggregate5[aggregate5["rating_bucket_5level"] == bucket].sort_values("school_year")
         agg_raw5.append({"type": "scatter", "mode": "lines", "stackgroup": "one", "name": bucket, "x": ss["school_year"].tolist(), "y": ss["enrollment"].tolist(), "line": {"width": 0.5, "color": cmap5[bucket]}})
+
+    for bucket in ["1", "2", "3", "4", "5"]:
+        ss = rated5[rated5["rating_bucket_5level"] == bucket].sort_values("school_year")
         agg_share5.append({"type": "scatter", "mode": "lines", "stackgroup": "one", "groupnorm": "percent", "name": bucket, "x": ss["school_year"].tolist(), "y": ss["enrollment"].tolist(), "line": {"width": 0.5, "color": cmap5[bucket]}})
     write(
         "all_charters_raw_5level.html",
         "All Charter Seats by 1-5 Star Rating",
         agg_raw5,
         {"paper_bgcolor": "#f5f1e8", "plot_bgcolor": "#fffaf2", "xaxis": {"title": "School Year", "categoryorder": "array", "categoryarray": chart_years}, "yaxis": {"title": "Seats"}},
-        "Stacked trend view of how many charter students were enrolled in 1-star, 2-star, 3-star, 4-star, and 5-star schools over time. Not Rated seats are excluded."
+        "Stacked trend view of how many charter students were enrolled in 1-star, 2-star, 3-star, 4-star, 5-star, and Not Rated schools over time. Not Rated seats are shown separately in gray."
     )
     write(
         "all_charters_share_5level.html",
         "All Charter Seat Share by 1-5 Star Rating",
         agg_share5,
         {"paper_bgcolor": "#f5f1e8", "plot_bgcolor": "#fffaf2", "xaxis": {"title": "School Year", "categoryorder": "array", "categoryarray": chart_years}, "yaxis": {"title": "Share (%)", "ticksuffix": "%"}},
-        "Same stacked trend, but shown as the share of rated charter seats at each star level instead of raw seat counts. Not Rated seats are excluded."
+        "Same stacked trend, but shown as the share of rated charter seats at each star level instead of raw seat counts. Not Rated seats are excluded from this rated-share view."
     )
 
     agg_raw3 = []
@@ -781,7 +785,7 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
         "All Charter Seats by Collapsed Rating Buckets",
         agg_raw3,
         {"paper_bgcolor": "#f5f1e8", "plot_bgcolor": "#fffaf2", "xaxis": {"title": "School Year", "categoryorder": "array", "categoryarray": chart_years}, "yaxis": {"title": "Seats"}},
-        "Collapsed stacked view using 4-5, 3, and 1-2 buckets. Not Rated seats are excluded."
+        "Collapsed stacked view using 4-5, 3, 1-2, and Not Rated buckets. Not Rated seats are shown separately in gray."
     )
 
     for level in LEVEL_ORDER:

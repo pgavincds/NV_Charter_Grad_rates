@@ -266,6 +266,11 @@ def main() -> None:
         'Visible chart years: 2012-13 to 2025-26; 2025-26 is preliminary',
         1,
     )
+    public_html = public_html.replace(
+        'Not Rated schools are excluded from the main rating charts',
+        'Not Rated seats are shown separately in gray in raw seat charts and excluded from the rated-share chart',
+        1,
+    )
     public_page.write_text(public_html, encoding="utf-8")
 
     exec_summary_path = OUT_RELEASE / "01_Methodology" / "EXECUTIVE_SUMMARY_QUALITY_SEATS.md"
