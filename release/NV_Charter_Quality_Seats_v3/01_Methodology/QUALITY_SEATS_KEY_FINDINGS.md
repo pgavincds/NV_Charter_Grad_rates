@@ -2,7 +2,7 @@
 
 ## Scope
 
-- Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2024-25`.
+- Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`; `2025-26` is a preliminary SPCSA ratings update with carried-forward enrollment.
 - Public charts now display the legacy years beginning in `2012-13`, with the understanding that `2012-13` through `2014-15` are more directional than the later workbook-based years.
 - `2012-13` through `2014-15` are present as legacy state-charter recoveries using school totals from accountability PDFs plus estimated ES/MS/HS band splits where Nevada did not publish exact band counts.
 - `2015-16` remains in the underlying files as a transition / reset year, but it is omitted from the visible charts because it does not function as a usable rating year in this build.
