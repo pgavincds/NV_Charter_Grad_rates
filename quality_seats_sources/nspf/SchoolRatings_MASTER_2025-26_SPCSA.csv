@@ -1,0 +1,163 @@
+Year,District Code,District Name,NSPF School Code,School Name,School Type,Total Index Score,Star Rating,Title I Status,% Proficient ELA,% Proficient Math,% Proficient Science,95% Participation Met Mathematics,95% Participation Met ELA,% Meeting AGP ELA,% Meeting AGP Math,% Meeting AGP EL,NAC 389.445 Credit Requirements (8th Grade),9th Grade Credit Sufficiency,CCR Participation,CCR Completion,Advanced Diploma,4-Year Graduation Rate,5-Year Graduation Rate,Chronic Absenteeism,CSI,Yrs In Designation As CSI,TSI,ATSI,Yrs In Designation As ATSI,CSI-MRI,Yrs In Designation As CSI-MRI
+2026,18,"State Public Charter School Authority ",101101.1,NV Rise CS ES,Regular,59,3,YES,48.6,39.4,14.2,YES,YES,51.3,37.8,61.3,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",102100.1,NV Prep CS ES,Regular,12.5,1,YES,20,11.4,<5,NO,NO,22.6,12.3,11.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,29,YES,2,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",102100.2,NV Prep CS MS,Regular,22.5,1,YES,21.2,16,23.1,YES,NO,23.4,16.7,10.7,<5,N/A,N/A,N/A,N/A,N/A,N/A,31.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",104101.3,NSHS II Meadowwood HS,Regular,96.3,5,NO,92.3,61.5,N/A,YES,YES,N/A,N/A,N/A,N/A,N/A,-,-,-,92.8,>95,11.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",105101.1,Signature Prep CS ES,Regular,68.5,4,YES,58.6,47,18.5,YES,YES,61.9,41.3,65.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",105101.2,Signature Prep CS MS,Regular,64.5,3,YES,50.2,24.1,34,YES,YES,53.6,27,28.5,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",106101.1,Pinecrest Northern NV ES,Regular,96.5,5,NO,61.1,67.7,40.1,YES,YES,77,76.4,70,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7.8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",106101.2,Pinecrest Northern NV MS,Regular,82,5,NO,58.3,52.1,60.1,YES,YES,54.5,52.4,50,94.3,N/A,N/A,N/A,N/A,N/A,N/A,13.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",107101.2,Explore ACAD MS,Regular,16,1,YES,24.3,9.2,22,YES,YES,24.8,7.5,13.3,>95,N/A,N/A,N/A,N/A,N/A,N/A,29.2,YES,1,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",107101.3,Explore ACAD HS,Regular,34.4,2,YES,42.8,7.1,15.3,YES,YES,N/A,N/A,<5,N/A,87.8,34.7,30.4,-,82.3,-,37.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",110100.1,CIVICA Acad ES,Regular,83,4,YES,53.6,43.2,20.8,YES,YES,68.9,52.7,50.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",110100.2,CIVICA Acad MS,Regular,94,5,YES,58,38.4,30,YES,YES,64.2,49.8,60,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",110100.3,CIVICA Acad HS,Regular,57.7,Not Rated,YES,45.4,<5,7.6,YES,YES,N/A,N/A,21.3,N/A,100,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",111100.1,Sage Collegiate ES,Regular,20.5,1,YES,31.3,22.8,<5,YES,YES,39.5,<5,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,19.7,YES,3,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",111100.2,Sage Collegiate MS,Regular,31.6,2,YES,30.9,18.1,23.5,YES,YES,36.5,19.2,-,<5,N/A,N/A,N/A,N/A,N/A,N/A,32.2,NO,N/A,NO,YES,3,NO,N/A
+2026,18,"State Public Charter School Authority ",113100.2,YWLA MS,Regular,65.5,3,YES,52.8,22.8,22.7,YES,YES,57.1,26.9,30,83.3,N/A,N/A,N/A,N/A,N/A,N/A,33.8,NO,N/A,NO,YES,3,NO,N/A
+2026,18,"State Public Charter School Authority ",113100.3,YWLA HS,Regular,53.3,Not Rated,YES,N/A,N/A,15.3,YES,YES,N/A,N/A,-,N/A,100,N/A,N/A,N/A,N/A,N/A,16.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",115100.1,Strong Start Academy ES,Regular,97,5,YES,84.8,67.4,24,YES,YES,90,52.5,72.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",38435.1,Freedom Class ACAD ES,Regular,50.5,3,YES,49.7,40.7,20.6,YES,YES,51.2,36.3,47.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,8.8,NO,N/A,NO,YES,1,NO,N/A
+2026,18,"State Public Charter School Authority ",38435.2,Freedom Class ACAD MS,Regular,67,3,YES,50.2,31.5,35.7,YES,YES,51,30.9,14.8,92.8,N/A,N/A,N/A,N/A,N/A,N/A,5.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",39438.1,Legacy N Valley ES,Regular,37.5,2,YES,49.4,37.8,14.4,YES,YES,49,28.3,42.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,15.9,NO,N/A,NO,YES,3,NO,N/A
+2026,18,"State Public Charter School Authority ",39438.2,Legacy N Valley MS,Regular,49,2,YES,41.7,18.3,35.2,YES,YES,44.1,20.1,23.6,90,N/A,N/A,N/A,N/A,N/A,N/A,15.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",39439.1,Legacy Cadence ES,Regular,28.5,2,YES,39.4,36.7,8.3,YES,YES,43.5,28.8,36.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,16,NO,N/A,NO,YES,1,NO,N/A
+2026,18,"State Public Charter School Authority ",39439.2,Legacy Cadence MS,Regular,48.5,2,YES,46.4,24,37.9,YES,YES,49.5,27,10.5,92.1,N/A,N/A,N/A,N/A,N/A,N/A,17.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",39440.1,Legacy SW ES,Regular,85,5,NO,66.4,62.5,31.8,YES,YES,65.1,52.8,62.7,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",39440.2,Legacy SW MS,Regular,99,5,NO,70.8,60.5,64,YES,YES,71.3,60.2,52,>95,N/A,N/A,N/A,N/A,N/A,N/A,6.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",43100.1,Futuro ACAD ES,Regular,61,3,YES,48.8,35.5,9.8,YES,YES,59.7,40.1,53.1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,17.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",44437.1,Mater Northern NV ES,Regular,77.5,4,YES,48.7,52.4,<5,YES,YES,58.5,54.9,67.9,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",44437.2,Mater Northern NV MS,Regular,57,3,YES,39.3,31.1,27.4,YES,YES,40,30,21.7,>95,N/A,N/A,N/A,N/A,N/A,N/A,9.3,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",46100.1,DP Agassi ES,Regular,13,1,YES,25.5,19.8,<5,YES,YES,29.4,20.3,35.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,37.8,YES,1,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",46200.2,DP Agassi MS,Regular,50.5,3,YES,33.3,30.1,9.5,YES,YES,33.9,36,21.7,90.4,N/A,N/A,N/A,N/A,N/A,N/A,31.1,NO,N/A,NO,YES,2,NO,N/A
+2026,18,"State Public Charter School Authority ",46300.3,DP Agassi HS,Regular,62.5,3,YES,58,50,8.5,NO,NO,N/A,N/A,29.4,N/A,94.3,45.8,<4.5,8.4,85.5,94.2,29.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",47434.1,SLAM ES,Regular,59,3,YES,49.8,48.8,12.7,YES,YES,44.5,45.7,60,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5.2,NO,N/A,NO,YES,2,NO,N/A
+2026,18,"State Public Charter School Authority ",47434.2,SLAM MS,Regular,72.5,4,YES,47.3,35.5,31.4,YES,YES,50.3,37.4,25,>95,N/A,N/A,N/A,N/A,N/A,N/A,7.8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",47434.3,SLAM HS,Regular,84,5,YES,52.3,18.9,24.1,YES,YES,N/A,N/A,28.3,N/A,94.4,>95,90.9,38.8,>95,>95,6.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",48433.2,Equipo ACAD MS,Regular,26.5,1,YES,30.3,15.8,14.2,YES,YES,29.4,16.1,7.5,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",48433.3,Equipo ACAD HS,Regular,80,4,YES,42.3,16.3,14.7,YES,YES,N/A,N/A,20.9,N/A,99.2,>95,47.3,61.7,90.2,>95,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49100.1,Mater Cactus Park ES,Regular,42.5,2,YES,38.3,23.8,<5,YES,YES,42.7,36.5,45,N/A,N/A,N/A,N/A,N/A,N/A,N/A,15.8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49432.1,Mater Mtn Vista ES,Regular,73,4,YES,52,48.8,22.3,YES,YES,55.8,54.9,50.4,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49432.2,Mater Mtn Vista MS,Regular,89,5,YES,61.4,47.1,35.8,YES,YES,63.9,45.3,35.1,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49433.1,Mater Bonanza ES,Regular,91,5,YES,54.1,64.4,5.3,YES,YES,66.9,77.9,59.1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49433.2,Mater Bonanza MS,Regular,62.5,3,YES,45.1,31,31.7,YES,YES,48.2,33.2,19.1,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49434.1,Mater East ES,Regular,68.5,4,YES,55.4,51.5,11.7,YES,YES,50.3,49.1,55.4,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49434.2,Mater East MS,Regular,60.5,3,YES,48.3,32.8,29.2,YES,YES,45.6,33.9,28.7,>95,N/A,N/A,N/A,N/A,N/A,N/A,5.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",49434.3,Mater East HS,Regular,78,4,YES,39.9,7.2,17.2,YES,YES,N/A,N/A,18,N/A,100,>95,>95,53.1,>95,>95,6.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",50431.1,Amplus Durango ES,Regular,81.5,4,NO,65.6,64.3,14.5,YES,YES,65.6,55.1,47.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",50431.2,Amplus Durango MS,Regular,85.5,5,NO,70.4,54.7,58,YES,YES,70.2,51.9,29,87.2,N/A,N/A,N/A,N/A,N/A,N/A,5.8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",50431.3,Amplus Durango HS,Regular,91.5,5,NO,77.4,39,36,YES,YES,N/A,N/A,25,N/A,97.4,70,62.4,77.9,>95,>95,14.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",50432.1,Amplus Rainbow ES,Regular,74.5,4,YES,68.2,63.4,48,YES,YES,59.2,51,70.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",51430.1,Founders ACAD ES,Regular,78.5,4,NO,56.4,52.3,21.1,YES,YES,65.4,51.3,38.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",51430.2,Founders ACAD MS,Regular,67.5,3,NO,48.4,38.4,31.5,YES,YES,46.9,37.9,10.7,89.3,N/A,N/A,N/A,N/A,N/A,N/A,6.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",51430.3,Founders ACAD HS,Regular,90.5,5,NO,83.5,44.7,45.3,YES,YES,N/A,N/A,35.2,N/A,98.7,>95,16.6,66.6,>95,>95,6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",52429.1,Leadership ACAD ES,Regular,34.6,2,YES,50,21.8,27.2,YES,YES,50,14.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",52429.2,Leadership ACAD MS,Regular,57.2,3,YES,51.3,34.2,31.5,YES,YES,43.8,34.2,-,71.1,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",52429.3,Leadership ACAD HS,Regular,76.6,4,YES,58.6,41.3,31.7,YES,YES,N/A,N/A,-,N/A,90.6,51.8,25.9,44,89.2,90,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",54428.1,Learning Bridge ES,Regular,63.3,3,NO,36,26.6,27.7,YES,YES,52.7,34.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",54428.2,Learning Bridge MS,Regular,70,4,NO,44.8,34.6,16.6,YES,YES,43.7,41.6,N/A,>95,N/A,N/A,N/A,N/A,N/A,N/A,7.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55200.1,Doral Cactus ES,Regular,77.5,4,NO,70.6,69.4,26.1,YES,YES,62.8,45.7,46.1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55200.2,Doral Cactus MS,Regular,98.8,5,NO,76.5,65.4,63.3,YES,YES,73.9,64.1,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,6.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55201.1,Doral Fire Mesa ES,Regular,67.5,4,YES,62.8,50.9,17.8,YES,YES,54.1,44.3,72.9,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55201.2,Doral Fire Mesa MS,Regular,93.5,5,YES,66.9,60.7,60.8,YES,YES,66.6,63.4,72.7,>95,N/A,N/A,N/A,N/A,N/A,N/A,9.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55202.1,Doral Red Rock ES,Regular,90,5,NO,75.3,75.5,55.7,YES,YES,68.7,65.7,66.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,8.3,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55202.2,Doral Red Rock MS,Regular,88.3,5,NO,71.2,65.5,57.6,YES,YES,67.5,64.7,-,92.4,N/A,N/A,N/A,N/A,N/A,N/A,7.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55202.3,Doral Red Rock HS,Regular,89.5,5,NO,74.8,33.3,32.2,YES,YES,N/A,N/A,18.1,N/A,100,84,72.8,75.3,>95,>95,17.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55203.1,Doral Saddle ES,Regular,79,4,NO,72.2,69.3,26.7,YES,YES,64.9,47.6,76.9,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55203.2,Doral Saddle MS,Regular,89.5,5,NO,69.3,56.7,61.8,YES,YES,69.5,56.7,25,>95,N/A,N/A,N/A,N/A,N/A,N/A,5.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55204.1,Doral W Pebble ES,Regular,91.5,5,NO,67,65.2,32.4,YES,YES,64.5,58.5,68.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5.3,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",55204.2,Doral W Pebble MS,Regular,92.5,5,NO,69.5,62.3,53.9,YES,YES,67,64.2,33.3,>95,N/A,N/A,N/A,N/A,N/A,N/A,5.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",57424.1,Honors ACAD ES,Regular,23.3,1,YES,42.8,30.1,15.7,NO,NO,39.4,15.7,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",57424.2,Honors ACAD MS,Regular,47.7,2,YES,46.1,24.6,37.5,YES,YES,39.6,28.5,N/A,>95,N/A,N/A,N/A,N/A,N/A,N/A,21.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58422.1,Pinecrest Horizon ES,Regular,86.5,5,YES,62.3,64.8,17.9,YES,YES,62.5,66.9,56.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,10.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58423.1,Pinecrest Cadence ES,Regular,88,5,NO,68.4,63,13,YES,YES,66.8,58,66.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58423.2,Pinecrest Cadence MS,Regular,88,5,NO,65.8,64.2,57.2,YES,YES,63.7,65.3,26.6,83.6,N/A,N/A,N/A,N/A,N/A,N/A,10,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58423.3,Pinecrest Cadence HS,Regular,92,5,NO,73.8,48.4,34.8,YES,YES,N/A,N/A,19,N/A,91.7,86,82.9,53.5,>95,>95,16,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58425.1,Pinecrest Inspirada ES,Regular,83,4,NO,85.4,85.7,39.5,YES,YES,71.7,67.8,83.3,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58425.2,Pinecrest Inspirada MS,Regular,94.4,5,NO,84.1,80.3,76.8,YES,YES,83.3,79.5,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58427.1,Pinecrest St Rose ES,Regular,87,5,NO,81.3,78.7,41.3,YES,YES,72.9,68.9,73.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.3,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58427.2,Pinecrest St Rose MS,Regular,95.5,5,NO,79.7,62.7,74.3,YES,YES,78.9,61,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58428.1,Pinecrest Sloan ES,Regular,83,4,NO,79.4,77.5,49.3,YES,YES,70.7,68.5,38.4,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58428.2,Pinecrest Sloan MS,Regular,77,4,NO,74,63.5,59,YES,YES,70.7,59.3,18.1,>95,N/A,N/A,N/A,N/A,N/A,N/A,6.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58428.3,Pinecrest Sloan HS,Regular,96.5,5,NO,81.5,48.3,45.9,YES,YES,N/A,N/A,21.4,N/A,99.3,92.1,85.7,66.4,>95,>95,9.7,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58429.2,Pinecrest Virtual MS,Regular,50,3,YES,54.9,32.3,39.1,YES,YES,47.3,31.5,-,85.1,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58429.3,Pinecrest Virtual HS,Regular,66.4,3,YES,61.1,16.6,38.4,YES,YES,N/A,N/A,-,N/A,76.4,33.3,25,50,93.3,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",58430.1,Pinecrest Springs ES,Regular,85,5,YES,64.3,62.2,17.3,YES,YES,64.8,49.4,64.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59119.1,Somerset NLV ES,Regular,69.5,4,YES,59.1,52.5,19.5,YES,YES,61.8,43.3,57.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,14,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59120.1,Somerset Losee ES,Regular,59,3,YES,57.2,44.2,18.6,YES,YES,56.1,37.6,64,N/A,N/A,N/A,N/A,N/A,N/A,N/A,10,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59120.2,Somerset Losee MS,Regular,53.5,3,YES,43.4,29.4,25.1,YES,YES,44.1,31.2,21.4,>95,N/A,N/A,N/A,N/A,N/A,N/A,12.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59120.3,Somerset Losee HS,Regular,60.5,3,YES,43.5,13.1,6.4,YES,YES,N/A,N/A,12.5,N/A,94.7,53.7,23.4,44.1,>95,>95,18,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59121.1,Somerset Lone Mtn ES,Regular,82,4,YES,64.4,58.8,29.8,YES,YES,64.8,56.5,57.8,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59121.2,Somerset Lone Mtn MS,Regular,87,5,YES,67.6,49,51.6,YES,YES,68.4,45.7,41.1,>95,N/A,N/A,N/A,N/A,N/A,N/A,6.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59122.1,Somerset Sky Pointe ES,Regular,83,4,NO,69.5,70,25,YES,YES,65.6,56.5,60,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59122.2,Somerset Sky Pointe MS,Regular,93.3,5,NO,68.3,54.5,49,YES,YES,64.3,52.5,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59122.3,Somerset Sky Pointe HS,Regular,92.5,5,NO,75.2,33.6,30,YES,YES,N/A,N/A,20.6,N/A,98.8,85.3,81.9,61.8,>95,>95,6.3,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59123.1,Somerset Stephanie ES,Regular,88,5,YES,63.5,58.9,25.2,YES,YES,65.4,60.4,66.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,12.7,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59123.2,Somerset Stephanie MS,Regular,88.5,5,YES,68,50.9,62.7,YES,YES,66.1,52.1,14.2,>95,N/A,N/A,N/A,N/A,N/A,N/A,9.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59124.1,Somerset Aliante ES,Regular,87.2,5,NO,64.8,62.5,32.8,YES,YES,62.4,56,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59124.2,Somerset Aliante MS,Regular,90,5,NO,64.6,50.7,50.8,YES,YES,63.3,50.5,63.6,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59125.1,Somerset Skye Canyon ES,Regular,95.5,5,NO,72.4,72,44.1,YES,YES,70.7,67.8,50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",59125.2,Somerset Skye Canyon MS,Regular,93.3,5,NO,74.3,63.7,61.9,YES,YES,69.6,61.3,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",60401.1,Explore Knowledge Acad ES,Regular,61.5,3,YES,59.6,37.3,11.1,YES,YES,61.8,33.3,84.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",60401.2,Explore Knowledge Acad MS,Regular,83.5,5,YES,63.9,33.1,60.6,YES,YES,62.9,34.9,40,74.2,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",60401.3,Explore Knowledge Acad HS,Regular,77.2,4,YES,56.2,18.7,46.4,YES,YES,N/A,N/A,-,N/A,100,55.5,22.2,66.6,>95,>95,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",61415.1,Discovery Sandhill ES,Regular,46.6,2,YES,56.8,45.6,21.4,YES,YES,54,44.4,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,33.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",61417.1,Discovery Hill Pointe ES,Regular,78,4,YES,50.3,54.1,24.4,YES,YES,60.2,63.8,66.6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,26.8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",61417.2,Discovery Hill Pointe MS,Regular,75,4,YES,58.4,38.4,40,YES,YES,56.4,36.8,54.5,>95,N/A,N/A,N/A,N/A,N/A,N/A,18.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",62101.1,Do & Be Arts Acad ES,Regular,7.7,1,YES,23.6,12.7,<5,YES,YES,17.3,<5,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,56.1,YES,1,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",62101.2,Do & Be Arts Acad MS,Regular,32.2,2,YES,35.8,11.1,28.5,NO,NO,40,20,-,64.7,N/A,N/A,N/A,N/A,N/A,N/A,47,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",64087.1,Rainbow Dreams ELA ES,Regular,0,Not Rated,YES,N/A,N/A,N/A,YES,YES,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,25,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",65414.1,Oasis ACAD ES,Regular,54.5,3,NO,61.1,49.7,18.1,NO,NO,48.8,28.3,61.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,10.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",65414.2,Oasis ACAD MS,Regular,85,5,NO,59.7,54.7,61.9,YES,YES,58,55.3,-,93,N/A,N/A,N/A,N/A,N/A,N/A,10.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",65414.3,Oasis ACAD HS,Regular,90.5,5,NO,82.2,68.8,32,YES,YES,N/A,N/A,-,N/A,86.9,>95,>95,52.1,>95,>95,16,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",66436.1,Doral Northern NV ES,Regular,87.2,5,NO,69.3,78.3,49.5,YES,YES,57.2,69.9,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",66436.2,Doral Northern NV MS,Regular,93.3,5,NO,72.7,63.6,56.1,YES,YES,68.3,60.7,-,92.5,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",67201.2,Delta Acad MS,Regular,27.5,1,YES,28.9,22,14.6,YES,YES,30.4,22.2,13,85.4,N/A,N/A,N/A,N/A,N/A,N/A,8.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",67201.3,Delta Acad HS,Regular,36.5,2,YES,36.1,5.5,9.9,NO,NO,N/A,N/A,6.9,N/A,75.4,33.3,7,15.9,84,84.5,8.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",68410.1,Elko Institute ES,Regular,88.3,5,NO,70.9,65.6,43.1,YES,YES,72,47.6,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",68410.2,Elko Institute MS,Regular,94.4,5,NO,64.6,56.9,64.7,YES,YES,69.1,63.6,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,15.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",69101.1,Innovations Oakey ES,Regular,53,3,YES,34.3,46.1,42.8,YES,YES,40.8,52.5,35.3,N/A,N/A,N/A,N/A,N/A,N/A,N/A,18.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",69201.2,Innovations Sahara MS,Regular,51.5,3,YES,28,22.9,27.6,YES,YES,32.6,33.5,16.6,>95,N/A,N/A,N/A,N/A,N/A,N/A,8.6,NO,N/A,NO,YES,3,NO,N/A
+2026,18,"State Public Charter School Authority ",69201.3,Innovations Sahara HS,Regular,56.5,3,YES,29.1,20.8,14.2,YES,YES,N/A,N/A,8.3,N/A,100,23,23,20.8,92.3,87.5,6.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",72416.1,Quest Northwest ES,Regular,54,3,YES,52.3,33.5,8.1,YES,YES,60,20.9,42.1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,8.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",72416.2,Quest Northwest MS,Regular,67,3,YES,46.1,32.3,50,YES,YES,50.8,36,15.3,>95,N/A,N/A,N/A,N/A,N/A,N/A,8.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",74418.1,Imagine Mtn View ES,Regular,38,2,YES,37.1,31.1,<5,YES,YES,43.1,31.8,52.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,21.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",74418.2,Imagine Mtn View MS,Regular,63.7,3,YES,34,23.4,N/A,YES,YES,56,31.7,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,26.7,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",75401.1,FuturEdge Acad ES,Regular,15.5,1,YES,29.4,14.7,<5,YES,YES,19.5,8.6,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,30.5,NO,N/A,NO,YES,2,NO,N/A
+2026,18,"State Public Charter School Authority ",75401.2,FuturEdge Acad MS,Regular,22,1,YES,19.8,12.8,15.1,YES,NO,26.4,12.6,14.2,82.3,N/A,N/A,N/A,N/A,N/A,N/A,29,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",76412.3,Alpine Acad HS,Regular,64.4,3,YES,54.8,15.3,22,NO,NO,N/A,N/A,-,N/A,81.4,48.6,40.5,36.1,>95,>95,38.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",77401.1,Odyssey ES,Regular,67.7,4,YES,59.2,42,38.2,YES,YES,64.1,41.6,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",77401.2,Odyssey MS,Regular,66,3,YES,47.4,30.3,41.4,YES,YES,47.7,32.3,33.3,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",77401.3,Odyssey HS,Regular,71,4,YES,45,11.3,34.2,YES,YES,N/A,N/A,15.4,N/A,96.8,55,49.4,29.4,93,93.5,8.6,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",78411.1,Silver Sands ES,Regular,59.5,3,YES,29.8,26.3,<5,YES,YES,52.9,55.8,38.4,N/A,N/A,N/A,N/A,N/A,N/A,N/A,22.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",78411.2,Silver Sands MS,Regular,80,5,YES,58,29,50,YES,YES,67.7,32.2,-,94.7,N/A,N/A,N/A,N/A,N/A,N/A,18.1,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81101.3,NSHS Downtown HS,Regular,76.3,4,YES,38,19,N/A,YES,YES,N/A,N/A,-,N/A,N/A,-,-,63.1,>95,>95,-,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81102.3,NSHS Summerlin HS,Regular,93.1,5,NO,57.1,26.3,N/A,YES,YES,N/A,N/A,-,N/A,N/A,>95,>95,78.1,94.8,>95,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81103.3,NSHS Henderson HS,Regular,94.3,5,NO,74.1,30.5,N/A,YES,YES,N/A,N/A,-,N/A,N/A,>95,>95,81.3,>95,>95,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81104.3,NSHS Sunrise HS,Regular,91.2,5,YES,66.6,19,N/A,YES,YES,N/A,N/A,-,N/A,N/A,>95,>95,90,>95,>95,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81106.3,NSHS SW HS,Regular,96.8,5,NO,76.2,37.2,N/A,YES,YES,N/A,N/A,-,N/A,N/A,>95,>95,83.1,>95,>95,5.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81107.3,NSHS DownTwn Hend HS,Regular,100,5,NO,72,43.1,N/A,YES,YES,N/A,N/A,N/A,N/A,N/A,>95,>95,88.3,>95,>95,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81108.3,NSHS NW HS,Regular,93.1,5,NO,67.8,26.7,N/A,YES,YES,N/A,N/A,-,N/A,N/A,>95,>95,74.6,>95,>95,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",81109.3,NSHS North Las Vegas HS,Regular,89.3,5,NO,58,12.9,N/A,YES,YES,N/A,N/A,N/A,N/A,N/A,>95,>95,73.5,>95,>95,5.5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",85405.3,NV Connections ACAD HS,Regular,60.5,3,YES,33.2,5.6,24.3,YES,YES,N/A,N/A,13,N/A,92.6,89,88.1,32.6,82.2,84.7,11.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",86404.2,Nevada Virtual MS,Regular,33,2,YES,31.2,10.8,22.6,YES,YES,30.4,10,26.3,75.9,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,YES,2,NO,N/A
+2026,18,"State Public Charter School Authority ",86404.3,Nevada Virtual HS,Regular,76.5,4,YES,50.8,10,21.3,YES,YES,N/A,N/A,15,N/A,95.3,80.6,78.7,30.4,88,88.6,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87310.1,CASLV Centennial ES,Regular,72,4,NO,68.1,62.5,31.6,YES,YES,57.9,51.2,50,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87310.2,CASLV Centennial MS,Regular,90,5,NO,70.1,66.4,56.8,YES,YES,68.5,64.9,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87311.1,CASLV Nellis AFB ES,Regular,61,3,NO,50.1,41.8,18.7,YES,YES,47.7,41,68.7,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87311.2,CASLV Nellis AFB MS,Regular,81.6,5,NO,57.4,41.4,47.8,YES,YES,51.3,42.9,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87312.2,CASLV Sandy Ridge MS,Regular,76.1,4,NO,79.8,66.6,69.9,YES,YES,81.3,67.5,-,>95,N/A,N/A,N/A,N/A,N/A,N/A,5.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87312.3,CASLV Sandy Ridge HS,Regular,91.5,5,NO,89.5,70.1,45.8,YES,YES,N/A,N/A,7.6,N/A,97.7,88.9,72.7,77.9,>95,>95,6.2,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87313.1,CASLV Tamarus ES,Regular,86,5,NO,82.5,75.9,N/A,YES,YES,74.1,60.2,72,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87314.1,CASLV Windmill ES,Regular,77.6,4,NO,82.1,65.3,47.5,YES,YES,71.2,60.3,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,<5,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87314.2,CASLV Windmill MS,Regular,90.2,5,NO,77,67.2,N/A,YES,YES,70.7,66.5,18.1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,5.3,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87315.1,CASLV Eastgate ES,Regular,54,3,YES,62.4,58.1,22.5,YES,YES,54.2,39.7,41.8,N/A,N/A,N/A,N/A,N/A,N/A,N/A,8.4,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87316.1,CASLV Cadence ES,Regular,67.5,4,YES,56.3,45.7,18.2,YES,YES,59.8,42.7,44,N/A,N/A,N/A,N/A,N/A,N/A,N/A,7.9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87316.2,CASLV Cadence MS,Regular,79,4,YES,62.2,37.9,50,YES,YES,61.9,40.5,16.1,>95,N/A,N/A,N/A,N/A,N/A,N/A,9,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",87316.3,CASLV Cadence HS,Regular,91.1,Not Rated,YES,77.5,45,41.9,YES,YES,N/A,N/A,30.7,N/A,100,N/A,N/A,N/A,N/A,N/A,14.8,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",89409.3,Beacon ACAD HS,Alternative,5.2,1,YES,<5,<5,-,NO,NO,N/A,N/A,<5,N/A,60,9.6,<4.5,<5,25.9,42.3,48.2,NO,N/A,NO,NO,N/A,YES,8
+2026,18,"State Public Charter School Authority ",92201.2,WYLEES MS,Regular,15,1,YES,26.1,14.7,22.2,YES,YES,26.3,13.2,16,39.4,N/A,N/A,N/A,N/A,N/A,N/A,43.6,YES,1,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",95301.3,Southern NV Trades HS,,53.8,Not Rated,YES,8.4,16.8,20,NO,NO,N/A,N/A,6.9,N/A,100,79.4,79.4,N/A,-,N/A,38,NO,N/A,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",96601.3,Thrive Point Acad HS,Alternative,5.5,1,YES,9.2,<5,9.8,NO,NO,N/A,N/A,<5,N/A,27.7,<5,<4.5,<5,34.1,37.5,29.7,YES,1,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",97101.1,Vegas Vista Acad ES,Regular,9.5,1,YES,20.4,12.7,10,YES,YES,23.9,<5,30.7,N/A,N/A,N/A,N/A,N/A,N/A,N/A,31.3,YES,1,NO,NO,N/A,NO,N/A
+2026,18,"State Public Charter School Authority ",98101.1,Nevada Classical Academy Elko ES,Regular,14.2,Not Rated,NO,36.3,27.2,N/A,YES,YES,N/A,N/A,-,N/A,N/A,N/A,N/A,N/A,N/A,N/A,48.1,NO,N/A,NO,NO,N/A,NO,N/A

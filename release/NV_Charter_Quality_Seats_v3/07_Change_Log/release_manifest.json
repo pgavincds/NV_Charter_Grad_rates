@@ -1,0 +1,23 @@
+{
+  "release_name": "NV_Charter_Quality_Seats_v3",
+  "analysis_years": [
+    "2012-13",
+    "2013-14",
+    "2014-15",
+    "2015-16",
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "latest_update_scope": "Preliminary SPCSA-only ratings with 2024-25 Validation Day enrollment carried forward pending current-year enrollment",
+  "enrollment_caveat": "2025-26 seat counts are not current enrollment. Replace carried-forward 2024-25 enrollment when the 2025-26 count-day file is released.",
+  "public_page": "06_Public_Website/quality-seats-overview.html",
+  "chart_count": 21
+}

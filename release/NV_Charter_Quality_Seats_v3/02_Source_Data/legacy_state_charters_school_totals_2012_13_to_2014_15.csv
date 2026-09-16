@@ -1,0 +1,59 @@
+school_year,base_school_code,school_name_total_row,school_total_enrollment,source_pdf,source_page_hint,exclude_noncharter
+2012-13,18412,Alpine Charter HS,120.0,nv_2013_18.pdf,2,no
+2012-13,18409,Beacon Academy of Nevada,732.0,nv_2013_18.pdf,2,no
+2012-13,18407,Coral Acad of Sci Academy,1275.0,nv_2013_18.pdf,2,no
+2012-13,18417,Discovery Charter School,317.0,nv_2013_18.pdf,2,no
+2012-13,18410,Elko Institute,146.0,nv_2013_18.pdf,2,no
+2012-13,18424,Honors Academy of Literature,122.0,nv_2013_18.pdf,2,no
+2012-13,18418,Imagine School Mountain View,333.0,nv_2013_18.pdf,2,no
+2012-13,18405,Nevada Connections Academy,1607.0,nv_2013_18.pdf,2,no
+2012-13,18401,Nevada State High School,226.0,nv_2013_18.pdf,2,no
+2012-13,18404,Nevada Virtual Academy,4497.0,nv_2013_18.pdf,2,no
+2012-13,18414,Oasis Academy,181.0,nv_2013_18.pdf,2,no
+2012-13,18423,Pinecrest Academy of Nevada,764.0,nv_2013_18.pdf,2,no
+2012-13,18408,Quest Academy,1001.0,nv_2013_18.pdf,2,no
+2012-13,18411,Silver Sands Montessori,277.0,nv_2013_18.pdf,2,no
+2012-13,18400,Silver State Charter Schools,428.0,nv_2013_18.pdf,2,no
+2012-13,18419,Somerset Academy of Las Vegas,1784.0,nv_2013_18.pdf,2,no
+2012-13,65582,The Davidson Academy of Nevada,124.0,nv_2013_18.pdf,2,yes
+2013-14,18412,Alpine Academy,80.0,nv_2014_18.pdf,2,no
+2013-14,18409,Beacon Academy of Nevada,811.0,nv_2014_18.pdf,2,no
+2013-14,18407,Coral Acad of Sci Academy,1379.0,nv_2014_18.pdf,2,no
+2013-14,18417,DCS,367.0,nv_2014_18.pdf,2,no
+2013-14,18426,Doral Academy,752.0,nv_2014_18.pdf,2,no
+2013-14,18410,Elko Institute,163.0,nv_2014_18.pdf,2,no
+2013-14,18424,Honors Academy of Literature,193.0,nv_2014_18.pdf,2,no
+2013-14,18418,Imagine School Mountain View,475.0,nv_2014_18.pdf,2,no
+2013-14,18428,Learning Bridge,118.0,nv_2014_18.pdf,2,no
+2013-14,18405,Nevada Connections Academy,1987.0,nv_2014_18.pdf,2,no
+2013-14,18401,Nevada State High School,279.0,nv_2014_18.pdf,2,no
+2013-14,18404,Nevada Virtual Academy,3669.0,nv_2014_18.pdf,2,no
+2013-14,18414,Oasis Academy,181.0,nv_2014_18.pdf,2,no
+2013-14,18423,Pinecrest Academy of Nevada,885.0,nv_2014_18.pdf,2,no
+2013-14,18408,Quest Preparatory Academy,863.0,nv_2014_18.pdf,2,no
+2013-14,18411,Silver Sands Montessori,286.0,nv_2014_18.pdf,2,no
+2013-14,18419,Somerset Academy of Las Vegas,3012.0,nv_2014_18.pdf,2,no
+2013-14,18400,SSCS,428.0,nv_2014_18.pdf,2,no
+2013-14,65623,Independence HS,,nv_2014_18.pdf,2,yes
+2014-15,18412,Alpine Academy,109.0,nv_2015_18.pdf,2-3,no
+2014-15,18431,American Prep Academy,410.0,nv_2015_18.pdf,2-3,no
+2014-15,18409,Beacon Academy of Nevada,524.0,nv_2015_18.pdf,2-3,no
+2014-15,18407,Coral Acad of Sci Academy,1488.0,nv_2015_18.pdf,2-3,no
+2014-15,18417,DCS,429.0,nv_2015_18.pdf,2-3,no
+2014-15,18426,Doral Academy,1655.0,nv_2015_18.pdf,2-3,no
+2014-15,18410,Elko Institute,182.0,nv_2015_18.pdf,2-3,no
+2014-15,18430,Founders Academy of Las Vegas,433.0,nv_2015_18.pdf,2-3,no
+2014-15,18424,Honors Academy of Literature,187.0,nv_2015_18.pdf,2-3,no
+2014-15,18418,Imagine Schools at Mountain Vi,491.0,nv_2015_18.pdf,2-3,no
+2014-15,18429,Leadership Academy of Nevada,217.0,nv_2015_18.pdf,2-3,no
+2014-15,18428,Learning Bridge,151.0,nv_2015_18.pdf,2-3,no
+2014-15,18432,Mater Academy of Nevada,286.0,nv_2015_18.pdf,2-3,no
+2014-15,18405,Nevada Connections Academy,2624.0,nv_2015_18.pdf,2-3,no
+2014-15,18401,Nevada State High School,312.0,nv_2015_18.pdf,2-3,no
+2014-15,18404,Nevada Virtual Academy,2632.0,nv_2015_18.pdf,2-3,no
+2014-15,18414,Oasis Academy,358.0,nv_2015_18.pdf,2-3,no
+2014-15,18423,Pinecrest Academy of Nevada,937.0,nv_2015_18.pdf,2-3,no
+2014-15,18408,Quest Academy,1460.0,nv_2015_18.pdf,2-3,no
+2014-15,18411,Silver Sands Montessori,284.0,nv_2015_18.pdf,2-3,no
+2014-15,18400,SSCS,412.0,nv_2015_18.pdf,2-3,no
+2014-15,18419,Somerset Academy of Las Vegas,4523.0,nv_2015_18.pdf,2-3,no
