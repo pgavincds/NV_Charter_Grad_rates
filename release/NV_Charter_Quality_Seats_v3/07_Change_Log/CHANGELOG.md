@@ -7,6 +7,6 @@
 - Confirmed 2013-14 district rating pulls are header-only placeholders, not usable statewide data files.
 
 - Added a preliminary 2025-26 SPCSA rating update from the user-provided current ratings CSV.
-- Carried forward 2024-25 Validation Day enrollment as a temporary placeholder pending the 2025-26 count-day file; unmatched rows are retained and audited.
+- Joined the ratings to current 2025-26 NDE Validation Day enrollment; no prior-year enrollment carry-forward is used.
 - Added a caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.
-- Added the preliminary 2025-26 point to the charts with an explicit enrollment caveat; the complete all-charter comparison remains through 2024-25.
+- Added the preliminary 2025-26 point to the charts with an SPCSA-only rating-coverage caveat; the complete all-charter comparison remains through 2024-25.

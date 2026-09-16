@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BASE_RELEASE = ROOT / "release" / "NV_Charter_Quality_Seats_v2"
 OUT_RELEASE = ROOT / "release" / "NV_Charter_Quality_Seats_v3"
 RATING_SOURCE = ROOT / "quality_seats_sources" / "nspf" / "SchoolRatings_MASTER_2025-26_SPCSA.csv"
-ENROLLMENT_SOURCE = BASE_RELEASE / "02_Source_Data" / "NDE_Validation_Day_Enrollment_2024_25.xlsx"
+ENROLLMENT_SOURCE = BASE_RELEASE / "02_Source_Data" / "NDE_Validation_Day_Enrollment_2025_26_suppressed.xlsx"
 RATING_URL = "https://nevadareportcard.nv.gov/DI/nspf/64843/2026/statedistrict"
 ACCESS_DATE = "2026-09-15"
 
@@ -86,7 +86,7 @@ def new_rating_rows(builder) -> pd.DataFrame:
 
 def append_new_year(builder, panel: pd.DataFrame) -> tuple[pd.DataFrame, list[dict]]:
     ratings = new_rating_rows(builder)
-    enroll = builder.load_enrollment_bands("2024-25", {"enrollment": ENROLLMENT_SOURCE}).copy()
+    enroll = builder.load_enrollment_bands("2025-26", {"enrollment": ENROLLMENT_SOURCE}).copy()
     enroll["district_code"] = enroll["district_code"].map(normalize_code)
 
     merged = ratings.merge(
@@ -115,18 +115,18 @@ def append_new_year(builder, panel: pd.DataFrame) -> tuple[pd.DataFrame, list[di
                     "school_code": row["base_school_code"],
                     "school_name": row["school_name"],
                     "details": "2025-26 SPCSA rating row has no matching 2024-25 SPCSA rating row at the same school-band key.",
-                    "recommended_action": "retain as a new current-year rating row; use prior-year enrollment only if a matching count-day row exists",
+                    "recommended_action": "retain as a new current-year rating row; use the matched 2025-26 count-day row when available",
                 }
             )
         if not matched:
             audit_rows.append(
                 {
                     "school_year": "2025-26",
-                    "issue_type": "prior_year_enrollment_not_available",
+                    "issue_type": "current_year_enrollment_not_available",
                     "school_code": row["base_school_code"],
                     "school_name": row["school_name"],
-                    "details": "Current 2025-26 rating exists, but no matching 2024-25 Validation Day enrollment row was found.",
-                    "recommended_action": "retain the rating row with zero carried-forward seats and revisit when 2025-26 enrollment is approved for use",
+                    "details": "Current 2025-26 rating exists, but no matching 2025-26 Validation Day enrollment row was found.",
+                    "recommended_action": "retain the rating row with zero current-year seats and revisit when the current enrollment source is available",
                 }
             )
 
@@ -155,7 +155,7 @@ def append_new_year(builder, panel: pd.DataFrame) -> tuple[pd.DataFrame, list[di
             "source_enrollment_file": ENROLLMENT_SOURCE.name,
             "source_rating_file": RATING_SOURCE.name,
             "join_confidence": "high" if has_enrollment else "low",
-            "notes": "Preliminary 2025-26 SPCSA ratings treatment: 2024-25 Validation Day enrollment is carried forward until the current-year count-day file is released; unmatched prior-year enrollment is unavailable.",
+            "notes": "2025-26 SPCSA ratings joined to current 2025-26 Validation Day enrollment. The current-year enrollment source is available; rating coverage remains SPCSA-only.",
         }
         for col in enrollment_cols:
             value = row.get(col)
@@ -172,7 +172,7 @@ def build_manifest(base_manifest: pd.DataFrame) -> pd.DataFrame:
     manifest = base_manifest.copy()
     enrollment_mask = manifest["file_name"].eq(ENROLLMENT_SOURCE.name)
     manifest.loc[enrollment_mask, "notes"] = (
-        "Used directly for 2024-25 and carried forward as a preliminary placeholder for the 2025-26 SPCSA rating update until current-year count-day enrollment is released."
+        "Used directly as the current 2025-26 Validation Day enrollment source for the SPCSA rating update."
     )
     manifest = manifest[~manifest["file_name"].eq(RATING_SOURCE.name)].copy()
     manifest = pd.concat(
@@ -186,7 +186,7 @@ def build_manifest(base_manifest: pd.DataFrame) -> pd.DataFrame:
                         "source_url": RATING_URL,
                         "date_accessed": ACCESS_DATE,
                         "sha256": sha256_file(RATING_SOURCE),
-                        "notes": "Current SPCSA ratings supplied by the user; 2025-26 rating rows only. This is a preliminary ratings update pending current-year count-day enrollment."
+                        "notes": "Current SPCSA ratings supplied by the user; 2025-26 rating rows only. Current 2025-26 enrollment is included; rating coverage remains SPCSA-only."
                     }
                 ]
             ),
@@ -220,7 +220,7 @@ def main() -> None:
     audit = audit.sort_values(["school_year", "issue_type", "school_code"]).reset_index(drop=True)
 
     summary_long, summary_wide = builder.build_summaries(panel)
-    partial_status = "preliminary_2025_26_spcsa_ratings_with_2024_25_enrollment_carryforward"
+    partial_status = "preliminary_2025_26_spcsa_ratings_with_2025_26_enrollment_spcsa_only"
     summary_long.loc[summary_long["school_year"].eq("2025-26"), "data_status"] = partial_status
     summary_wide.loc[summary_wide["school_year"].eq("2025-26"), "data_status"] = partial_status
 
@@ -244,7 +244,7 @@ def main() -> None:
         chart_html = chart_path.read_text(encoding="utf-8")
         chart_html = chart_html.replace(
             '<p class="note">',
-            '<p class="note"><strong>Preliminary 2025-26 note:</strong> Current-year ratings use carried-forward 2024-25 Validation Day enrollment. Replace this point when current count-day data are released. ',
+            '<p class="note"><strong>Preliminary 2025-26 note:</strong> Current-year ratings use 2025-26 NDE Validation Day enrollment. The point is preliminary because the rating file covers SPCSA only; refresh in October if additional current files or revised enrollment data are released. ',
             1,
         )
         chart_path.write_text(chart_html, encoding="utf-8")
@@ -253,12 +253,12 @@ def main() -> None:
     public_html = public_page.read_text(encoding="utf-8")
     public_html = public_html.replace(
         '<div class="links">',
-        '<p><strong>Preliminary 2025-26 note:</strong> The current rating update is not a current-enrollment estimate. It carries forward 2024-25 Validation Day enrollment until the 2025-26 count-day file is released. CCSD has reported a substantial enrollment decline, but that does not establish what happened to charter enrollment. The 2025-26 panel will be updated in October when current charter enrollment data are available.</p><div class="links">',
+        '<p><strong>Preliminary 2025-26 note:</strong> The current rating update uses 2025-26 NDE Validation Day enrollment. The point is not a complete statewide charter estimate because the rating file covers SPCSA only, not district-authorized charter schools. We will refresh the panel in October if additional current files or revised enrollment data are released.</p><div class="links">',
         1,
     )
     public_html = public_html.replace(
         '<h3>Technical notes and limitations</h3>',
-        '<h3>Technical notes and limitations</h3><p><strong>Preliminary 2025-26 limitation:</strong> Current-year ratings are shown with 2024-25 Validation Day enrollment carried forward. These figures should not be interpreted as current enrollment. The panel and charts will be updated in October when the 2025-26 count-day enrollment file is available. CCSD\'s reported enrollment decline does not establish what happened to charter enrollment.</p>',
+        '<h3>Technical notes and limitations</h3><p><strong>Preliminary 2025-26 limitation:</strong> Current-year ratings are paired with 2025-26 NDE Validation Day enrollment. The point is preliminary because the rating file covers SPCSA only, not district-authorized charter schools. We will refresh the panel in October if additional current files or revised enrollment data are released. CCSD\'s reported enrollment decline does not establish what happened to charter enrollment.</p>',
         1,
     )
     public_html = public_html.replace(
@@ -268,20 +268,40 @@ def main() -> None:
     )
     public_page.write_text(public_html, encoding="utf-8")
 
+    exec_summary_path = OUT_RELEASE / "01_Methodology" / "EXECUTIVE_SUMMARY_QUALITY_SEATS.md"
+    exec_summary = exec_summary_path.read_text(encoding="utf-8")
+    exec_summary = exec_summary.replace(
+        "Reported charter quality-seats years in the underlying files: `2012-13` through `2024-25`.",
+        "Reported charter quality-seats years in the underlying files: `2012-13` through `2025-26`, with `2025-26` treated as a preliminary SPCSA-only ratings update using current enrollment.",
+        1,
+    )
+    exec_summary += "\n## Preliminary 2025-26 treatment\n\nThe current-year rating rows use the current NDE Validation Day enrollment workbook. No 2024-25 enrollment carry-forward is used. The limitation is that the current rating source covers SPCSA only, not district-authorized charter schools. The panel can be refreshed in October if additional current files or revised enrollment data are released.\n"
+    exec_summary_path.write_text(exec_summary, encoding="utf-8")
+
+    findings_path = OUT_RELEASE / "01_Methodology" / "QUALITY_SEATS_KEY_FINDINGS.md"
+    findings = findings_path.read_text(encoding="utf-8")
+    findings = findings.replace(
+        "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2024-25`.",
+        "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`; `2025-26` is a preliminary SPCSA-only ratings update using current enrollment.",
+        1,
+    )
+    findings += "\n## Preliminary 2025-26 coverage\n\nThe 2025-26 rows use current NDE Validation Day enrollment. The preliminary limitation is rating coverage: the current ratings source covers SPCSA only, not district-authorized charter schools. CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"
+    findings_path.write_text(findings, encoding="utf-8")
+
     manifest = pd.read_csv(BASE_RELEASE / "04_Audit_Files" / "source_manifest_quality_seats.csv", dtype=str)
     build_manifest(manifest).to_csv(OUT_RELEASE / "04_Audit_Files" / "source_manifest_quality_seats.csv", index=False)
 
-    update_note = """# Preliminary 2025-26 Rating Update\n\n- Added the user-provided 2025-26 SPCSA NSPF ratings file.\n- Appended current-year rating rows for existing SPCSA school-band keys and new SPCSA school-band keys.\n- Carried forward 2024-25 Validation Day enrollment as a temporary count-day placeholder because the 2025-26 enrollment file has not yet been released.\n- Twenty rating rows do not have a matching 2024-25 enrollment row and remain in the panel with zero carried-forward seats and explicit audit flags.\n- This is a partial 2025-26 update: the current attached rating source covers SPCSA, not district-authorized charter schools. The charts now include a clearly labeled preliminary 2025-26 point, while the complete all-charter series remains through 2024-25.\n- The preliminary 2025-26 seat counts should not be interpreted as current enrollment. CCSD has reported a substantial enrollment decline, but that district-level report does not establish what happened to charter enrollment. The charter side should be recalculated when the current count-day enrollment file is released.\n"""
+    update_note = """# Preliminary 2025-26 Rating and Enrollment Update\n\n- Added the user-provided 2025-26 SPCSA NSPF ratings file.\n- Appended current-year rating rows for existing SPCSA school-band keys and new SPCSA school-band keys.\n- Joined those ratings to the current 2025-26 NDE Validation Day enrollment workbook. No 2024-25 enrollment carry-forward is used.\n- All 162 current SPCSA rating rows matched a 2025-26 enrollment row.\n- This remains a partial 2025-26 update: the current attached rating source covers SPCSA, not district-authorized charter schools. The charts include a clearly labeled preliminary 2025-26 point, while the complete all-charter rating comparison remains through 2024-25.\n- The preliminary designation reflects incomplete rating coverage, not stale enrollment. CCSD's reported enrollment decline does not establish what happened to charter enrollment. We will refresh the panel in October if additional current files or revised enrollment data are released.\n"""
     (OUT_RELEASE / "01_Methodology" / "UPDATE_2025_26_SPCSA.md").write_text(update_note, encoding="utf-8")
 
     changelog = (OUT_RELEASE / "07_Change_Log" / "CHANGELOG.md").read_text(encoding="utf-8")
-    changelog += "\n- Added a preliminary 2025-26 SPCSA rating update from the user-provided current ratings CSV.\n- Carried forward 2024-25 Validation Day enrollment as a temporary placeholder pending the 2025-26 count-day file; unmatched rows are retained and audited.\n- Added a caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.\n- Added the preliminary 2025-26 point to the charts with an explicit enrollment caveat; the complete all-charter comparison remains through 2024-25.\n"
+    changelog += "\n- Added a preliminary 2025-26 SPCSA rating update from the user-provided current ratings CSV.\n- Joined the ratings to current 2025-26 NDE Validation Day enrollment; no prior-year enrollment carry-forward is used.\n- Added a caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.\n- Added the preliminary 2025-26 point to the charts with an SPCSA-only rating-coverage caveat; the complete all-charter comparison remains through 2024-25.\n"
     (OUT_RELEASE / "07_Change_Log" / "CHANGELOG.md").write_text(changelog, encoding="utf-8")
     release_manifest = {
         "release_name": "NV_Charter_Quality_Seats_v3",
         "analysis_years": ["2012-13", "2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"],
-        "latest_update_scope": "Preliminary SPCSA-only ratings with 2024-25 Validation Day enrollment carried forward pending current-year enrollment",
-        "enrollment_caveat": "2025-26 seat counts are not current enrollment. Replace carried-forward 2024-25 enrollment when the 2025-26 count-day file is released.",
+        "latest_update_scope": "Preliminary SPCSA-only ratings with current 2025-26 Validation Day enrollment",
+        "enrollment_caveat": "2025-26 enrollment uses the current NDE Validation Day workbook. The preliminary limitation is SPCSA-only rating coverage; refresh in October if additional current files or revised enrollment data are released.",
         "visible_chart_years": "2012-13 through 2025-26, with 2025-26 preliminary",
         "public_page": "06_Public_Website/quality-seats-overview.html",
         "chart_count": 21,

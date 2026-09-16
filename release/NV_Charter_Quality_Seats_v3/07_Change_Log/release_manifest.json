@@ -16,8 +16,8 @@
     "2024-25",
     "2025-26"
   ],
-  "latest_update_scope": "Preliminary SPCSA-only ratings with 2024-25 Validation Day enrollment carried forward pending current-year enrollment",
-  "enrollment_caveat": "2025-26 seat counts are not current enrollment. Replace carried-forward 2024-25 enrollment when the 2025-26 count-day file is released.",
+  "latest_update_scope": "Preliminary SPCSA-only ratings with current 2025-26 Validation Day enrollment",
+  "enrollment_caveat": "2025-26 enrollment uses the current NDE Validation Day workbook. The preliminary limitation is SPCSA-only rating coverage; refresh in October if additional current files or revised enrollment data are released.",
   "visible_chart_years": "2012-13 through 2025-26, with 2025-26 preliminary",
   "public_page": "06_Public_Website/quality-seats-overview.html",
   "chart_count": 21
