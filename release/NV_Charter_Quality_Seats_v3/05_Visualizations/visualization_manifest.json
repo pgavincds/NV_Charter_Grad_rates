@@ -36,5 +36,13 @@
     "2024-25",
     "2025-26"
   ],
+  "portfolio_filters": {
+    "all": "All charter seats",
+    "spcsa": "SPCSA charters, including historical state charters",
+    "district": "All district-sponsored charters",
+    "clark": "Historical Clark County School District charters",
+    "washoe": "Washoe County School District charters",
+    "carson": "Carson City School District charters"
+  },
   "png_generation": "not attempted because this environment does not currently include a Plotly static image engine such as kaleido"
 }

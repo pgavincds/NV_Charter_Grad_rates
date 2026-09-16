@@ -1,9 +1,12 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import math
+import re
 import shutil
+import tempfile
 import zipfile
 from pathlib import Path
 
@@ -715,10 +718,15 @@ def build_summaries(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     return long_df, wide
 
 
-def plotly_html(title: str, traces: list[dict], layout: dict, note: str) -> str:
-    payload = {"traces": traces, "layout": layout}
+def plotly_html(title: str, traces: list[dict], layout: dict, note: str, portfolio_payloads: dict[str, dict] | None = None) -> str:
+    if portfolio_payloads is None:
+        portfolio_payloads = {"all": {"label": "All charter seats", "title": title, "note": note, "traces": traces, "layout": layout}}
+    options = "".join(
+        f'<option value="{html.escape(key, quote=True)}">{html.escape(value["label"])}</option>'
+        for key, value in portfolio_payloads.items()
+    )
     return f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><script src="{PLOTLY_CDN}"></script><style>body{{font-family:Georgia,\"Times New Roman\",serif;background:#f5f1e8;color:#1f2a2e;margin:0;padding:2rem}}.wrap{{max-width:1100px;margin:0 auto}}#chart{{width:100%;height:720px}}.note{{color:#4f646b;margin:0 0 1rem 0;line-height:1.5}}</style></head><body><div class="wrap"><h1>{title}</h1><p class="note">{note}</p><div id="chart"></div></div><script>const payload={json.dumps(payload)};Plotly.newPlot("chart",payload.traces,payload.layout,{{responsive:true,displayModeBar:true}});</script></body></html>"""
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{html.escape(title)}</title><script src="{PLOTLY_CDN}"></script><style>body{{font-family:Georgia,\"Times New Roman\",serif;background:#f5f1e8;color:#1f2a2e;margin:0;padding:2rem}}.wrap{{max-width:1100px;margin:0 auto}}.filter{{display:flex;align-items:center;gap:.65rem;margin:0 0 1rem 0;color:#4f646b;font-size:.98rem}}.filter label{{font-weight:700}}.filter select{{font:inherit;color:#1f2a2e;background:#fffaf2;border:1px solid #b8aa92;border-radius:8px;padding:.45rem .65rem;min-width:260px}}#chart{{width:100%;height:720px}}.note{{color:#4f646b;margin:0 0 1rem 0;line-height:1.5}}</style></head><body><div class="wrap"><div class="filter"><label for="portfolio-filter">Portfolio view</label><select id="portfolio-filter">{options}</select></div><h1 id="chart-title">{html.escape(title)}</h1><p class="note" id="chart-note">{note}</p><div id="chart"></div></div><script>const portfolioPayloads={json.dumps(portfolio_payloads)};const portfolioFilter=document.getElementById("portfolio-filter");const chartTitle=document.getElementById("chart-title");const chartNote=document.getElementById("chart-note");function renderPortfolio(key){{const current=portfolioPayloads[key];chartTitle.textContent=current.title;chartNote.innerHTML=current.note;document.title=current.title;Plotly.react("chart",current.traces,current.layout,{{responsive:true,displayModeBar:true}});}}portfolioFilter.addEventListener("change",(event)=>renderPortfolio(event.target.value));renderPortfolio(portfolioFilter.value);</script></body></html>"""
 
 
 def color_map_5() -> dict[str, str]:
@@ -729,7 +737,7 @@ def color_map_3() -> dict[str, str]:
     return {"1-2": "#b91c1c", "3": "#F2C94C", "4-5": "#065f46", "Not Rated": "#6b7280"}
 
 
-def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Path) -> list[str]:
+def _write_visualizations_single(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Path) -> list[str]:
     created = []
     cmap5 = color_map_5()
     cmap3 = color_map_3()
@@ -881,6 +889,93 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
 
     (viz_dir / "visualization_manifest.json").write_text(json.dumps({"generated_files": created, "analysis_years": chart_years, "png_generation": "not attempted because this environment does not currently include a Plotly static image engine such as kaleido"}, indent=2), encoding="utf-8")
     return created
+
+
+PORTFOLIO_FILTERS = {
+    "all": ("All charter seats", None),
+    "spcsa": ("SPCSA charters, including historical state charters", {"State Public Charter School Authority", "Historical State Charters"}),
+    "district": ("All district-sponsored charters", {"Clark County School District", "Washoe County School District", "Carson City School District"}),
+    "clark": ("Historical Clark County School District charters", {"Clark County School District"}),
+    "washoe": ("Washoe County School District charters", {"Washoe County School District"}),
+    "carson": ("Carson City School District charters", {"Carson City School District"}),
+}
+
+
+def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Path) -> list[str]:
+    """Write each chart with a shared portfolio selector and portfolio-specific payloads."""
+    viz_dir.mkdir(parents=True, exist_ok=True)
+    payloads_by_file: dict[str, dict[str, dict]] = {}
+    generated_files: list[str] = []
+    preliminary_note = (
+        "<strong>Preliminary 2025-26 note:</strong> Current-year ratings use 2025-26 NDE Validation Day enrollment "
+        "and current NDE rating files for SPCSA, Clark, Carson City, and Washoe charter coverage. Refresh in October "
+        "if revised enrollment or rating files are released. "
+    )
+
+    with tempfile.TemporaryDirectory(prefix="quality_seats_portfolios_") as temp_root:
+        temp_root_path = Path(temp_root)
+        for key, (label, authorizers) in PORTFOLIO_FILTERS.items():
+            if authorizers is None:
+                subset = panel.copy()
+            else:
+                subset = panel[panel["authorizer"].isin(authorizers)].copy()
+            subset_long, _ = build_summaries(subset)
+            portfolio_dir = temp_root_path / key
+            portfolio_dir.mkdir()
+            created = _write_visualizations_single(subset_long, subset, portfolio_dir)
+            if key == "all":
+                generated_files = [name for name in created if name.endswith(".html")]
+            for name in created:
+                if not name.endswith(".html"):
+                    continue
+                source = (portfolio_dir / name).read_text(encoding="utf-8")
+                title_match = re.search(r'<h1[^>]*>(.*?)</h1>', source, flags=re.S)
+                note_match = re.search(r'<p class="note"[^>]*>(.*?)</p>', source, flags=re.S)
+                payload_match = re.search(r'const portfolioPayloads=(.*?);const portfolioFilter', source, flags=re.S)
+                if not (title_match and note_match and payload_match):
+                    raise ValueError(f"Could not extract chart payload from {source}")
+                base_title = html.unescape(title_match.group(1))
+                base_note = note_match.group(1)
+                payload = json.loads(payload_match.group(1))["all"]
+                coverage_note = "" if key == "all" else (
+                    "<strong>Coverage note:</strong> This view includes only years in which the source data identify "
+                    "the selected authorizer. A blank earlier year is not a zero. "
+                )
+                payloads_by_file.setdefault(name, {})[key] = {
+                    "label": label,
+                    "title": f"{base_title}: {label}",
+                    "note": preliminary_note + coverage_note + base_note,
+                    "traces": payload["traces"],
+                    "layout": payload["layout"],
+                }
+
+    for name in generated_files:
+        portfolio_payloads = payloads_by_file[name]
+        default = portfolio_payloads["all"]
+        (viz_dir / name).write_text(
+            plotly_html(
+                default["title"],
+                default["traces"],
+                default["layout"],
+                default["note"],
+                portfolio_payloads,
+            ),
+            encoding="utf-8",
+        )
+
+    (viz_dir / "visualization_manifest.json").write_text(
+        json.dumps(
+            {
+                "generated_files": generated_files,
+                "analysis_years": CHART_YEARS,
+                "portfolio_filters": {key: value[0] for key, value in PORTFOLIO_FILTERS.items()},
+                "png_generation": "not attempted because this environment does not currently include a Plotly static image engine such as kaleido",
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    return generated_files
 
 
 def write_docs(panel: pd.DataFrame, long_df: pd.DataFrame, dirs: dict[str, Path]) -> None:
