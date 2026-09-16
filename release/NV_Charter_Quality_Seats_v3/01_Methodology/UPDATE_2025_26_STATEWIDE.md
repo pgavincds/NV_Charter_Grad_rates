@@ -1,7 +1,5 @@
 # Preliminary 2025-26 Rating and Enrollment Update
 
-This file is retained at its prior path for continuity; the update is now statewide rather than SPCSA-only.
-
 - Added current 2025-26 NDE rating exports for SPCSA, Clark, Carson City, and Washoe.
 - Retained SPCSA rows directly; filtered the district exports to district-sponsored charter campuses using the 2024-25 charter roster because the current district CSVs label those campuses as Regular.
 - The former Clark district-sponsored charter campuses now appear under SPCSA in the current organization hierarchy and current SPCSA ratings file.

@@ -2,7 +2,7 @@
 
 ## Scope
 
-- Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`; `2025-26` is a preliminary SPCSA-only ratings update using current enrollment.
+- Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`; `2025-26` is a preliminary statewide ratings update using current enrollment.
 - Public charts now display the legacy years beginning in `2012-13`, with the understanding that `2012-13` through `2014-15` are more directional than the later workbook-based years.
 - `2012-13` through `2014-15` are present as legacy state-charter recoveries using school totals from accountability PDFs plus estimated ES/MS/HS band splits where Nevada did not publish exact band counts.
 - `2015-16` remains in the underlying files as a transition / reset year, but it is omitted from the visible charts because it does not function as a usable rating year in this build.
@@ -36,4 +36,4 @@
 
 ## Preliminary 2025-26 coverage
 
-The 2025-26 rows use current NDE Validation Day enrollment. The preliminary limitation is rating coverage: the current ratings source covers SPCSA only, not district-authorized charter schools. CCSD's reported enrollment decline does not establish what happened to charter enrollment.
+The 2025-26 rows use current NDE Validation Day enrollment and current NDE rating exports for SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe. CCSD's reported enrollment decline does not establish what happened to charter enrollment.

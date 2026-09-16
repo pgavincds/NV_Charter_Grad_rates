@@ -13,9 +13,34 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent.parent
 BASE_RELEASE = ROOT / "release" / "NV_Charter_Quality_Seats_v2"
 OUT_RELEASE = ROOT / "release" / "NV_Charter_Quality_Seats_v3"
-RATING_SOURCE = ROOT / "quality_seats_sources" / "nspf" / "SchoolRatings_MASTER_2025-26_SPCSA.csv"
+RATING_SOURCES = [
+    {
+        "path": ROOT / "quality_seats_sources" / "nspf" / "SchoolRatings_MASTER_2025-26_SPCSA.csv",
+        "url": "https://nevadareportcard.nv.gov/DI/nspf/64843/2026/statedistrict",
+        "label": "User-provided 2025-26 SPCSA NSPF ratings CSV",
+        "district_code": "18",
+    },
+    {
+        "path": ROOT / "quality_seats_sources" / "nspf" / "SchoolRatings_MASTER_2025-26_Clark.csv",
+        "url": "https://nevadareportcard.nv.gov/DI/nspf/64827/2026/statedistrict",
+        "label": "Official 2025-26 Clark County NSPF ratings CSV",
+        "district_code": "2",
+    },
+    {
+        "path": ROOT / "quality_seats_sources" / "nspf" / "SchoolRatings_MASTER_2025-26_Carson_City.csv",
+        "url": "https://nevadareportcard.nv.gov/DI/nspf/64838/2026/statedistrict",
+        "label": "Official 2025-26 Carson City NSPF ratings CSV",
+        "district_code": "13",
+    },
+    {
+        "path": ROOT / "quality_seats_sources" / "nspf" / "SchoolRatings_MASTER_2025-26_Washoe.csv",
+        "url": "https://nevadareportcard.nv.gov/DI/nspf/64841/2026/statedistrict",
+        "label": "Official 2025-26 Washoe County NSPF ratings CSV",
+        "district_code": "16",
+    },
+]
+PRIOR_RATING_SOURCE = ROOT / "quality_seats_sources" / "nspf" / "SchoolRatings_MASTER_2024-25.csv"
 ENROLLMENT_SOURCE = BASE_RELEASE / "02_Source_Data" / "NDE_Validation_Day_Enrollment_2025_26_suppressed.xlsx"
-RATING_URL = "https://nevadareportcard.nv.gov/DI/nspf/64843/2026/statedistrict"
 ACCESS_DATE = "2026-09-15"
 
 
@@ -44,8 +69,32 @@ def normalize_code(value: object) -> str:
     return text.lstrip("0") or "0"
 
 
+def normalize_school_key(value: object) -> str:
+    text = str(value).strip()
+    if "." not in text:
+        return normalize_code(text)
+    base, band = text.split(".", 1)
+    return f"{normalize_code(base)}.{band}"
+
+
 def new_rating_rows(builder) -> pd.DataFrame:
-    ratings = pd.read_csv(RATING_SOURCE, dtype=str)
+    prior = pd.read_csv(PRIOR_RATING_SOURCE, dtype=str)
+    prior_district_charter_keys = set(
+        prior.loc[prior["School Type"].eq("District Charter"), "NSPF School Code"].map(normalize_school_key)
+    )
+    frames = []
+    for source in RATING_SOURCES:
+        current = pd.read_csv(source["path"], dtype=str)
+        current["source_rating_file"] = source["path"].name
+        # The current district exports identify these campuses as Regular even
+        # though they are district-sponsored charters. Use the prior-year
+        # charter roster to retain only the charter rows from those exports.
+        if source["district_code"] != "18":
+            current = current[
+                current["NSPF School Code"].map(normalize_school_key).isin(prior_district_charter_keys)
+            ].copy()
+        frames.append(current)
+    ratings = pd.concat(frames, ignore_index=True)
     ratings["district_code"] = ratings["District Code"].map(normalize_code)
     parsed = ratings["NSPF School Code"].map(builder.parse_base_and_band)
     ratings["base_school_code"] = parsed.map(lambda value: value[0])
@@ -57,7 +106,10 @@ def new_rating_rows(builder) -> pd.DataFrame:
     )
     ratings["rating_bucket_5level"] = ratings["star_rating"].map(builder.rating_bucket_5)
     ratings["rating_bucket_3level"] = ratings["rating_bucket_5level"].map(builder.rating_bucket_3)
-    ratings["authorizer"] = "State Public Charter School Authority"
+    ratings["authorizer"] = [
+        builder.authorizer_from_row(dc, dn)
+        for dc, dn in zip(ratings["district_code"], ratings["District Name"])
+    ]
     return ratings[
         [
             "school_year",
@@ -73,6 +125,7 @@ def new_rating_rows(builder) -> pd.DataFrame:
             "rating_bucket_5level",
             "rating_bucket_3level",
             "authorizer",
+            "source_rating_file",
         ]
     ].rename(
         columns={
@@ -111,10 +164,10 @@ def append_new_year(builder, panel: pd.DataFrame) -> tuple[pd.DataFrame, list[di
             audit_rows.append(
                 {
                     "school_year": "2025-26",
-                    "issue_type": "new_spcsa_rating_row",
+                    "issue_type": "new_current_rating_row",
                     "school_code": row["base_school_code"],
                     "school_name": row["school_name"],
-                    "details": "2025-26 SPCSA rating row has no matching 2024-25 SPCSA rating row at the same school-band key.",
+                    "details": f"2025-26 {row['authorizer']} rating row has no matching 2024-25 rating row at the same school-band key.",
                     "recommended_action": "retain as a new current-year rating row; use the matched 2025-26 count-day row when available",
                 }
             )
@@ -153,9 +206,9 @@ def append_new_year(builder, panel: pd.DataFrame) -> tuple[pd.DataFrame, list[di
             "rating_bucket_5level": row["rating_bucket_5level"],
             "rating_bucket_3level": row["rating_bucket_3level"],
             "source_enrollment_file": ENROLLMENT_SOURCE.name,
-            "source_rating_file": RATING_SOURCE.name,
+            "source_rating_file": row["source_rating_file"],
             "join_confidence": "high" if has_enrollment else "low",
-            "notes": "2025-26 SPCSA ratings joined to current 2025-26 Validation Day enrollment. The current-year enrollment source is available; rating coverage remains SPCSA-only.",
+            "notes": "2025-26 NDE ratings joined to current 2025-26 Validation Day enrollment for SPCSA and district-sponsored charter schools identified from the prior-year charter roster.",
         }
         for col in enrollment_cols:
             value = row.get(col)
@@ -172,24 +225,26 @@ def build_manifest(base_manifest: pd.DataFrame) -> pd.DataFrame:
     manifest = base_manifest.copy()
     enrollment_mask = manifest["file_name"].eq(ENROLLMENT_SOURCE.name)
     manifest.loc[enrollment_mask, "notes"] = (
-        "Used directly as the current 2025-26 Validation Day enrollment source for the SPCSA rating update."
+        "Used directly as the current 2025-26 Validation Day enrollment source for the statewide ratings update."
     )
-    manifest = manifest[~manifest["file_name"].eq(RATING_SOURCE.name)].copy()
+    rating_names = {source["path"].name for source in RATING_SOURCES}
+    manifest = manifest[~manifest["file_name"].isin(rating_names)].copy()
+    rating_manifest_rows = []
+    for source in RATING_SOURCES:
+        rating_manifest_rows.append(
+            {
+                "file_name": source["path"].name,
+                "source_type": source["label"],
+                "source_url": source["url"],
+                "date_accessed": ACCESS_DATE,
+                "sha256": sha256_file(source["path"]),
+                "notes": "2025-26 official NDE/Report Card export retained as a raw source file. District exports were filtered to district-sponsored charter campuses using the 2024-25 charter roster; Clark's current district export contains no district-charter rows because the former Clark charters now appear in the SPCSA file.",
+            }
+        )
     manifest = pd.concat(
         [
             manifest,
-            pd.DataFrame(
-                [
-                    {
-                        "file_name": RATING_SOURCE.name,
-                        "source_type": "User-provided 2025-26 SPCSA NSPF ratings CSV",
-                        "source_url": RATING_URL,
-                        "date_accessed": ACCESS_DATE,
-                        "sha256": sha256_file(RATING_SOURCE),
-                        "notes": "Current SPCSA ratings supplied by the user; 2025-26 rating rows only. Current 2025-26 enrollment is included; rating coverage remains SPCSA-only."
-                    }
-                ]
-            ),
+            pd.DataFrame(rating_manifest_rows),
         ],
         ignore_index=True,
     )
@@ -199,14 +254,16 @@ def build_manifest(base_manifest: pd.DataFrame) -> pd.DataFrame:
 def main() -> None:
     if OUT_RELEASE.exists():
         raise SystemExit(f"Refusing to overwrite existing output: {OUT_RELEASE}")
-    if not RATING_SOURCE.exists():
-        raise SystemExit(f"Missing source file: {RATING_SOURCE}")
+    missing_sources = [source["path"] for source in RATING_SOURCES + [{"path": PRIOR_RATING_SOURCE}] if not source["path"].exists()]
+    if missing_sources:
+        raise SystemExit(f"Missing source file(s): {', '.join(str(path) for path in missing_sources)}")
     if not ENROLLMENT_SOURCE.exists():
-        raise SystemExit(f"Missing prior-year enrollment source: {ENROLLMENT_SOURCE}")
+        raise SystemExit(f"Missing current-year enrollment source: {ENROLLMENT_SOURCE}")
 
     builder = load_builder_module()
     shutil.copytree(BASE_RELEASE, OUT_RELEASE)
-    shutil.copy2(RATING_SOURCE, OUT_RELEASE / "02_Source_Data" / RATING_SOURCE.name)
+    for source in RATING_SOURCES:
+        shutil.copy2(source["path"], OUT_RELEASE / "02_Source_Data" / source["path"].name)
 
     panel = pd.read_csv(BASE_RELEASE / "03_Clean_Data" / "quality_seats_school_year_panel.csv", dtype=str)
     panel, new_audit = append_new_year(builder, panel)
@@ -220,12 +277,12 @@ def main() -> None:
     audit = audit.sort_values(["school_year", "issue_type", "school_code"]).reset_index(drop=True)
 
     summary_long, summary_wide = builder.build_summaries(panel)
-    partial_status = "preliminary_2025_26_spcsa_ratings_with_2025_26_enrollment_spcsa_only"
+    partial_status = "preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment"
     summary_long.loc[summary_long["school_year"].eq("2025-26"), "data_status"] = partial_status
     summary_wide.loc[summary_wide["school_year"].eq("2025-26"), "data_status"] = partial_status
 
     # The current-year point is useful for the ratings update, but it must remain
-    # visibly preliminary because enrollment is carried forward from 2024-25.
+    # visibly preliminary until the October enrollment/revision check is complete.
     builder.DISPLAY_YEARS = list(builder.DISPLAY_YEARS) + ["2025-26"]
     builder.CHART_YEARS = [year for year in builder.DISPLAY_YEARS if year not in {"2015-16", "2021-22"}]
 
@@ -244,7 +301,7 @@ def main() -> None:
         chart_html = chart_path.read_text(encoding="utf-8")
         chart_html = chart_html.replace(
             '<p class="note">',
-            '<p class="note"><strong>Preliminary 2025-26 note:</strong> Current-year ratings use 2025-26 NDE Validation Day enrollment. The point is preliminary because the rating file covers SPCSA only; refresh in October if additional current files or revised enrollment data are released. ',
+            '<p class="note"><strong>Preliminary 2025-26 note:</strong> Current-year ratings use 2025-26 NDE Validation Day enrollment and current NDE rating files for SPCSA, Clark, Carson City, and Washoe charter coverage. Refresh in October if revised enrollment or rating files are released. ',
             1,
         )
         chart_path.write_text(chart_html, encoding="utf-8")
@@ -253,12 +310,12 @@ def main() -> None:
     public_html = public_page.read_text(encoding="utf-8")
     public_html = public_html.replace(
         '<div class="links">',
-        '<p><strong>Preliminary 2025-26 note:</strong> The current rating update uses 2025-26 NDE Validation Day enrollment. The point is not a complete statewide charter estimate because the rating file covers SPCSA only, not district-authorized charter schools. We will refresh the panel in October if additional current files or revised enrollment data are released.</p><div class="links">',
+        '<p><strong>Preliminary 2025-26 note:</strong> The current update uses 2025-26 NDE Validation Day enrollment and current NDE rating files covering SPCSA plus district-sponsored charter schools in Clark, Carson City, and Washoe. We will refresh the panel in October if revised enrollment or rating files are released.</p><div class="links">',
         1,
     )
     public_html = public_html.replace(
         '<h3>Technical notes and limitations</h3>',
-        '<h3>Technical notes and limitations</h3><p><strong>Preliminary 2025-26 limitation:</strong> Current-year ratings are paired with 2025-26 NDE Validation Day enrollment. The point is preliminary because the rating file covers SPCSA only, not district-authorized charter schools. We will refresh the panel in October if additional current files or revised enrollment data are released. CCSD\'s reported enrollment decline does not establish what happened to charter enrollment.</p>',
+        '<h3>Technical notes and limitations</h3><p><strong>Preliminary 2025-26 limitation:</strong> Current-year ratings are paired with 2025-26 NDE Validation Day enrollment. The current rating coverage now includes SPCSA and the district-sponsored charter campuses identified in the current NDE files for Clark, Carson City, and Washoe. We will refresh the panel in October if revised enrollment or rating files are released. CCSD\'s reported enrollment decline does not establish what happened to charter enrollment.</p>',
         1,
     )
     public_html = public_html.replace(
@@ -277,36 +334,40 @@ def main() -> None:
     exec_summary = exec_summary_path.read_text(encoding="utf-8")
     exec_summary = exec_summary.replace(
         "Reported charter quality-seats years in the underlying files: `2012-13` through `2024-25`.",
-        "Reported charter quality-seats years in the underlying files: `2012-13` through `2025-26`, with `2025-26` treated as a preliminary SPCSA-only ratings update using current enrollment.",
+        "Reported charter quality-seats years in the underlying files: `2012-13` through `2025-26`, with `2025-26` treated as a preliminary statewide ratings update using current enrollment.",
         1,
     )
-    exec_summary += "\n## Preliminary 2025-26 treatment\n\nThe current-year rating rows use the current NDE Validation Day enrollment workbook. No 2024-25 enrollment carry-forward is used. The limitation is that the current rating source covers SPCSA only, not district-authorized charter schools. The panel can be refreshed in October if additional current files or revised enrollment data are released.\n"
+    exec_summary += "\n## Preliminary 2025-26 treatment\n\nThe current-year rating rows use the current NDE Validation Day enrollment workbook and current NDE rating exports for SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe. No 2024-25 enrollment carry-forward is used. The panel can be refreshed in October if revised enrollment or rating files are released.\n"
     exec_summary_path.write_text(exec_summary, encoding="utf-8")
 
     findings_path = OUT_RELEASE / "01_Methodology" / "QUALITY_SEATS_KEY_FINDINGS.md"
     findings = findings_path.read_text(encoding="utf-8")
     findings = findings.replace(
         "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2024-25`.",
-        "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`; `2025-26` is a preliminary SPCSA-only ratings update using current enrollment.",
+        "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`; `2025-26` is a preliminary statewide ratings update using current enrollment.",
         1,
     )
-    findings += "\n## Preliminary 2025-26 coverage\n\nThe 2025-26 rows use current NDE Validation Day enrollment. The preliminary limitation is rating coverage: the current ratings source covers SPCSA only, not district-authorized charter schools. CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"
+    findings += "\n## Preliminary 2025-26 coverage\n\nThe 2025-26 rows use current NDE Validation Day enrollment and current NDE rating exports for SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe. CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"
     findings_path.write_text(findings, encoding="utf-8")
 
     manifest = pd.read_csv(BASE_RELEASE / "04_Audit_Files" / "source_manifest_quality_seats.csv", dtype=str)
     build_manifest(manifest).to_csv(OUT_RELEASE / "04_Audit_Files" / "source_manifest_quality_seats.csv", index=False)
 
-    update_note = """# Preliminary 2025-26 Rating and Enrollment Update\n\n- Added the user-provided 2025-26 SPCSA NSPF ratings file.\n- Appended current-year rating rows for existing SPCSA school-band keys and new SPCSA school-band keys.\n- Joined those ratings to the current 2025-26 NDE Validation Day enrollment workbook. No 2024-25 enrollment carry-forward is used.\n- All 162 current SPCSA rating rows matched a 2025-26 enrollment row.\n- This remains a partial 2025-26 update: the current attached rating source covers SPCSA, not district-authorized charter schools. The charts include a clearly labeled preliminary 2025-26 point, while the complete all-charter rating comparison remains through 2024-25.\n- The preliminary designation reflects incomplete rating coverage, not stale enrollment. CCSD's reported enrollment decline does not establish what happened to charter enrollment. We will refresh the panel in October if additional current files or revised enrollment data are released.\n"""
-    (OUT_RELEASE / "01_Methodology" / "UPDATE_2025_26_SPCSA.md").write_text(update_note, encoding="utf-8")
+    update_note = """# Preliminary 2025-26 Rating and Enrollment Update\n\n- Added current 2025-26 NDE rating exports for SPCSA, Clark, Carson City, and Washoe.\n- Retained SPCSA rows directly; filtered the district exports to district-sponsored charter campuses using the 2024-25 charter roster because the current district CSVs label those campuses as Regular.\n- The former Clark district-sponsored charter campuses now appear under SPCSA in the current organization hierarchy and current SPCSA ratings file.\n- Joined 176 current rating rows to the current 2025-26 NDE Validation Day enrollment workbook. All 176 current rows matched a current enrollment row.\n- No 2024-25 enrollment carry-forward is used.\n- The charts include a clearly labeled preliminary 2025-26 point. The panel will be refreshed in October if revised enrollment or rating files are released.\n- CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"""
+    (OUT_RELEASE / "01_Methodology" / "UPDATE_2025_26_STATEWIDE.md").write_text(update_note, encoding="utf-8")
+    (OUT_RELEASE / "01_Methodology" / "UPDATE_2025_26_SPCSA.md").write_text(
+        update_note.replace("# Preliminary 2025-26 Rating and Enrollment Update", "# Preliminary 2025-26 Rating and Enrollment Update\n\nThis file is retained at its prior path for continuity; the update is now statewide rather than SPCSA-only."),
+        encoding="utf-8",
+    )
 
     changelog = (OUT_RELEASE / "07_Change_Log" / "CHANGELOG.md").read_text(encoding="utf-8")
-    changelog += "\n- Added a preliminary 2025-26 SPCSA rating update from the user-provided current ratings CSV.\n- Joined the ratings to current 2025-26 NDE Validation Day enrollment; no prior-year enrollment carry-forward is used.\n- Added a caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.\n- Added the preliminary 2025-26 point to the charts with an SPCSA-only rating-coverage caveat; the complete all-charter comparison remains through 2024-25.\n"
+    changelog += "\n- Added preliminary 2025-26 NDE rating exports covering SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe.\n- Joined 176 current rating rows to current 2025-26 NDE Validation Day enrollment; no prior-year enrollment carry-forward is used.\n- Added a caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.\n- Added the preliminary 2025-26 point to the charts and documented the October refresh check.\n"
     (OUT_RELEASE / "07_Change_Log" / "CHANGELOG.md").write_text(changelog, encoding="utf-8")
     release_manifest = {
         "release_name": "NV_Charter_Quality_Seats_v3",
         "analysis_years": ["2012-13", "2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"],
-        "latest_update_scope": "Preliminary SPCSA-only ratings with current 2025-26 Validation Day enrollment",
-        "enrollment_caveat": "2025-26 enrollment uses the current NDE Validation Day workbook. The preliminary limitation is SPCSA-only rating coverage; refresh in October if additional current files or revised enrollment data are released.",
+        "latest_update_scope": "Preliminary statewide charter ratings with current 2025-26 Validation Day enrollment",
+        "enrollment_caveat": "2025-26 enrollment uses the current NDE Validation Day workbook. Current rating files cover SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe; refresh in October if revised enrollment or rating files are released.",
         "visible_chart_years": "2012-13 through 2025-26, with 2025-26 preliminary",
         "public_page": "06_Public_Website/quality-seats-overview.html",
         "chart_count": 21,
@@ -319,7 +380,7 @@ def main() -> None:
             if file_path.is_file():
                 archive.write(file_path, file_path.relative_to(OUT_RELEASE.parent))
 
-    print(json.dumps({"release": str(OUT_RELEASE), "zip": str(zip_path), "panel_rows": len(panel), "new_rating_rows": 162, "new_audit_rows": len(new_audit)}, indent=2))
+    print(json.dumps({"release": str(OUT_RELEASE), "zip": str(zip_path), "panel_rows": len(panel), "new_rating_rows": int(panel.loc[panel["school_year"].eq("2025-26")].shape[0]), "new_audit_rows": len(new_audit)}, indent=2))
 
 
 if __name__ == "__main__":
