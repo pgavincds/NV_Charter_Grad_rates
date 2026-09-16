@@ -758,6 +758,24 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
         ss = aggregate5[aggregate5["rating_bucket_5level"] == bucket].sort_values("school_year")
         agg_raw5.append({"type": "scatter", "mode": "lines", "stackgroup": "one", "name": bucket, "x": ss["school_year"].tolist(), "y": ss["enrollment"].tolist(), "line": {"width": 0.5, "color": cmap5[bucket]}})
 
+    total5 = aggregate5.groupby("school_year", as_index=False)["enrollment"].sum().sort_values("school_year")
+    total5_values = total5["enrollment"].tolist()
+    total5_years = total5["school_year"].tolist()
+    agg_raw5.append(
+        {
+            "type": "scatter",
+            "mode": "lines+markers+text",
+            "name": "Total seats",
+            "x": total5_years,
+            "y": total5_values,
+            "text": [f"{value:,.0f}" if year in total5_years[-2:] else "" for year, value in zip(total5_years, total5_values)],
+            "textposition": "top center",
+            "line": {"width": 3, "dash": "dot", "color": "#1f2a2e"},
+            "marker": {"size": 7, "color": "#1f2a2e"},
+            "hovertemplate": "Total seats: %{y:,.0f}<extra></extra>",
+        }
+    )
+
     for bucket in ["1", "2", "3", "4", "5"]:
         ss = rated5[rated5["rating_bucket_5level"] == bucket].sort_values("school_year")
         agg_share5.append({"type": "scatter", "mode": "lines", "stackgroup": "one", "groupnorm": "percent", "name": bucket, "x": ss["school_year"].tolist(), "y": ss["enrollment"].tolist(), "line": {"width": 0.5, "color": cmap5[bucket]}})
@@ -766,7 +784,7 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
         "All Charter Seats by 1-5 Star Rating",
         agg_raw5,
         {"paper_bgcolor": "#f5f1e8", "plot_bgcolor": "#fffaf2", "xaxis": {"title": "School Year", "categoryorder": "array", "categoryarray": chart_years}, "yaxis": {"title": "Seats"}},
-        "Stacked trend view of how many charter students were enrolled in 1-star, 2-star, 3-star, 4-star, 5-star, and Not Rated schools over time. Not Rated seats are shown separately in gray."
+        "Stacked trend view of how many charter students were enrolled in 1-star, 2-star, 3-star, 4-star, 5-star, and Not Rated schools over time. The dotted line and endpoint labels show the total seats across all rating categories. Not Rated seats are shown separately in gray."
     )
     write(
         "all_charters_share_5level.html",
@@ -780,12 +798,29 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
     for bucket in ["1-2", "3", "4-5", "Not Rated"]:
         ss = aggregate3[aggregate3["rating_bucket_3level"] == bucket].sort_values("school_year")
         agg_raw3.append({"type": "scatter", "mode": "lines", "stackgroup": "one", "name": bucket, "x": ss["school_year"].tolist(), "y": ss["enrollment"].tolist(), "line": {"width": 0.5, "color": cmap3[bucket]}})
+    total3 = aggregate3.groupby("school_year", as_index=False)["enrollment"].sum().sort_values("school_year")
+    total3_values = total3["enrollment"].tolist()
+    total3_years = total3["school_year"].tolist()
+    agg_raw3.append(
+        {
+            "type": "scatter",
+            "mode": "lines+markers+text",
+            "name": "Total seats",
+            "x": total3_years,
+            "y": total3_values,
+            "text": [f"{value:,.0f}" if year in total3_years[-2:] else "" for year, value in zip(total3_years, total3_values)],
+            "textposition": "top center",
+            "line": {"width": 3, "dash": "dot", "color": "#1f2a2e"},
+            "marker": {"size": 7, "color": "#1f2a2e"},
+            "hovertemplate": "Total seats: %{y:,.0f}<extra></extra>",
+        }
+    )
     write(
         "all_charters_raw_collapsed.html",
         "All Charter Seats by Collapsed Rating Buckets",
         agg_raw3,
         {"paper_bgcolor": "#f5f1e8", "plot_bgcolor": "#fffaf2", "xaxis": {"title": "School Year", "categoryorder": "array", "categoryarray": chart_years}, "yaxis": {"title": "Seats"}},
-        "Collapsed stacked view using 4-5, 3, 1-2, and Not Rated buckets. Not Rated seats are shown separately in gray."
+        "Collapsed stacked view using 4-5, 3, 1-2, and Not Rated buckets. The dotted line and endpoint labels show total seats across all buckets. Not Rated seats are shown separately in gray."
     )
 
     for level in LEVEL_ORDER:
