@@ -893,7 +893,7 @@ def _write_visualizations_single(long_df: pd.DataFrame, panel: pd.DataFrame, viz
 
 PORTFOLIO_FILTERS = {
     "all": ("All charter seats", None),
-    "spcsa": ("SPCSA charters, including historical state charters", {"State Public Charter School Authority", "Historical State Charters"}),
+    "spcsa": ("SPCSA charters", {"State Public Charter School Authority", "Historical State Charters"}),
     "district": ("All district-sponsored charters", {"Clark County School District", "Washoe County School District", "Carson City School District"}),
     "clark": ("Historical Clark County School District charters", {"Clark County School District"}),
     "washoe": ("Washoe County School District charters", {"Washoe County School District"}),
@@ -938,7 +938,11 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
                 base_note = note_match.group(1)
                 payload = json.loads(payload_match.group(1))["all"]
                 coverage_note = "" if key == "all" else (
-                    "<strong>Coverage note:</strong> This view includes only years in which the source data identify "
+                    "<strong>Coverage note:</strong> This view includes the pre-SPCSA state-charter portfolio in its "
+                    "earliest years and the SPCSA portfolio in later years. It includes only years in which the source "
+                    "data identify the selected authorizer. A blank earlier year is not a zero. "
+                    if key == "spcsa"
+                    else "<strong>Coverage note:</strong> This view includes only years in which the source data identify "
                     "the selected authorizer. A blank earlier year is not a zero. "
                 )
                 payloads_by_file.setdefault(name, {})[key] = {
