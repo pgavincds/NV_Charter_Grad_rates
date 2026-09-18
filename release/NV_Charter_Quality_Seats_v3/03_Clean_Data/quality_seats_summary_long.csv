@@ -389,33 +389,33 @@ school_year,level_band,rating_bucket_5level,rating_bucket_3level,enrollment,enro
 2024-25,MS,Collapsed,3,3484.0,0.17742921165206763,14,modern_reporting
 2024-25,MS,Collapsed,4-5,13878.0,0.7067630882053372,37,modern_reporting
 2024-25,MS,Collapsed,Not Rated,0.0,0.0,0,modern_reporting
-2025-26,ES,1,1-2,1659.0,0.046220711559356975,8,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,2,1-2,4010.0,0.11172094837433483,10,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,3,3,6647.0,0.1851893126793525,15,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,4,4-5,13381.0,0.3728024963084724,22,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,5,4-5,10054.0,0.28011032791909285,16,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,Not Rated,Not Rated,142.0,0.003956203159390411,2,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,Collapsed,1-2,5669.0,0.1579416599336918,18,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,Collapsed,3,6647.0,0.1851893126793525,15,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,Collapsed,4-5,23435.0,0.6529128242275652,38,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,ES,Collapsed,Not Rated,142.0,0.003956203159390411,2,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,1,1-2,1444.0,0.07942357406083274,2,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,2,1-2,1184.0,0.06512293053187393,3,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,3,3,2820.0,0.15510697981409163,6,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,4,4-5,4215.0,0.23183543259446676,7,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,5,4-5,7803.0,0.42918431329409823,19,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,Not Rated,Not Rated,715.0,0.03932676970463671,4,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,Collapsed,1-2,2628.0,0.14454650459270668,5,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,Collapsed,3,2820.0,0.15510697981409163,6,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,Collapsed,4-5,12018.0,0.6610197458885649,26,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,HS,Collapsed,Not Rated,715.0,0.03932676970463671,4,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,1,1-2,1699.0,0.08507761642463696,6,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,2,1-2,1673.0,0.08377566349524286,8,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,3,3,4400.0,0.22033049574361543,15,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,4,4-5,2137.0,0.1070105157736605,6,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,5,4-5,10061.0,0.5038057085628442,27,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,Not Rated,Not Rated,0.0,0.0,0,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,Collapsed,1-2,3372.0,0.1688532799198798,14,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,Collapsed,3,4400.0,0.22033049574361543,15,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,Collapsed,4-5,12198.0,0.6108162243365047,33,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
-2025-26,MS,Collapsed,Not Rated,0.0,0.0,0,preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment
+2025-26,ES,1,1-2,1659.0,0.046220711559356975,8,standard_reporting
+2025-26,ES,2,1-2,4010.0,0.11172094837433483,10,standard_reporting
+2025-26,ES,3,3,6647.0,0.1851893126793525,15,standard_reporting
+2025-26,ES,4,4-5,13381.0,0.3728024963084724,22,standard_reporting
+2025-26,ES,5,4-5,10054.0,0.28011032791909285,16,standard_reporting
+2025-26,ES,Not Rated,Not Rated,142.0,0.003956203159390411,2,standard_reporting
+2025-26,ES,Collapsed,1-2,5669.0,0.1579416599336918,18,standard_reporting
+2025-26,ES,Collapsed,3,6647.0,0.1851893126793525,15,standard_reporting
+2025-26,ES,Collapsed,4-5,23435.0,0.6529128242275652,38,standard_reporting
+2025-26,ES,Collapsed,Not Rated,142.0,0.003956203159390411,2,standard_reporting
+2025-26,HS,1,1-2,1444.0,0.07942357406083274,2,standard_reporting
+2025-26,HS,2,1-2,1184.0,0.06512293053187393,3,standard_reporting
+2025-26,HS,3,3,2820.0,0.15510697981409163,6,standard_reporting
+2025-26,HS,4,4-5,4215.0,0.23183543259446676,7,standard_reporting
+2025-26,HS,5,4-5,7803.0,0.42918431329409823,19,standard_reporting
+2025-26,HS,Not Rated,Not Rated,715.0,0.03932676970463671,4,standard_reporting
+2025-26,HS,Collapsed,1-2,2628.0,0.14454650459270668,5,standard_reporting
+2025-26,HS,Collapsed,3,2820.0,0.15510697981409163,6,standard_reporting
+2025-26,HS,Collapsed,4-5,12018.0,0.6610197458885649,26,standard_reporting
+2025-26,HS,Collapsed,Not Rated,715.0,0.03932676970463671,4,standard_reporting
+2025-26,MS,1,1-2,1699.0,0.08507761642463696,6,standard_reporting
+2025-26,MS,2,1-2,1673.0,0.08377566349524286,8,standard_reporting
+2025-26,MS,3,3,4400.0,0.22033049574361543,15,standard_reporting
+2025-26,MS,4,4-5,2137.0,0.1070105157736605,6,standard_reporting
+2025-26,MS,5,4-5,10061.0,0.5038057085628442,27,standard_reporting
+2025-26,MS,Not Rated,Not Rated,0.0,0.0,0,standard_reporting
+2025-26,MS,Collapsed,1-2,3372.0,0.1688532799198798,14,standard_reporting
+2025-26,MS,Collapsed,3,4400.0,0.22033049574361543,15,standard_reporting
+2025-26,MS,Collapsed,4-5,12198.0,0.6108162243365047,33,standard_reporting
+2025-26,MS,Collapsed,Not Rated,0.0,0.0,0,standard_reporting

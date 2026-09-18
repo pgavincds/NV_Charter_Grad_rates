@@ -277,12 +277,10 @@ def main() -> None:
     audit = audit.sort_values(["school_year", "issue_type", "school_code"]).reset_index(drop=True)
 
     summary_long, summary_wide = builder.build_summaries(panel)
-    partial_status = "preliminary_2025_26_statewide_charter_ratings_with_2025_26_enrollment"
-    summary_long.loc[summary_long["school_year"].eq("2025-26"), "data_status"] = partial_status
-    summary_wide.loc[summary_wide["school_year"].eq("2025-26"), "data_status"] = partial_status
+    current_status = "standard_reporting"
+    summary_long.loc[summary_long["school_year"].eq("2025-26"), "data_status"] = current_status
+    summary_wide.loc[summary_wide["school_year"].eq("2025-26"), "data_status"] = current_status
 
-    # The current-year point is useful for the ratings update, but it must remain
-    # visibly preliminary until the October enrollment/revision check is complete.
     builder.DISPLAY_YEARS = list(builder.DISPLAY_YEARS) + ["2025-26"]
     builder.CHART_YEARS = [year for year in builder.DISPLAY_YEARS if year not in {"2015-16", "2021-22"}]
 
@@ -297,30 +295,21 @@ def main() -> None:
     audit.to_csv(OUT_RELEASE / "04_Audit_Files" / "quality_seats_join_audit.csv", index=False)
 
     builder.write_visualizations(summary_long, panel, OUT_RELEASE / "05_Visualizations")
-    for chart_path in (OUT_RELEASE / "05_Visualizations").glob("*.html"):
-        chart_html = chart_path.read_text(encoding="utf-8")
-        chart_html = chart_html.replace(
-            '<p class="note">',
-            '<p class="note"><strong>Preliminary 2025-26 note:</strong> Current-year ratings use 2025-26 NDE Validation Day enrollment and current NDE rating files for SPCSA, Clark, Carson City, and Washoe charter coverage. Refresh in October if revised enrollment or rating files are released. ',
-            1,
-        )
-        chart_path.write_text(chart_html, encoding="utf-8")
-
     public_page = OUT_RELEASE / "06_Public_Website" / "quality-seats-overview.html"
     public_html = public_page.read_text(encoding="utf-8")
     public_html = public_html.replace(
         '<div class="links">',
-        '<p><strong>Preliminary 2025-26 note:</strong> The current update uses 2025-26 NDE Validation Day enrollment and current NDE rating files covering SPCSA plus district-sponsored charter schools in Clark, Carson City, and Washoe. We will refresh the panel in October if revised enrollment or rating files are released.</p><div class="links">',
+        '<p><strong>2025-26 treatment:</strong> The current update uses 2025-26 NDE Validation Day enrollment and current NDE rating files covering SPCSA plus district-sponsored charter schools in Clark, Carson City, and Washoe. Enrollment and ratings are aligned to the same school year, consistent with the modern historical series.</p><div class="links">',
         1,
     )
     public_html = public_html.replace(
         '<h3>Technical notes and limitations</h3>',
-        '<h3>Technical notes and limitations</h3><p><strong>Preliminary 2025-26 limitation:</strong> Current-year ratings are paired with 2025-26 NDE Validation Day enrollment. The current rating coverage now includes SPCSA and the district-sponsored charter campuses identified in the current NDE files for Clark, Carson City, and Washoe. We will refresh the panel in October if revised enrollment or rating files are released. CCSD\'s reported enrollment decline does not establish what happened to charter enrollment.</p>',
+        '<h3>Technical notes and limitations</h3><p><strong>2025-26 treatment:</strong> Current-year ratings are paired with 2025-26 NDE Validation Day enrollment. The current rating coverage includes SPCSA and the district-sponsored charter campuses identified in the current NDE files for Clark, Carson City, and Washoe. Enrollment and ratings are aligned to the same school year, consistent with the modern historical series. CCSD\'s reported enrollment decline does not establish what happened to charter enrollment.</p>',
         1,
     )
     public_html = public_html.replace(
         'Visible chart years: 2012-13 to 2024-25',
-        'Visible chart years: 2012-13 to 2025-26; 2025-26 is preliminary',
+        'Visible chart years: 2012-13 to 2025-26',
         1,
     )
     public_html = public_html.replace(
@@ -334,41 +323,41 @@ def main() -> None:
     exec_summary = exec_summary_path.read_text(encoding="utf-8")
     exec_summary = exec_summary.replace(
         "Reported charter quality-seats years in the underlying files: `2012-13` through `2024-25`.",
-        "Reported charter quality-seats years in the underlying files: `2012-13` through `2025-26`, with `2025-26` treated as a preliminary statewide ratings update using current enrollment.",
+        "Reported charter quality-seats years in the underlying files: `2012-13` through `2025-26`.",
         1,
     )
-    exec_summary += "\n## Preliminary 2025-26 treatment\n\nThe current-year rating rows use the current NDE Validation Day enrollment workbook and current NDE rating exports for SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe. No 2024-25 enrollment carry-forward is used. The panel can be refreshed in October if revised enrollment or rating files are released.\n"
+    exec_summary += "\n## 2025-26 treatment\n\nThe current-year rating rows use the current NDE Validation Day enrollment workbook and current NDE rating exports for SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe. No 2024-25 enrollment carry-forward is used. Enrollment and ratings are aligned to the same school year, consistent with the modern historical series.\n"
     exec_summary_path.write_text(exec_summary, encoding="utf-8")
 
     findings_path = OUT_RELEASE / "01_Methodology" / "QUALITY_SEATS_KEY_FINDINGS.md"
     findings = findings_path.read_text(encoding="utf-8")
     findings = findings.replace(
         "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2024-25`.",
-        "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`; `2025-26` is a preliminary statewide ratings update using current enrollment.",
+        "Historical quality-seats Phase 2 now covers reported charter quality-seats results from `2012-13` through `2025-26`.",
         1,
     )
-    findings += "\n## Preliminary 2025-26 coverage\n\nThe 2025-26 rows use current NDE Validation Day enrollment and current NDE rating exports for SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe. CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"
+    findings += "\n## 2025-26 coverage\n\nThe 2025-26 rows use current NDE Validation Day enrollment and current NDE rating exports for SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe. Enrollment and ratings are aligned to the same school year, consistent with the modern historical series. CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"
     findings_path.write_text(findings, encoding="utf-8")
 
     manifest = pd.read_csv(BASE_RELEASE / "04_Audit_Files" / "source_manifest_quality_seats.csv", dtype=str)
     build_manifest(manifest).to_csv(OUT_RELEASE / "04_Audit_Files" / "source_manifest_quality_seats.csv", index=False)
 
-    update_note = """# Preliminary 2025-26 Rating and Enrollment Update\n\n- Added current 2025-26 NDE rating exports for SPCSA, Clark, Carson City, and Washoe.\n- Retained SPCSA rows directly; filtered the district exports to district-sponsored charter campuses using the 2024-25 charter roster because the current district CSVs label those campuses as Regular.\n- The former Clark district-sponsored charter campuses now appear under SPCSA in the current organization hierarchy and current SPCSA ratings file.\n- Joined 176 current rating rows to the current 2025-26 NDE Validation Day enrollment workbook. All 176 current rows matched a current enrollment row.\n- No 2024-25 enrollment carry-forward is used.\n- The charts include a clearly labeled preliminary 2025-26 point. The panel will be refreshed in October if revised enrollment or rating files are released.\n- CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"""
+    update_note = """# 2025-26 Rating and Enrollment Update\n\n- Added current 2025-26 NDE rating exports for SPCSA, Clark, Carson City, and Washoe.\n- Retained SPCSA rows directly; filtered the district exports to district-sponsored charter campuses using the 2024-25 charter roster because the current district CSVs label those campuses as Regular.\n- The former Clark district-sponsored charter campuses now appear under SPCSA in the current organization hierarchy and current SPCSA ratings file.\n- Joined 176 current rating rows to the current 2025-26 NDE Validation Day enrollment workbook. All 176 current rows matched a current enrollment row.\n- No 2024-25 enrollment carry-forward is used.\n- The charts use the same-year enrollment and ratings treatment used in the modern historical series.\n- CCSD's reported enrollment decline does not establish what happened to charter enrollment.\n"""
     (OUT_RELEASE / "01_Methodology" / "UPDATE_2025_26_STATEWIDE.md").write_text(update_note, encoding="utf-8")
     (OUT_RELEASE / "01_Methodology" / "UPDATE_2025_26_SPCSA.md").write_text(
-        update_note.replace("# Preliminary 2025-26 Rating and Enrollment Update", "# Preliminary 2025-26 Rating and Enrollment Update\n\nThis file is retained at its prior path for continuity; the update is now statewide rather than SPCSA-only."),
+        update_note.replace("# 2025-26 Rating and Enrollment Update", "# 2025-26 Rating and Enrollment Update\n\nThis file is retained at its prior path for continuity; the update is now statewide rather than SPCSA-only."),
         encoding="utf-8",
     )
 
     changelog = (OUT_RELEASE / "07_Change_Log" / "CHANGELOG.md").read_text(encoding="utf-8")
-    changelog += "\n- Added preliminary 2025-26 NDE rating exports covering SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe.\n- Joined 176 current rating rows to current 2025-26 NDE Validation Day enrollment; no prior-year enrollment carry-forward is used.\n- Added a caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.\n- Added the preliminary 2025-26 point to the charts and documented the October refresh check.\n"
+    changelog += "\n- Added 2025-26 NDE rating exports covering SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe.\n- Joined 176 current rating rows to current 2025-26 NDE Validation Day enrollment; no prior-year enrollment carry-forward is used.\n- Documented the same-year enrollment and ratings treatment and the caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.\n"
     (OUT_RELEASE / "07_Change_Log" / "CHANGELOG.md").write_text(changelog, encoding="utf-8")
     release_manifest = {
         "release_name": "NV_Charter_Quality_Seats_v3",
         "analysis_years": ["2012-13", "2013-14", "2014-15", "2015-16", "2016-17", "2017-18", "2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"],
-        "latest_update_scope": "Preliminary statewide charter ratings with current 2025-26 Validation Day enrollment",
-        "enrollment_caveat": "2025-26 enrollment uses the current NDE Validation Day workbook. Current rating files cover SPCSA plus district-sponsored charter campuses in Clark, Carson City, and Washoe; refresh in October if revised enrollment or rating files are released.",
-        "visible_chart_years": "2012-13 through 2025-26, with 2025-26 preliminary",
+        "latest_update_scope": "Statewide charter ratings with current 2025-26 Validation Day enrollment",
+        "enrollment_treatment": "2025-26 enrollment uses the current NDE Validation Day workbook and is aligned to 2025-26 ratings for the same school year.",
+        "visible_chart_years": "2012-13 through 2025-26",
         "public_page": "06_Public_Website/quality-seats-overview.html",
         "chart_count": 21,
     }

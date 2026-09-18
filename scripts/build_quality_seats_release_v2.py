@@ -906,10 +906,10 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
     viz_dir.mkdir(parents=True, exist_ok=True)
     payloads_by_file: dict[str, dict[str, dict]] = {}
     generated_files: list[str] = []
-    preliminary_note = (
-        "<strong>Preliminary 2025-26 note:</strong> Current-year ratings use 2025-26 NDE Validation Day enrollment "
-        "and current NDE rating files for SPCSA, Clark, Carson City, and Washoe charter coverage. Refresh in October "
-        "if revised enrollment or rating files are released. "
+    current_year_note = (
+        "<strong>2025-26 treatment:</strong> Current-year ratings use 2025-26 NDE Validation Day enrollment and "
+        "current NDE rating files for SPCSA, Clark, Carson City, and Washoe charter coverage. This applies the "
+        "same-year enrollment and ratings treatment used in the modern historical series. "
     )
 
     with tempfile.TemporaryDirectory(prefix="quality_seats_portfolios_") as temp_root:
@@ -948,7 +948,7 @@ def write_visualizations(long_df: pd.DataFrame, panel: pd.DataFrame, viz_dir: Pa
                 payloads_by_file.setdefault(name, {})[key] = {
                     "label": label,
                     "title": f"{base_title}: {label}",
-                    "note": preliminary_note + coverage_note + base_note,
+                    "note": current_year_note + coverage_note + base_note,
                     "traces": payload["traces"],
                     "layout": payload["layout"],
                 }

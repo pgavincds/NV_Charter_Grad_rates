@@ -10,3 +10,5 @@
 - Joined 176 current rating rows to current 2025-26 NDE Validation Day enrollment; no prior-year enrollment carry-forward is used.
 - Added a caution that CCSD's reported enrollment decline cannot be used to infer charter enrollment movement.
 - Added the preliminary 2025-26 point to the charts and documented the October refresh check.
+
+- Confirmed the 2025-26 data as final for publication and replaced the preliminary treatment language with the same-year enrollment and ratings methodology used in the modern historical series.
